@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source_key": "hayesSchuh2019rajaz",
+  "description": "Parameters for the HH0H, HHLH and HLLH continuous duration models. No acoustic observations are needed.",
+  "source": {
+    "authors": "Bruce Hayes and Russell G. Schuh",
+    "year": 2019,
+    "title": "Metrical structure and sung rhythm of the Hausa rajaz",
+    "parameter_location": "Duration analysis, Section 8; Main sheet parameter cells",
+    "weight_cells": "AU3:BB3",
+    "target_cells": {
+      "mora": "BC3",
+      "syllable": "AR3",
+      "grid": "AS3",
+      "hemimetron": "AT3"
+    }
+  },
+  "representation": "Exact rational encodings of binary64 parameter values, not rounded decimal approximations or estimates of intended decimal values.",
+  "weights_in_column_order_AU_to_BB": [
+    "3794291940217471/2251799813685248",
+    "6972535863746853/1125899906842624",
+    "1058825052271639/4503599627370496",
+    "2650616057425063/1125899906842624",
+    "2023491183832207/2251799813685248",
+    "4639987468184175/2251799813685248",
+    "0",
+    "6953244446027183/9007199254740992"
+  ],
+  "column_directions": [
+    "above",
+    "below",
+    "above",
+    "below",
+    "above",
+    "below",
+    "above",
+    "below"
+  ],
+  "targets": {
+    "mora": "1985655902161945/17592186044416",
+    "syllable": "5956967706485835/35184372088832",
+    "grid": "5089419422649549/35184372088832",
+    "hemimetron": "5089419422649549/8796093022208"
+  },
+  "harmony_divisor": 10000,
+  "direction_caution": "The printed and spreadsheet constraint names reverse the above/below directions. This implementation follows the formula-audited workbook behavior and labels directions explicitly."
+}

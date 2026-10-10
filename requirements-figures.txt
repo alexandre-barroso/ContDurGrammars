@@ -1,0 +1,2 @@
+-r requirements-integration.txt
+matplotlib==3.10.9

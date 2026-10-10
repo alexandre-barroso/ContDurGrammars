@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-10T11:14:39.920434+00:00",
+  "status": "PASSED_PERFORMED_CHECKS",
+  "scope": "Local integrity fixtures, source structure, recorded-interval analysis and result export",
+  "environment": {
+    "python": "3.13.5",
+    "matplotlib_plot_smoke_test": "3.10.8"
+  },
+  "unit_tests": {
+    "tests_run": 21,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "inventory_fixtures": {
+    "tests_run": 15,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "record_checks": {
+    "query_attempts": 29,
+    "ratio_hulls": 116,
+    "difference_hulls": 29,
+    "final_width_targets": 35,
+    "final_fft_inclusions": 35,
+    "common_normalizer_mesh_containments": 19,
+    "passed": true
+  },
+  "exports": {
+    "table_bodies": 5,
+    "exact_refinement_points": 46,
+    "png_plot_smoke_test": 4,
+    "passed": true,
+    "plot_environment_matches_pinned_requirements": false
+  },
+  "local_file_checks": {
+    "module_syntax": true,
+    "imports": true,
+    "documentation_links": true,
+    "stored_input_program_paths": 78,
+    "formal_declaration_targets": 18
+  },
+  "not_executed": {
+    "enclosing_integration_and_numerical_controls": "Pinned Python 3.12/python-flint environment unavailable",
+    "formal_builds": "Lean and Lake unavailable",
+    "timed_calculations": "Not run",
+    "gubpi_execution": "Not run"
+  },
+  "limits": "Stored-record checks assume the input integral bounds. Source parsing is not numerical or formal execution."
+}
