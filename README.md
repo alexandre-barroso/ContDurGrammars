@@ -1,6 +1,7 @@
 # Repository for verification
 
-Certified probability queries for continuous duration grammars.
+Certified probability queries for continuous duration grammars. Please unzip the results.zip file
+into its own results folder for complete verification.
 
 This project computes enclosing intervals for normalizers, event probabilities,
 and conditional probabilities in continuous duration models. Costs act on
