@@ -1,0 +1,1378 @@
+{
+  "status": "PASS",
+  "requests": 836,
+  "certified_feasible": 787,
+  "certified_infeasible": 49,
+  "unresolved_certificates": 0,
+  "independent_cdf_checks_inside_enclosures": 5407,
+  "methods": {
+    "fft_20.0": {
+      "different_decisions": 89,
+      "premature_deadline": 31,
+      "excessive_deadline": 55,
+      "false_infeasible": 2,
+      "false_feasible": 1,
+      "unresolved": 0,
+      "differences": [
+        {
+          "id": "slt/arctic_a0037/3",
+          "word": "only",
+          "ordinary_deadline_ms": null,
+          "certified_deadline_ms": 230,
+          "kind": "false_infeasible"
+        },
+        {
+          "id": "slt/arctic_a0102/2",
+          "word": "follow",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0120/8",
+          "word": "Chinese",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 350,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_a0121/8",
+          "word": "rested",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0143/7",
+          "word": "exclaimed",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0176/9",
+          "word": "yearning",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_a0213/12",
+          "word": "compound",
+          "ordinary_deadline_ms": 480,
+          "certified_deadline_ms": 470,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0233/2",
+          "word": "allow",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": 230,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0311/2",
+          "word": "hurrah",
+          "ordinary_deadline_ms": 280,
+          "certified_deadline_ms": 270,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0393/3",
+          "word": "begun",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0422/1",
+          "word": "around",
+          "ordinary_deadline_ms": 200,
+          "certified_deadline_ms": 210,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_a0422/12",
+          "word": "rider",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0443/3",
+          "word": "nothing",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0455/8",
+          "word": "later",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0467/2",
+          "word": "early",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 290,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_a0554/1",
+          "word": "London",
+          "ordinary_deadline_ms": 360,
+          "certified_deadline_ms": 370,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0042/4",
+          "word": "elapsed",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": 230,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0047/8",
+          "word": "window",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0068/0",
+          "word": "Only",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0098/9",
+          "word": "leaning",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0166/3",
+          "word": "endure",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 290,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0175/0",
+          "word": "Sheldon",
+          "ordinary_deadline_ms": 420,
+          "certified_deadline_ms": 410,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0199/9",
+          "word": "schedule",
+          "ordinary_deadline_ms": null,
+          "certified_deadline_ms": 390,
+          "kind": "false_infeasible"
+        },
+        {
+          "id": "slt/arctic_b0222/3",
+          "word": "leader",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0263/6",
+          "word": "strangeness",
+          "ordinary_deadline_ms": 520,
+          "certified_deadline_ms": 530,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0292/10",
+          "word": "across",
+          "ordinary_deadline_ms": 220,
+          "certified_deadline_ms": 230,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0317/8",
+          "word": "daylight",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0327/4",
+          "word": "easy",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0347/4",
+          "word": "returned",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 270,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0358/6",
+          "word": "zero",
+          "ordinary_deadline_ms": 360,
+          "certified_deadline_ms": 370,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0358/8",
+          "word": "remained",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0399/2",
+          "word": "looking",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0439/4",
+          "word": "austere",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0458/10",
+          "word": "prompted",
+          "ordinary_deadline_ms": 460,
+          "certified_deadline_ms": 450,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0495/8",
+          "word": "endure",
+          "ordinary_deadline_ms": 280,
+          "certified_deadline_ms": 270,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0497/11",
+          "word": "summer",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0504/4",
+          "word": "healthful",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 390,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "slt/arctic_b0536/0",
+          "word": "Typhoid",
+          "ordinary_deadline_ms": 420,
+          "certified_deadline_ms": 410,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0061/4",
+          "word": "letter",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0069/5",
+          "word": "return",
+          "ordinary_deadline_ms": 280,
+          "certified_deadline_ms": 270,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0213/12",
+          "word": "compound",
+          "ordinary_deadline_ms": 480,
+          "certified_deadline_ms": 490,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0276/0",
+          "word": "Oolong",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 330,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0276/6",
+          "word": "forty",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 350,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0305/8",
+          "word": "altered",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0305/12",
+          "word": "adverbs",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0308/3",
+          "word": "worries",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 270,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0309/1",
+          "word": "Leghorns",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 390,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0309/4",
+          "word": "Mrs",
+          "ordinary_deadline_ms": 280,
+          "certified_deadline_ms": 290,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0345/2",
+          "word": "trying",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0350/9",
+          "word": "willing",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0354/5",
+          "word": "obtain",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 290,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0374/9",
+          "word": "argued",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 290,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0377/4",
+          "word": "disturb",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0422/5",
+          "word": "donkey",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 390,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0422/7",
+          "word": "into",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0422/12",
+          "word": "rider",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 390,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0447/7",
+          "word": "darker",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 410,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0518/5",
+          "word": "profit",
+          "ordinary_deadline_ms": 440,
+          "certified_deadline_ms": 450,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0017/2",
+          "word": "working",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0042/1",
+          "word": "minutes",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0054/3",
+          "word": "meaning",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0096/6",
+          "word": "longer",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 390,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0098/12",
+          "word": "canoe",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0111/1",
+          "word": "journey",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 350,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0133/1",
+          "word": "followed",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0157/8",
+          "word": "began",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": 250,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0183/6",
+          "word": "among",
+          "ordinary_deadline_ms": 220,
+          "certified_deadline_ms": 210,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0209/4",
+          "word": "about",
+          "ordinary_deadline_ms": 200,
+          "certified_deadline_ms": 190,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0223/6",
+          "word": "eaten",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 290,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0236/0",
+          "word": "Oolong",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 330,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0241/1",
+          "word": "women",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 290,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0279/9",
+          "word": "among",
+          "ordinary_deadline_ms": 220,
+          "certified_deadline_ms": 210,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0281/6",
+          "word": "myself",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 390,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0292/12",
+          "word": "shoulders",
+          "ordinary_deadline_ms": 440,
+          "certified_deadline_ms": 430,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0312/8",
+          "word": "Daylight",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 330,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0317/3",
+          "word": "believe",
+          "ordinary_deadline_ms": 260,
+          "certified_deadline_ms": 250,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0327/4",
+          "word": "easy",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0340/2",
+          "word": "little",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": null,
+          "kind": "false_feasible"
+        },
+        {
+          "id": "bdl/arctic_b0340/7",
+          "word": "sources",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 410,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0342/4",
+          "word": "value",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 370,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0347/8",
+          "word": "Venus",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0360/7",
+          "word": "undue",
+          "ordinary_deadline_ms": 280,
+          "certified_deadline_ms": 270,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0380/8",
+          "word": "wildly",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 410,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0397/10",
+          "word": "human",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0402/11",
+          "word": "others",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": 250,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0420/9",
+          "word": "Verde",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 330,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0420/10",
+          "word": "Islands",
+          "ordinary_deadline_ms": 320,
+          "certified_deadline_ms": 310,
+          "kind": "excessive_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0439/4",
+          "word": "austere",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0487/10",
+          "word": "stringy",
+          "ordinary_deadline_ms": 420,
+          "certified_deadline_ms": 430,
+          "kind": "premature_deadline"
+        }
+      ]
+    },
+    "fft_10.0": {
+      "different_decisions": 18,
+      "premature_deadline": 17,
+      "excessive_deadline": 0,
+      "false_infeasible": 0,
+      "false_feasible": 1,
+      "unresolved": 0,
+      "differences": [
+        {
+          "id": "slt/arctic_a0120/8",
+          "word": "Chinese",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 350,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0157/8",
+          "word": "began",
+          "ordinary_deadline_ms": 230,
+          "certified_deadline_ms": 240,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0420/9",
+          "word": "Verde",
+          "ordinary_deadline_ms": 310,
+          "certified_deadline_ms": 320,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0439/12",
+          "word": "wanton",
+          "ordinary_deadline_ms": 390,
+          "certified_deadline_ms": 400,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0487/10",
+          "word": "stringy",
+          "ordinary_deadline_ms": 450,
+          "certified_deadline_ms": 460,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0262/3",
+          "word": "sweeping",
+          "ordinary_deadline_ms": 410,
+          "certified_deadline_ms": 420,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0325/9",
+          "word": "anguish",
+          "ordinary_deadline_ms": 390,
+          "certified_deadline_ms": 400,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0377/4",
+          "word": "disturb",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0422/12",
+          "word": "rider",
+          "ordinary_deadline_ms": 380,
+          "certified_deadline_ms": 390,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0447/7",
+          "word": "darker",
+          "ordinary_deadline_ms": 400,
+          "certified_deadline_ms": 410,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0054/3",
+          "word": "meaning",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0199/4",
+          "word": "second",
+          "ordinary_deadline_ms": 350,
+          "certified_deadline_ms": 360,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0340/2",
+          "word": "little",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": null,
+          "kind": "false_feasible"
+        },
+        {
+          "id": "bdl/arctic_b0360/11",
+          "word": "ego",
+          "ordinary_deadline_ms": 330,
+          "certified_deadline_ms": 340,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0379/9",
+          "word": "giving",
+          "ordinary_deadline_ms": 290,
+          "certified_deadline_ms": 300,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0397/10",
+          "word": "human",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0404/10",
+          "word": "reply",
+          "ordinary_deadline_ms": 290,
+          "certified_deadline_ms": 300,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0513/11",
+          "word": "arose",
+          "ordinary_deadline_ms": 210,
+          "certified_deadline_ms": 220,
+          "kind": "premature_deadline"
+        }
+      ]
+    },
+    "fft_5.0": {
+      "different_decisions": 8,
+      "premature_deadline": 7,
+      "excessive_deadline": 0,
+      "false_infeasible": 0,
+      "false_feasible": 1,
+      "unresolved": 0,
+      "differences": [
+        {
+          "id": "slt/arctic_a0120/8",
+          "word": "Chinese",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 350,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0157/8",
+          "word": "began",
+          "ordinary_deadline_ms": 230,
+          "certified_deadline_ms": 240,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0420/9",
+          "word": "Verde",
+          "ordinary_deadline_ms": 310,
+          "certified_deadline_ms": 320,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0439/12",
+          "word": "wanton",
+          "ordinary_deadline_ms": 390,
+          "certified_deadline_ms": 400,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0487/10",
+          "word": "stringy",
+          "ordinary_deadline_ms": 450,
+          "certified_deadline_ms": 460,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0377/4",
+          "word": "disturb",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0340/2",
+          "word": "little",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": null,
+          "kind": "false_feasible"
+        },
+        {
+          "id": "bdl/arctic_b0404/10",
+          "word": "reply",
+          "ordinary_deadline_ms": 290,
+          "certified_deadline_ms": 300,
+          "kind": "premature_deadline"
+        }
+      ]
+    },
+    "fft_2.5": {
+      "different_decisions": 2,
+      "premature_deadline": 2,
+      "excessive_deadline": 0,
+      "false_infeasible": 0,
+      "false_feasible": 0,
+      "unresolved": 0,
+      "differences": [
+        {
+          "id": "slt/arctic_b0487/10",
+          "word": "stringy",
+          "ordinary_deadline_ms": 450,
+          "certified_deadline_ms": 460,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0377/4",
+          "word": "disturb",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        }
+      ]
+    },
+    "fft_1.25": {
+      "different_decisions": 0,
+      "premature_deadline": 0,
+      "excessive_deadline": 0,
+      "false_infeasible": 0,
+      "false_feasible": 0,
+      "unresolved": 0,
+      "differences": []
+    },
+    "stability": {
+      "different_decisions": 8,
+      "premature_deadline": 7,
+      "excessive_deadline": 0,
+      "false_infeasible": 0,
+      "false_feasible": 1,
+      "unresolved": 0,
+      "differences": [
+        {
+          "id": "slt/arctic_a0120/8",
+          "word": "Chinese",
+          "ordinary_deadline_ms": 340,
+          "certified_deadline_ms": 350,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0157/8",
+          "word": "began",
+          "ordinary_deadline_ms": 230,
+          "certified_deadline_ms": 240,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0420/9",
+          "word": "Verde",
+          "ordinary_deadline_ms": 310,
+          "certified_deadline_ms": 320,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0439/12",
+          "word": "wanton",
+          "ordinary_deadline_ms": 390,
+          "certified_deadline_ms": 400,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "slt/arctic_b0487/10",
+          "word": "stringy",
+          "ordinary_deadline_ms": 450,
+          "certified_deadline_ms": 460,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_a0377/4",
+          "word": "disturb",
+          "ordinary_deadline_ms": 300,
+          "certified_deadline_ms": 310,
+          "kind": "premature_deadline"
+        },
+        {
+          "id": "bdl/arctic_b0340/2",
+          "word": "little",
+          "ordinary_deadline_ms": 240,
+          "certified_deadline_ms": null,
+          "kind": "false_feasible"
+        },
+        {
+          "id": "bdl/arctic_b0404/10",
+          "word": "reply",
+          "ordinary_deadline_ms": 290,
+          "certified_deadline_ms": 300,
+          "kind": "premature_deadline"
+        }
+      ]
+    },
+    "quadratic": {
+      "different_decisions": 0,
+      "premature_deadline": 0,
+      "excessive_deadline": 0,
+      "false_infeasible": 0,
+      "false_feasible": 0,
+      "unresolved": 0,
+      "differences": []
+    }
+  },
+  "final_mesh_counts": {
+    "5/2": 160,
+    "10": 31,
+    "5": 587,
+    "20": 11,
+    "5/8": 10,
+    "5/4": 34,
+    "5/32": 1,
+    "5/16": 1,
+    "5/64": 1
+  },
+  "certificate_worker_seconds_median": 0.44484477053629234,
+  "certificate_worker_seconds_maximum": 48.503610917017795,
+  "certificate_batch_wall_seconds": 139.91933454095852,
+  "ordinary_total_wall_seconds": 2.752166375052184,
+  "ordinary_seconds_sum_by_mesh": {
+    "20.0": 0.37898032704833895,
+    "10.0": 0.3985511416103691,
+    "5.0": 0.435568225919269,
+    "2.5": 0.5164058677619323,
+    "1.25": 0.6894243876449764
+  },
+  "quadratic_seconds_sum": 0.30560487939510494,
+  "first_primary_disagreement": {
+    "id": "slt/arctic_a0120/8",
+    "word": "Chinese",
+    "ordinary_deadline_ms": 340,
+    "certified_deadline_ms": 350,
+    "kind": "premature_deadline"
+  },
+  "first_primary_disagreement_ordinary": {
+    "id": "slt/arctic_a0120/8",
+    "word": "Chinese",
+    "speaker": "slt",
+    "last_admissible_deadline_ms": 510,
+    "midpoint_fft": {
+      "20.0": {
+        "deadline_ms": 340,
+        "decision_cdf": {
+          "330": 0.9122609462811093,
+          "340": 0.9517894570125277
+        },
+        "seconds": 0.0005847500870004296,
+        "all_cdf_queries": {
+          "510": 0.999999998756552,
+          "250": 0.25194187247701505,
+          "380": 0.9966189891128537,
+          "310": 0.8019419296954933,
+          "340": 0.9517894570125277,
+          "320": 0.8727324355496912,
+          "330": 0.9122609462811093
+        },
+        "diagnostics": {
+          "negative_fft_coefficients": 418,
+          "clipped_negative_mass_sum": 1.3842098179502265e-15
+        }
+      },
+      "10.0": {
+        "deadline_ms": 340,
+        "decision_cdf": {
+          "330": 0.9175950341305508,
+          "340": 0.9503660737339591
+        },
+        "seconds": 0.0005187499336898327,
+        "all_cdf_queries": {
+          "510": 0.999999999365702,
+          "250": 0.24646771731857045,
+          "380": 0.9963817846829146,
+          "310": 0.8079580303743487,
+          "340": 0.9503660737339591,
+          "320": 0.8707062404328737,
+          "330": 0.9175950341305508
+        },
+        "diagnostics": {
+          "negative_fft_coefficients": 750,
+          "clipped_negative_mass_sum": 1.0654019568221553e-15
+        }
+      },
+      "5.0": {
+        "deadline_ms": 340,
+        "decision_cdf": {
+          "330": 0.91715135989785,
+          "340": 0.9500108801146123
+        },
+        "seconds": 0.0005767910042777658,
+        "all_cdf_queries": {
+          "510": 0.9999999993131112,
+          "250": 0.24692180304162462,
+          "380": 0.9963205759825041,
+          "310": 0.8074587248672677,
+          "340": 0.9500108801146123,
+          "320": 0.8702061303250844,
+          "330": 0.91715135989785
+        },
+        "diagnostics": {
+          "negative_fft_coefficients": 1767,
+          "clipped_negative_mass_sum": 1.4996779726200742e-15
+        }
+      },
+      "2.5": {
+        "deadline_ms": 350,
+        "decision_cdf": {
+          "340": 0.9499221282823416,
+          "350": 0.9714641172202237
+        },
+        "seconds": 0.0006875409744679928,
+        "all_cdf_queries": {
+          "510": 0.9999999992991295,
+          "250": 0.2470347968769635,
+          "380": 0.9963051554975636,
+          "310": 0.8073344128403394,
+          "340": 0.9499221282823416,
+          "360": 0.9846686678123148,
+          "350": 0.9714641172202237
+        },
+        "diagnostics": {
+          "negative_fft_coefficients": 3017,
+          "clipped_negative_mass_sum": 1.2056346910724514e-15
+        }
+      },
+      "1.25": {
+        "deadline_ms": 350,
+        "decision_cdf": {
+          "340": 0.9498999433200153,
+          "350": 0.9714478877990681
+        },
+        "seconds": 0.000889332965016365,
+        "all_cdf_queries": {
+          "510": 0.9999999992955768,
+          "250": 0.24706301260017782,
+          "380": 0.9963012929977205,
+          "310": 0.807303366780555,
+          "340": 0.9498999433200153,
+          "360": 0.9846577687353538,
+          "350": 0.9714478877990681
+        },
+        "diagnostics": {
+          "negative_fft_coefficients": 5741,
+          "clipped_negative_mass_sum": 1.3654943173119672e-15
+        }
+      }
+    },
+    "stability": {
+      "status": "STABLE_PAIR",
+      "deadline_ms": 340,
+      "meshes_ms": [
+        10.0,
+        5.0
+      ],
+      "cdf_differences": {
+        "330": 0.00044367423270075257,
+        "340": 0.00035519361934677196
+      }
+    },
+    "quadratic": {
+      "deadline_ms": 350,
+      "all_cdf_queries": {
+        "510": {
+          "probability": 0.999999999294388,
+          "estimated_ratio_error": 6.8422787226323e-11
+        },
+        "250": {
+          "probability": 0.24707241493676171,
+          "estimated_ratio_error": 1.6905380467677283e-11
+        },
+        "380": {
+          "probability": 0.9963000048422614,
+          "estimated_ratio_error": 9.102300155872455e-11
+        },
+        "310": {
+          "probability": 0.8072930209292126,
+          "estimated_ratio_error": 5.6166262980476185e-11
+        },
+        "340": {
+          "probability": 0.9498925486007477,
+          "estimated_ratio_error": 6.503143017388547e-11
+        },
+        "360": {
+          "probability": 0.984654134969309,
+          "estimated_ratio_error": 6.99017860370155e-11
+        },
+        "350": {
+          "probability": 0.9714424775830034,
+          "estimated_ratio_error": 6.98214323030167e-11
+        }
+      },
+      "seconds": 0.00043100002221763134
+    }
+  },
+  "first_primary_disagreement_certificate": {
+    "id": "slt/arctic_a0120/8",
+    "status": "CERTIFIED_DEADLINE",
+    "tree": {
+      "name": "word",
+      "terms": [
+        [
+          "1025/2",
+          "1/3200",
+          "1/3200"
+        ]
+      ],
+      "children": [
+        {
+          "name": "x1",
+          "terms": [
+            [
+              "1253185602495409/4398046511104",
+              "5052135592479321/18446744073709551616",
+              "5052135592479321/18446744073709551616"
+            ]
+          ],
+          "children": []
+        },
+        {
+          "name": "x2",
+          "terms": [
+            [
+              "4829649695005921/17592186044416",
+              "5539711264802093/73786976294838206464",
+              "5539711264802093/73786976294838206464"
+            ]
+          ],
+          "children": []
+        }
+      ]
+    },
+    "probability_requirement": "19/20",
+    "frame_ms": 10,
+    "last_admissible_deadline_ms": 510,
+    "initial_ordinary_proposal_ms": 340,
+    "precision_bits": 128,
+    "cube_upper_ms": "1600",
+    "tail_upper_exact": "710991849/348449143727040986586495598010130648530944",
+    "attempts": [
+      {
+        "mesh_ms": "20",
+        "normalizer": {
+          "lower": "153808750668058758580696963605093753001/20769187434139310514121985316880384",
+          "upper": "42989415060215230090596869246909892661/5192296858534827628530496329220096"
+        },
+        "cdf": {
+          "340": {
+            "lower": "289475459852403319815132712975645662817/340282366920938463463374607431768211456",
+            "upper": "1",
+            "lower_approx": 0.85069191939546,
+            "upper_approx": 1.0,
+            "numerator": {
+              "lower": "292565984090100701893105693928737396171/41538374868278621028243970633760768",
+              "upper": "10203199259973709256165774406986634929/1298074214633706907132624082305024"
+            }
+          },
+          "330": {
+            "lower": "34951282453566561146947269845562634667/42535295865117307932921825928971026432",
+            "upper": "1",
+            "lower_approx": 0.8217007015632326,
+            "upper_approx": 1.0,
+            "numerator": {
+              "lower": "282595460118174834472754042377713382707/41538374868278621028243970633760768",
+              "upper": "39378836275847679083167105797003562673/5192296858534827628530496329220096"
+            }
+          }
+        }
+      },
+      {
+        "mesh_ms": "10",
+        "normalizer": {
+          "lower": "161188631333611407196372370845065654543/20769187434139310514121985316880384",
+          "upper": "327753916933508448022330605523600368243/41538374868278621028243970633760768"
+        },
+        "cdf": {
+          "340": {
+            "lower": "158993065791200703258866155491393055063/170141183460469231731687303715884105728",
+            "upper": "82152565927048171257797802295175649105/85070591730234615865843651857942052864",
+            "lower_approx": 0.9344772532873636,
+            "upper_approx": 0.9656987715280066,
+            "numerator": {
+              "lower": "306278580050199700777417717465647213339/41538374868278621028243970633760768",
+              "upper": "19457457907893662263144596971938270903/2596148429267413814265248164610048"
+            }
+          },
+          "330": {
+            "lower": "306999293572111314443141978448387436059/340282366920938463463374607431768211456",
+            "upper": "158613835774203829159496084520443212951/170141183460469231731687303715884105728",
+            "lower_approx": 0.9021898382511246,
+            "upper_approx": 0.9322483395741533,
+            "numerator": {
+              "lower": "295696253304414524416044273083846134739/41538374868278621028243970633760768",
+              "upper": "37566958479747391982048218108191592837/5192296858534827628530496329220096"
+            }
+          }
+        }
+      },
+      {
+        "mesh_ms": "5",
+        "normalizer": {
+          "lower": "324447258503883137647458464701006741823/41538374868278621028243970633760768",
+          "upper": "81371557674300784324771240507164262501/10384593717069655257060992658440192"
+        },
+        "cdf": {
+          "340": {
+            "lower": "322211085819294737893263502568619396225/340282366920938463463374607431768211456",
+            "upper": "324267249092513988291138572018893530753/340282366920938463463374607431768211456",
+            "lower_approx": 0.9468932778822405,
+            "upper_approx": 0.9529357986623344,
+            "numerator": {
+              "lower": "308200723890409837762617621889397515719/41538374868278621028243970633760768",
+              "upper": "77294351851550679695294461711809304967/10384593717069655257060992658440192"
+            }
+          },
+          "330": {
+            "lower": "38882434425201286914815632367660374631/42535295865117307932921825928971026432",
+            "upper": "313040173386778916582215292062495252487/340282366920938463463374607431768211456",
+            "lower_approx": 0.914121640260843,
+            "upper_approx": 0.91994238849147,
+            "numerator": {
+              "lower": "74383501771811620833441915512625909575/10384593717069655257060992658440192",
+              "upper": "298472785927571659283027568664162680177/41538374868278621028243970633760768"
+            }
+          }
+        }
+      },
+      {
+        "mesh_ms": "5/2",
+        "normalizer": {
+          "lower": "324815983514727411537011427780453720515/41538374868278621028243970633760768",
+          "upper": "40629511896112418108157098825527655491/5192296858534827628530496329220096"
+        },
+        "cdf": {
+          "340": {
+            "lower": "161507642419655901800047994359080777277/170141183460469231731687303715884105728",
+            "upper": "161725563467646517269850355006990423639/170141183460469231731687303715884105728",
+            "lower_approx": 0.9492566063946578,
+            "upper_approx": 0.950537431198849,
+            "numerator": {
+              "lower": "154271330327900208180567278908131147099/20769187434139310514121985316880384",
+              "upper": "308749750582416676969759798107726740235/41538374868278621028243970633760768"
+            }
+          },
+          "330": {
+            "lower": "311832316105247936602307809987829072967/340282366920938463463374607431768211456",
+            "upper": "312252236555240329603789406253439339207/340282366920938463463374607431768211456",
+            "lower_approx": 0.9163928149638719,
+            "upper_approx": 0.917626850255774,
+            "numerator": {
+              "lower": "297860742216692645057347747074627237341/41538374868278621028243970633760768",
+              "upper": "149029933932675356733307387956070005529/20769187434139310514121985316880384"
+            }
+          }
+        }
+      },
+      {
+        "mesh_ms": "5/4",
+        "normalizer": {
+          "lower": "81222967042618973010023050876200309347/10384593717069655257060992658440192",
+          "upper": "324943015777058955858391816479551605217/41538374868278621028243970633760768"
+        },
+        "cdf": {
+          "340": {
+            "lower": "323181395729080136108518635370426631265/340282366920938463463374607431768211456",
+            "upper": "161641354018273653983690297552220995479/170141183460469231731687303715884105728",
+            "lower_approx": 0.9497447624259896,
+            "upper_approx": 0.9500424925387307,
+            "numerator": {
+              "lower": "38576615915145932595034578152729075991/5192296858534827628530496329220096",
+              "upper": "308661080242243626048854474359868164365/41538374868278621028243970633760768"
+            }
+          },
+          "330": {
+            "lower": "311991906936590621397181457913559986403/340282366920938463463374607431768211456",
+            "upper": "312089531732298321267593516432477863213/340282366920938463463374607431768211456",
+            "lower_approx": 0.9168618102655878,
+            "upper_approx": 0.9171487037552243,
+            "numerator": {
+              "lower": "297927841678513740672560545039520808543/41538374868278621028243970633760768",
+              "upper": "74493538938291293720179583870833766317/10384593717069655257060992658440192"
+            }
+          }
+        }
+      },
+      {
+        "mesh_ms": "5/8",
+        "normalizer": {
+          "lower": "162454489651083752661059604121457232573/20769187434139310514121985316880384",
+          "upper": "324921297351876808442983837095363024335/41538374868278621028243970633760768"
+        },
+        "cdf": {
+          "340": {
+            "lower": "323219574205870958806311417202984593123/340282366920938463463374607431768211456",
+            "upper": "161621988839471278001682605080737520739/170141183460469231731687303715884105728",
+            "lower_approx": 0.9498569588854662,
+            "upper_approx": 0.9499286742473064,
+            "numerator": {
+              "lower": "308628755379773976850095066695963431955/41538374868278621028243970633760768",
+              "upper": "38580044494944188070330527318682688141/5192296858534827628530496329220096"
+            }
+          },
+          "350": {
+            "lower": "330552311085719386762404459752970776751/340282366920938463463374607431768211456",
+            "upper": "82644325942557831982971634140490479029/85070591730234615865843651857942052864",
+            "lower_approx": 0.9714059358312863,
+            "upper_approx": 0.9714793827299255,
+            "numerator": {
+              "lower": "315630476925615555203621301221528600215/41538374868278621028243970633760768",
+              "upper": "78910593663969959457882865957483421627/10384593717069655257060992658440192"
+            }
+          }
+        }
+      }
+    ],
+    "deadline_ms": 350,
+    "seconds": 2.748071209061891,
+    "final_mesh_ms": "5/8",
+    "cdf_at_deadline": {
+      "lower": "330552311085719386762404459752970776751/340282366920938463463374607431768211456",
+      "upper": "82644325942557831982971634140490479029/85070591730234615865843651857942052864",
+      "lower_approx": 0.9714059358312863,
+      "upper_approx": 0.9714793827299255
+    },
+    "cdf_at_previous": {
+      "lower": "323219574205870958806311417202984593123/340282366920938463463374607431768211456",
+      "upper": "161621988839471278001682605080737520739/170141183460469231731687303715884105728",
+      "lower_approx": 0.9498569588854662,
+      "upper_approx": 0.9499286742473064
+    }
+  }
+}

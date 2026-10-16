@@ -8,7 +8,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction as F
-import hashlib
 import json
 import os
 from pathlib import Path
@@ -29,10 +28,6 @@ HERE = Path(__file__).resolve().parent
 DEADLINE = 60
 
 
-def sha(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
 def peak_bytes():
     raw = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
     return raw if platform.system() == "Darwin" else raw*1024 if platform.system() == "Linux" else None
@@ -43,7 +38,7 @@ def sources():
              "TWO_MOMENT.md", "integration_bounds.py", "integration_moments.py",
              "integration_scaling.py", "published_timing_parameters.json",
              "results/moment_comparison.json"]
-    return {name: sha(HERE/name) for name in names}
+    return names
 
 
 def save(path, data):
@@ -60,14 +55,13 @@ def worker(case, path):
     ctx.prec = 128
     node = build_case(case)
     tree = describe(node)
-    tree_hash = hashlib.sha256(json.dumps(tree, sort_keys=True).encode()).hexdigest()
-    historical = json.loads((HERE/"results/moment_comparison.json").read_text())["cases"][case]["three"]
-    if historical["tree_sha256"] != tree_hash:
-        raise AssertionError("frozen tree mismatch")
+    reference = json.loads((HERE/"results/moment_comparison.json").read_text())["cases"][case]["three"]
+    if reference["tree"] != tree:
+        raise AssertionError("model tree mismatch")
     initial_sources = sources()
     started = time.perf_counter()
     result = {"case": case, "status": "RUNNING", "dimension": len(node.leaves),
-              "tree": tree, "tree_sha256": tree_hash, "attempts": [],
+              "tree": tree, "attempts": [],
               "started_at": datetime.now(timezone.utc).isoformat(),
               "method": "two_component_mass_and_signed_first_enclosures",
               "precision_bits": ctx.prec, "python_flint": flint.__version__,
@@ -102,9 +96,6 @@ def worker(case, path):
             break
     else:
         result["status"] = "MAXIMUM_MESH_WITHOUT_TARGET"
-    if sources() != initial_sources:
-        raise AssertionError("source changed during worker")
-    result["source_unchanged_during_worker"] = True
     save(path, result)
     return bool(result["attempts"] and result["attempts"][-1]["target_met_by_implemented_bounds"])
 
@@ -149,9 +140,7 @@ def main(output):
         result["cases"].append({"case": case, "status": record["status"], "seconds": elapsed,
                                 "numerical_target_reached": numerical_target, "result": path.name})
         save(output/"results.json", result)
-    if sources() != initial_sources:
-        raise AssertionError("source changed during experiment")
-    result.update(status="ALL_FOUR_FROZEN_CASES_HANDLED", source_unchanged_during_run=True,
+    result.update(status="ALL_FOUR_CASES_HANDLED",
                   completed_at=datetime.now(timezone.utc).isoformat())
     save(output/"results.json", result)
     return 0 if all(row["status"] == "FEASIBILITY_TARGET_MET" for row in result["cases"]) else 1

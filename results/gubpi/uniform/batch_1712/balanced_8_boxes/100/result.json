@@ -1,0 +1,22 @@
+{
+  "seconds": 5.666676416993141,
+  "exit_code": 0,
+  "timeout": false,
+  "process_id": 25006,
+  "termination_confirmed": true,
+  "setting": 100,
+  "cumulative_process_seconds": 5.666676416993141,
+  "encoding_checks": 138,
+  "input_program": "results/gubpi/uniform/batch_1712/balanced_8_boxes/100/model.spcf",
+  "status": "REPORTED_BOUNDS_PARSED",
+  "printed_endpoints": [
+    "0",
+    "5.62519307949785E+295"
+  ],
+  "cube_lower_from_printed_rational": "0",
+  "cube_upper_from_printed_rational": "9437507933644061272891061359455915197563664749423146799444233188652149554628511247471373226400850430490756782576207334059793137596858501320676057629097085948092567456139140484076752591697096708498390190989221982335814430003946099203174216224052081766211282395452638040757174727327852925252705749240381440000000000000000",
+  "tail_upper_exact_rational": "96298586840729225679997/1267650600228229401496703205376",
+  "full_domain_reported_log_width": null,
+  "reported_target_met": false,
+  "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+}

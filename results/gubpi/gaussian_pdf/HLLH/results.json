@@ -1,0 +1,159 @@
+{
+  "started_at": "2026-09-26T17:51:10.344915+00:00",
+  "case": "HLLH",
+  "status": "PLANNED_ATTEMPTS_HANDLED",
+  "attempts": [
+    {
+      "seconds": 6.0535053329658695,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 58679,
+      "termination_confirmed": true,
+      "setting": "0.2",
+      "input_program": "results/gubpi/gaussian_pdf/HLLH/0.2/model.spcf",
+      "encoding_checks": {
+        "points": 70,
+        "max_sampled_relative_factor_discrepancy": "1.587788989165837072567357e-14",
+        "max_guard_absolute_rounding": "3.108624468950438313186169e-17",
+        "scope": "finite high-precision checks of emitted float parameters; not a uniform model-equivalence certificate"
+      },
+      "cumulative_process_seconds": 6.0535053329658695,
+      "status": "REPORTED_BOUNDS_PARSED",
+      "printed_endpoints": [
+        "2.909714411063644E-05",
+        "0.008761031202892103"
+      ],
+      "cube_lower_from_printed_rational": "16773361583898609375/1125899906842624",
+      "cube_upper_from_printed_rational": "39456176860726171875/8796093022208",
+      "tail_upper_exact_rational": "122503800139831979162275/10889035741470030830827987437816582766592",
+      "full_domain_reported_log_width": 5.707428865394042,
+      "reported_target_met": false,
+      "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+    },
+    {
+      "seconds": 24.633431584050413,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 59246,
+      "termination_confirmed": true,
+      "setting": "0.1",
+      "input_program": "results/gubpi/gaussian_pdf/HLLH/0.1/model.spcf",
+      "encoding_checks": {
+        "points": 70,
+        "max_sampled_relative_factor_discrepancy": "1.587788989165837072567357e-14",
+        "max_guard_absolute_rounding": "3.108624468950438313186169e-17",
+        "scope": "finite high-precision checks of emitted float parameters; not a uniform model-equivalence certificate"
+      },
+      "cumulative_process_seconds": 30.686936917016283,
+      "status": "REPORTED_BOUNDS_PARSED",
+      "printed_endpoints": [
+        "4.2668743623095215E-05",
+        "0.0023625074014047816"
+      ],
+      "cube_lower_from_printed_rational": "49193712097622734375/2251799813685248",
+      "cube_upper_from_printed_rational": "85118299621012921875/70368744177664",
+      "tail_upper_exact_rational": "122503800139831979162275/10889035741470030830827987437816582766592",
+      "full_domain_reported_log_width": 4.014012139499706,
+      "reported_target_met": false,
+      "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+    },
+    {
+      "seconds": 29.32713429199066,
+      "exit_code": -9,
+      "timeout": true,
+      "process_id": 61750,
+      "termination_confirmed": true,
+      "setting": "0.05",
+      "input_program": "results/gubpi/gaussian_pdf/HLLH/0.05/model.spcf",
+      "encoding_checks": {
+        "points": 70,
+        "max_sampled_relative_factor_discrepancy": "1.587788989165837072567357e-14",
+        "max_guard_absolute_rounding": "3.108624468950438313186169e-17",
+        "scope": "finite high-precision checks of emitted float parameters; not a uniform model-equivalence certificate"
+      },
+      "cumulative_process_seconds": 60.01407120900694,
+      "status": "TIME_BUDGET_EXCEEDED"
+    }
+  ],
+  "source_model": {
+    "name": "HLLH",
+    "terms": [
+      [
+        "5089419422649549/8796093022208",
+        "0",
+        "6953244446027183/90071992547409920000"
+      ]
+    ],
+    "children": [
+      {
+        "name": "HLLH_0",
+        "terms": [
+          [
+            "1985655902161945/8796093022208",
+            "3794291940217471/45035996273704960000",
+            "6972535863746853/22517998136852480000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/17592186044416",
+            "2023491183832207/45035996273704960000",
+            "185599498727367/1801439850948198400"
+          ]
+        ],
+        "children": []
+      },
+      {
+        "name": "HLLH_1",
+        "terms": [
+          [
+            "1985655902161945/17592186044416",
+            "3794291940217471/22517998136852480000",
+            "6972535863746853/11258999068426240000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/35184372088832",
+            "2023491183832207/22517998136852480000",
+            "185599498727367/900719925474099200"
+          ]
+        ],
+        "children": []
+      },
+      {
+        "name": "HLLH_2",
+        "terms": [
+          [
+            "1985655902161945/17592186044416",
+            "3794291940217471/22517998136852480000",
+            "6972535863746853/11258999068426240000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/35184372088832",
+            "2023491183832207/22517998136852480000",
+            "185599498727367/900719925474099200"
+          ]
+        ],
+        "children": []
+      }
+    ]
+  },
+  "budget_seconds": 60,
+  "proposal": "uniform",
+  "encoding": "piecewise Gaussian PDF with emitted binary64 constants",
+  "limitation": "rounded encoding and published floating backend not independently certified",
+  "cumulative_process_seconds": 60.01407120900694,
+  "completed_at": "2026-09-26T17:52:10.379262+00:00"
+}

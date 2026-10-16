@@ -1,0 +1,27 @@
+{
+  "seconds": 2.967343249998521,
+  "exit_code": 0,
+  "timeout": false,
+  "process_id": 50941,
+  "termination_confirmed": true,
+  "setting": "0.1",
+  "input_program": "results/gubpi/gaussian_pdf/HH0H/0.1/model.spcf",
+  "encoding_checks": {
+    "points": 50,
+    "max_sampled_relative_factor_discrepancy": "1.012127106174242719962687e-14",
+    "max_guard_absolute_rounding": "3.108624468950438313186169e-17",
+    "scope": "finite high-precision checks of emitted float parameters; not a uniform model-equivalence certificate"
+  },
+  "cumulative_process_seconds": 4.549760167021304,
+  "status": "REPORTED_BOUNDS_PARSED",
+  "printed_endpoints": [
+    "0.0013390120547111058",
+    "0.01982974733511503"
+  ],
+  "cube_lower_from_printed_rational": "1929719741005291875/2251799813685248",
+  "cube_upper_from_printed_rational": "1786104854185503125/140737488355328",
+  "tail_upper_exact_rational": "391603872533183741526971/696898287454081973172991196020261297061888",
+  "full_domain_reported_log_width": 2.6952511314630683,
+  "reported_target_met": false,
+  "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+}

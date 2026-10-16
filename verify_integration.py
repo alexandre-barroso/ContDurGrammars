@@ -7,7 +7,6 @@ from __future__ import annotations
 
 import argparse
 from datetime import datetime, timezone
-import hashlib
 import importlib.metadata
 import json
 import os
@@ -20,13 +19,8 @@ import time
 
 HERE = Path(__file__).resolve().parent
 PINS = {"python-flint": "0.8.0", "numpy": "2.4.4", "scipy": "1.17.1", "mpmath": "1.3.0"}
-MATHLIB_COMMIT = "5ed2965256430c3649e86755f9576b54eca72435"
 MODULES = ["MomentEnclosure", "MomentConvolution", "MomentCircuit", "MomentBridge"]
 ALLOWED_AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
-
-
-def digest(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def save(path, data):
@@ -80,8 +74,8 @@ def proofs(output, mathlib):
                               text=True, timeout=60, check=True).stdout.strip()
 
     version = probe(["lake", "env", "lean", "--version"])
-    commit = probe(["git", "rev-parse", "HEAD"])
-    if "version 4.34.0" not in version or commit != MATHLIB_COMMIT:
+    mathlib_toolchain = (mathlib/"lean-toolchain").read_text().strip()
+    if "version 4.34.0" not in version or mathlib_toolchain != "leanprover/lean4:v4.34.0":
         raise RuntimeError("Lean/mathlib versions differ from the required pins")
     lean = Path(probe(["lake", "env", "lean", "--print-prefix"])) / "bin/lean"
     import_path = probe(["lake", "env", "printenv", "LEAN_PATH"])
@@ -89,8 +83,8 @@ def proofs(output, mathlib):
     stage.mkdir(exist_ok=False)
     env = os.environ.copy()
     env["LEAN_PATH"] = str(stage) + os.pathsep + import_path
-    record = {"Lean": version, "mathlib_commit": commit, "modules": [],
-              "limits": "Same pinned kernel/import environment; no independent kernel or Python/Arb verification"}
+    record = {"Lean": version, "mathlib_toolchain": mathlib_toolchain, "modules": [],
+              "limits": "Required Lean toolchain and supplied mathlib installation; no independent kernel or Python/Arb verification"}
     for module in MODULES:
         source = HERE / (module + ".lean")
         text = source.read_text()
@@ -113,9 +107,7 @@ def proofs(output, mathlib):
         passed = (cp.returncode == 0 and set(observed) == set(targets)
                   and all(set(a) <= ALLOWED_AXIOMS for a in observed.values())
                   and (stage / (module + ".olean")).is_file())
-        record["modules"].append({"module": module, "source_sha256": digest(source),
-            "exit_code": cp.returncode, "axioms": observed, "passed": passed,
-            "log": str(log.relative_to(output)), "log_sha256": digest(log)})
+        record["modules"].append({"module": module, "exit_code": cp.returncode, "axioms": observed, "passed": passed, "log": str(log.relative_to(output))})
         save(output / "proofs.json", record)
         if not passed:
             raise RuntimeError("Strict proof/axiom check failed: " + module)
@@ -179,11 +171,7 @@ def main():
         raise RuntimeError("Do not disable assertion-based numerical controls with -O")
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=False)
-    record = {"started_at": datetime.now(timezone.utc).isoformat(), "status": "RUNNING",
-              "mode": args.mode, "Python": sys.version, "dependencies": {},
-              "source_hashes": {p.name: digest(p) for p in sorted(HERE.glob("*.py"))},
-              "model_parameters_sha256": digest(HERE / "published_timing_parameters.json"),
-              "limitations": "Finite numerical controls and local formal obligations; not whole-program verification"}
+    record = {"started_at": datetime.now(timezone.utc).isoformat(), "status": "RUNNING", "mode": args.mode, "Python": sys.version, "dependencies": {}, "limitations": "Finite numerical controls and local formal obligations; not whole-program verification"}
     try:
         if args.mode != "proofs":
             for package, pin in PINS.items():

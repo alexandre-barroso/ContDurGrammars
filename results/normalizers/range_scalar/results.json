@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-09-26T16:26:46.411396+00:00",
+  "machine": "arm64",
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "seconds_budget_per_case": 60,
+  "status": "COMPLETED_WITH_ALL_PLANNED_CASES",
+  "cases": [
+    {
+      "case": "balanced_8",
+      "status": "TIME_BUDGET_EXCEEDED",
+      "process_elapsed_seconds": 60.01642587501556,
+      "result": "balanced_8.json"
+    },
+    {
+      "case": "balanced_16",
+      "status": "TIME_BUDGET_EXCEEDED",
+      "process_elapsed_seconds": 60.02132941700984,
+      "result": "balanced_16.json"
+    },
+    {
+      "case": "left_branching_16",
+      "status": "TIME_BUDGET_EXCEEDED",
+      "process_elapsed_seconds": 60.01500125002349,
+      "result": "left_branching_16.json"
+    },
+    {
+      "case": "stiff_balanced_16",
+      "status": "TIME_BUDGET_EXCEEDED",
+      "process_elapsed_seconds": 60.01667658297811,
+      "result": "stiff_balanced_16.json"
+    }
+  ],
+  "interpretation": "Synthetic feasibility only; no novelty, comparative speedup or formal proof claim",
+  "completed_at": "2026-09-26T16:30:46.738280+00:00"
+}

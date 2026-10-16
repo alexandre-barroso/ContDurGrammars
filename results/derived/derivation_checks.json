@@ -1,0 +1,83 @@
+{
+  "status": "PASSED_STORED_RECORD_AND_DERIVATION_CHECKS",
+  "scope": "Exact rational record checks and derived model contrasts; does not execute integration, proof builds, timing measurements, or speech evaluation",
+  "query_attempts_checked": 29,
+  "ratio_hulls_checked": 116,
+  "delta_hulls_checked": 29,
+  "final_width_targets_checked": 35,
+  "final_fft_points_inside_stored_intervals": 35,
+  "shared_ordered_unaries_and_events": true,
+  "internal_nodes_checked_for_exact_fourfold_stiffness": 15,
+  "common_normalizer_mesh_containments": 19,
+  "normalizers": {
+    "balanced_8": {
+      "common_meshes": 4,
+      "final_mesh_ratio_three_over_two": "4"
+    },
+    "balanced_16": {
+      "common_meshes": 5,
+      "final_mesh_ratio_three_over_two": "4"
+    },
+    "left_branching_16": {
+      "common_meshes": 5,
+      "final_mesh_ratio_three_over_two": "4"
+    },
+    "stiff_balanced_16": {
+      "common_meshes": 5,
+      "final_mesh_ratio_three_over_two": "4"
+    }
+  },
+  "contrasts": [
+    {
+      "case": "left_branching_16",
+      "baseline": "balanced_16",
+      "quantity": "Delta_case_minus_Delta_baseline",
+      "controlled_change": "group-constraint hierarchy",
+      "exact_interval": {
+        "lower": "258499050314925857760883690074712743/170141183460469231731687303715884105728",
+        "upper": "636460388450081423979387641505163943/170141183460469231731687303715884105728"
+      },
+      "decimal_outward_7": {
+        "lower": "0.0015193",
+        "upper": "0.0037408"
+      },
+      "strictly_positive": true,
+      "final_fft_difference_inside": true,
+      "tex_name": "L16"
+    },
+    {
+      "case": "stiff_balanced_16",
+      "baseline": "balanced_16",
+      "quantity": "Delta_case_minus_Delta_baseline",
+      "controlled_change": "fourfold internal group-cost stiffness",
+      "exact_interval": {
+        "lower": "109615172375097866046321503138887107/85070591730234615865843651857942052864",
+        "upper": "275793312967323073198332985560413635/85070591730234615865843651857942052864"
+      },
+      "decimal_outward_7": {
+        "lower": "0.0012885",
+        "upper": "0.0032420"
+      },
+      "strictly_positive": true,
+      "final_fft_difference_inside": true,
+      "tex_name": "S16"
+    }
+  ],
+  "inputs": [
+    "results/queries/HH0H.json",
+    "results/queries/HHLH.json",
+    "results/queries/HLLH.json",
+    "results/queries/balanced_8.json",
+    "results/queries/balanced_16.json",
+    "results/queries/left_branching_16.json",
+    "results/queries/stiff_balanced_16.json",
+    "results/point_queries/HH0H.json",
+    "results/point_queries/HHLH.json",
+    "results/point_queries/HLLH.json",
+    "results/point_queries/balanced_8.json",
+    "results/point_queries/balanced_16.json",
+    "results/point_queries/left_branching_16.json",
+    "results/point_queries/stiff_balanced_16.json",
+    "results/moment_comparison.json"
+  ]
+}

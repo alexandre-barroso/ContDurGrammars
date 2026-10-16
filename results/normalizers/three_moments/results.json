@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-09-26T17:08:49.416851+00:00",
+  "status": "ALL_PLANNED_CASES_HANDLED",
+  "cases": [
+    {
+      "case": "balanced_8",
+      "status": "FEASIBILITY_TARGET_MET",
+      "seconds": 1.777616749983281,
+      "result": "balanced_8.json"
+    },
+    {
+      "case": "balanced_16",
+      "status": "FEASIBILITY_TARGET_MET",
+      "seconds": 10.16377054102486,
+      "result": "balanced_16.json"
+    },
+    {
+      "case": "left_branching_16",
+      "status": "FEASIBILITY_TARGET_MET",
+      "seconds": 19.859396042011213,
+      "result": "left_branching_16.json"
+    },
+    {
+      "case": "stiff_balanced_16",
+      "status": "FEASIBILITY_TARGET_MET",
+      "seconds": 9.941001250001136,
+      "result": "stiff_balanced_16.json"
+    }
+  ],
+  "process_budget_seconds_per_case": 60,
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "machine": "arm64",
+  "interpretation": "exploratory feasibility; no novelty, formal-proof or comparative-superiority pass",
+  "completed_at": "2026-09-26T17:09:31.194256+00:00"
+}

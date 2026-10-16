@@ -14,6 +14,9 @@ for interval endpoints; decimal table endpoints are rounded outward.
 | `results/gubpi/` | Probabilistic-program inputs, encoding checks, outputs, and attempt summaries |
 | `results/derived/` | Exact-rational analysis of the stored query and normalizer intervals |
 | `results/tables/` | Five generated LaTeX table bodies and refinement coordinates |
+| `results/validation/` | Numerical controls, integrity fixtures, unit-test output and standalone execution checks |
+| `speech/` | Recorded-speech inputs, fitted models, 836 probability certificates and predictive scores |
+| `speech/deadlines/` | Ordinary planning controls, interval certificates and all 836 timing decisions |
 
 `results.json` inside an experiment directory summarizes the corresponding
 case files. A case's `attempts` array retains completed meshes and their outcomes;
@@ -71,5 +74,5 @@ python3 make_integration_artifacts.py --output runs/export
 ```
 
 The exporters use only standard-library arithmetic unless `--plots` is selected.
-Output reports record their input and output hashes. Timing and memory columns
-remain descriptive recorded measurements; table generation does not retime jobs.
+Output reports identify their inputs and generated files. Timing and memory columns
+are descriptive recorded measurements; table generation does not retime jobs.

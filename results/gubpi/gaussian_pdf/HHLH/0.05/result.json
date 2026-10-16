@@ -1,0 +1,17 @@
+{
+  "seconds": 30.800297084031627,
+  "exit_code": -9,
+  "timeout": true,
+  "process_id": 55181,
+  "termination_confirmed": true,
+  "setting": "0.05",
+  "input_program": "results/gubpi/gaussian_pdf/HHLH/0.05/model.spcf",
+  "encoding_checks": {
+    "points": 70,
+    "max_sampled_relative_factor_discrepancy": "1.587788989165837072567357e-14",
+    "max_guard_absolute_rounding": "3.108624468950438313186169e-17",
+    "scope": "finite high-precision checks of emitted float parameters; not a uniform model-equivalence certificate"
+  },
+  "cumulative_process_seconds": 60.011121252027806,
+  "status": "TIME_BUDGET_EXCEEDED"
+}

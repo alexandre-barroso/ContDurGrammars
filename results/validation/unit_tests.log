@@ -1,0 +1,26 @@
+test_altered_comparison_event_rejected (test_derived_analysis.DerivedAnalysisTests.test_altered_comparison_event_rejected) ... ok
+test_exact_decimal_and_zero (test_derived_analysis.DerivedAnalysisTests.test_exact_decimal_and_zero) ... ok
+test_interval_subtraction (test_derived_analysis.DerivedAnalysisTests.test_interval_subtraction) ... ok
+test_outward_decimal_negative (test_derived_analysis.DerivedAnalysisTests.test_outward_decimal_negative) ... ok
+test_outward_decimal_positive (test_derived_analysis.DerivedAnalysisTests.test_outward_decimal_positive) ... ok
+test_probability_contract (test_derived_analysis.DerivedAnalysisTests.test_probability_contract) ... ok
+test_recorded_intervals_and_table (test_derived_analysis.DerivedAnalysisTests.test_recorded_intervals_and_table) ... ok
+test_reversed_interval_rejected (test_derived_analysis.DerivedAnalysisTests.test_reversed_interval_rejected) ... ok
+test_stiffness_check_rejects_changed_target (test_derived_analysis.DerivedAnalysisTests.test_stiffness_check_rejects_changed_target) ... ok
+test_five_tables (test_artifacts.ArtifactTests.test_five_tables) ... ok
+test_query_records_checked_before_export (test_artifacts.ArtifactTests.test_query_records_checked_before_export) ... ok
+test_refinement_count_and_target (test_artifacts.ArtifactTests.test_refinement_count_and_target) ... ok
+test_stopping_widths_and_meshes (test_artifacts.ArtifactTests.test_stopping_widths_and_meshes) ... ok
+test_tables_match_local_outputs (test_artifacts.ArtifactTests.test_tables_match_local_outputs) ... ok
+test_all_python_syntax (test_repository.RepositoryTests.test_all_python_syntax) ... ok
+test_derivation_input_paths (test_repository.RepositoryTests.test_derivation_input_paths) ... ok
+test_documented_modules_exist (test_repository.RepositoryTests.test_documented_modules_exist) ... ok
+test_formal_targets (test_repository.RepositoryTests.test_formal_targets) ... ok
+test_json_and_input_program_paths (test_repository.RepositoryTests.test_json_and_input_program_paths) ... ok
+test_local_imports_are_present (test_repository.RepositoryTests.test_local_imports_are_present) ... ok
+test_markdown_links_resolve (test_repository.RepositoryTests.test_markdown_links_resolve) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.497s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-10-16T15:12:40.427378+00:00",
+  "status": "PASSED_REQUESTED_SCOPE",
+  "mode": "numerical",
+  "Python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "dependencies": {
+    "python-flint": "0.8.0",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "mpmath": "1.3.0"
+  },
+  "limitations": "Finite numerical controls and local formal obligations; not whole-program verification",
+  "numerical": {
+    "passed": true,
+    "moment_controls": "moment_controls.json",
+    "query_controls": "query_controls.json",
+    "two_moment_controls": {
+      "passed": true,
+      "result": "two_moment_controls.json",
+      "scope": "Finite controls and four first-mesh endpoint replays"
+    },
+    "limits": "Finite numerical comparisons, not proofs of the reference quadrature or the implementation"
+  },
+  "completed_at": "2026-10-16T15:12:44.576056+00:00"
+}

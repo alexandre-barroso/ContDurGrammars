@@ -1,0 +1,51 @@
+{
+  "status": "ALL_PLANNED_CASES_HANDLED",
+  "started_at": "2026-09-26T17:39:36.665047+00:00",
+  "cases": [
+    {
+      "case": "HH0H",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 0.8257209159783088,
+      "result": "HH0H.json"
+    },
+    {
+      "case": "HHLH",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 0.7763646250241436,
+      "result": "HHLH.json"
+    },
+    {
+      "case": "HLLH",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 0.7667475419584662,
+      "result": "HLLH.json"
+    },
+    {
+      "case": "balanced_8",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 0.9937862909864634,
+      "result": "balanced_8.json"
+    },
+    {
+      "case": "balanced_16",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 1.3466538339853287,
+      "result": "balanced_16.json"
+    },
+    {
+      "case": "left_branching_16",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 1.9553552499855869,
+      "result": "left_branching_16.json"
+    },
+    {
+      "case": "stiff_balanced_16",
+      "status": "ALL_ELEVEN_MESHES_FINISHED",
+      "seconds": 1.3088577080052346,
+      "result": "stiff_balanced_16.json"
+    }
+  ],
+  "process_budget_seconds_per_case": 180,
+  "guarantee": "NONE; ordinary estimates are not a validated-quadrature competitor",
+  "completed_at": "2026-09-26T17:39:44.645478+00:00"
+}

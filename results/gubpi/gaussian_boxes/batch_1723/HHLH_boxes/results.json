@@ -1,0 +1,156 @@
+{
+  "started_at": "2026-09-26T17:22:32.633615+00:00",
+  "mode": "boxes",
+  "case": "HHLH",
+  "proposal": "gaussian",
+  "status": "PLANNED_ATTEMPTS_FINISHED_OR_STOPPED",
+  "runtime": "dotnet7.0.20 osx-x64 on macOS arm64 translation",
+  "budget_seconds": 60,
+  "attempts": [
+    {
+      "seconds": 1.991260540962685,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 32539,
+      "termination_confirmed": true,
+      "setting": 100,
+      "cumulative_process_seconds": 1.991260540962685,
+      "encoding_checks": 42,
+      "input_program": "results/gubpi/gaussian_boxes/batch_1723/HHLH_boxes/100/model.spcf",
+      "status": "INVALID_OR_NONFINITE_NORMALIZER",
+      "printed_endpoints": [
+        "0",
+        "NaN"
+      ]
+    },
+    {
+      "seconds": 1.7994616670184769,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 32548,
+      "termination_confirmed": true,
+      "setting": 1000,
+      "cumulative_process_seconds": 3.7907222079811618,
+      "encoding_checks": 42,
+      "input_program": "results/gubpi/gaussian_boxes/batch_1723/HHLH_boxes/1000/model.spcf",
+      "status": "REPORTED_BOUNDS_PARSED",
+      "printed_endpoints": [
+        "1.767754656078404E-05",
+        "130.42033185845102"
+      ],
+      "cube_lower_from_printed_rational": "185038149411709181352992112506054120107/1329227995784915872903807060280344576",
+      "cube_upper_from_printed_rational": "162740140733904107287593487214496779249/158456325028528675187087900672",
+      "tail_upper_exact_rational": "59954262578189148323185/5444517870735015415413993718908291383296",
+      "full_domain_reported_log_width": 15.813977836068858,
+      "reported_target_met": false,
+      "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+    },
+    {
+      "seconds": 56.225512749981135,
+      "exit_code": -9,
+      "timeout": true,
+      "process_id": 32560,
+      "termination_confirmed": true,
+      "setting": 10000,
+      "cumulative_process_seconds": 60.0162349579623,
+      "encoding_checks": 42,
+      "input_program": "results/gubpi/gaussian_boxes/batch_1723/HHLH_boxes/10000/model.spcf",
+      "status": "TIME_BUDGET_EXCEEDED"
+    }
+  ],
+  "proposal_parameters": [
+    {
+      "mean": "263/1024",
+      "sd": "1/8"
+    },
+    {
+      "mean": "321/1024",
+      "sd": "1/8"
+    },
+    {
+      "mean": "93/512",
+      "sd": "1/16"
+    }
+  ],
+  "proposal_constant_interval": [
+    "2616852807818348707711632812703223787/170141183460469231731687303715884105728",
+    "20934822462546789661693062501625790297/1361129467683753853853498429727072845824"
+  ],
+  "model": {
+    "name": "HHLH",
+    "terms": [
+      [
+        "5089419422649549/8796093022208",
+        "0",
+        "6953244446027183/90071992547409920000"
+      ]
+    ],
+    "children": [
+      {
+        "name": "HHLH_0",
+        "terms": [
+          [
+            "1985655902161945/8796093022208",
+            "3794291940217471/45035996273704960000",
+            "6972535863746853/22517998136852480000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/35184372088832",
+            "2023491183832207/22517998136852480000",
+            "185599498727367/900719925474099200"
+          ]
+        ],
+        "children": []
+      },
+      {
+        "name": "HHLH_1",
+        "terms": [
+          [
+            "1985655902161945/8796093022208",
+            "3794291940217471/45035996273704960000",
+            "6972535863746853/22517998136852480000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/17592186044416",
+            "2023491183832207/45035996273704960000",
+            "185599498727367/1801439850948198400"
+          ]
+        ],
+        "children": []
+      },
+      {
+        "name": "HHLH_2",
+        "terms": [
+          [
+            "1985655902161945/17592186044416",
+            "3794291940217471/22517998136852480000",
+            "6972535863746853/11258999068426240000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/35184372088832",
+            "2023491183832207/22517998136852480000",
+            "185599498727367/900719925474099200"
+          ]
+        ],
+        "children": []
+      }
+    ]
+  },
+  "cumulative_process_seconds": 60.0162349579623,
+  "completed_at": "2026-09-26T17:23:32.705549+00:00"
+}

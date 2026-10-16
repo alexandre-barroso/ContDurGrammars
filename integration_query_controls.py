@@ -3,7 +3,6 @@ from __future__ import annotations
 
 from datetime import datetime,timezone
 from fractions import Fraction as F
-import hashlib
 import json
 from pathlib import Path
 import time
@@ -100,12 +99,8 @@ def main(output):
     truth_probs['Delta']=truth_probs['P_A_given_B']-truth_probs['P_A']
     bounds=probability_results(integrals)
     for name,value in bounds.items():assert float(value.lower())<=truth_probs[name]<=float(value.upper())
-    result={'completed_at':datetime.now(timezone.utc).isoformat(),'status':'ALL_CONTROLS_PASSED',
-            'seconds':time.perf_counter()-started,'controls':checks,
-            'HH0H_independent_QUADPACK':{'cube_integrals':estimates,'outer_reported_error_estimates':reported,
-                                       'probabilities':truth_probs,'enclosures':{k:encode_interval(v) for k,v in bounds.items()}},
-            'limitations':'Finite numerical controls, not independent certificates or a whole-program proof',
-            'driver_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
+    result={'completed_at':datetime.now(timezone.utc).isoformat(), 'status':'ALL_CONTROLS_PASSED', 'seconds':time.perf_counter()-started, 'controls':checks, 'HH0H_independent_QUADPACK':{'cube_integrals':estimates,'outer_reported_error_estimates':reported,
+                                       'probabilities':truth_probs,'enclosures':{k:encode_interval(v) for k,v in bounds.items()}}, 'limitations':'Finite numerical controls, not independent certificates or a whole-program proof'}
     output.parent.mkdir(parents=True,exist_ok=True);output.write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({'status':result['status'],'seconds':result['seconds'],'partial_moments':12,'independent_event_integrals':4}))
 

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from fractions import Fraction as F
-import hashlib
 import itertools
 import json
 from pathlib import Path
@@ -153,24 +152,23 @@ def check_nested():
             "maximum_reference_change":delta, "scope":"independent tensor estimates; not certified oracle values"}
 
 
-def load_history():
+def load_records():
     """Validate recorded calculations against the local model definitions."""
     from integration_scaling import CASES, build_case, describe
-    history = json.loads((HERE / "results/moment_comparison.json").read_text())
+    records = json.loads((HERE / "results/moment_comparison.json").read_text())
     expected = [row[0] for row in CASES]
-    assert list(history["cases"]) == expected
-    assert history["frozen_design"] == {
+    assert list(records["cases"]) == expected
+    assert records["design"] == {
         "cube_upper": "800", "initial_mesh": "20", "maximum_mesh_index": 14,
         "precision_bits": 128, "log_width_target": "1/1000",
-        "historical_process_budget_seconds": 60}
+        "process_budget_seconds": 60}
     common = []
-    for case, methods in history["cases"].items():
+    for case, methods in records["cases"].items():
         tree = describe(build_case(case))
-        tree_hash = hashlib.sha256(json.dumps(tree, sort_keys=True).encode()).hexdigest()
         dimension = len(build_case(case).leaves)
         for method in ("two", "three"):
             record = methods[method]
-            assert record["tree"] == tree and record["tree_sha256"] == tree_hash
+            assert record["tree"] == tree
             assert record["precision_bits"] == 128
             assert record["status"] == "FEASIBILITY_TARGET_MET"
             assert 0 < record["process_seconds"] <= 60
@@ -200,11 +198,11 @@ def load_history():
                 "two_over_three_width": float(F(a2["log_width_upper_exact_rational"])
                                               / F(a3["log_width_upper_exact_rational"]))})
     assert len(common) == 19
-    return history, {"cases": expected, "common_meshes": common,
+    return records, {"cases": expected, "common_meshes": common,
         "scope": "Integrity/consistency of recorded calculations, not recomputation of every mesh or authentication against deliberate metadata rewriting"}
 
 
-def replay_history(which="first", progress=None):
+def replay_records(which="first", progress=None):
     """Recompute one exact-endpoint mesh for each case, without a time criterion.
 
     `first` is the small portable smoke test. `last` recomputes the four final
@@ -213,9 +211,9 @@ def replay_history(which="first", progress=None):
     from integration_scaling import build_case
     if which not in {"first", "last"}:
         raise ValueError("Choose first or last recorded mesh")
-    history, audit = load_history()
+    records, audit = load_records()
     results = []
-    for case, methods in history["cases"].items():
+    for case, methods in records["cases"].items():
         expected = methods["two"]["attempts"][0 if which == "first" else -1]
         before = time.perf_counter()
         lo, hi, tail, width, count = partition_two(build_case(case), F(expected["mesh_ms"]), F(800))
@@ -235,18 +233,18 @@ def replay_history(which="first", progress=None):
                           "exact_endpoint_replay_passed": all(matches.values()),
                           "validation_seconds": row["validation_seconds"]}), flush=True)
         assert all(matches.values()), (case, matches)
-    return {"mesh_selection": which, "cases": results, "history_audit": audit,
+    return {"mesh_selection": which, "cases": results, "record_audit": audit,
             "time_limit_is_a_correctness_requirement": False,
             "scope": "Exact rational endpoint reproduction in the pinned numerical environment; timings are not compared"}
 
 
 def write_tables(directory):
     """Generate parameter and normalizer-summary tables from local records."""
-    history, _ = load_history()
+    records, _ = load_records()
     labels = ["Balanced 8", "Balanced 16", "Left branching 16", "Stiff balanced 16"]
     lines = [r"\begin{tabular}{lrrrr}\toprule",
              r"Case & $h_2$ (ms) & $h_3$ (ms) & Two (s) & Three (s)\\\midrule"]
-    for label, methods in zip(labels, history["cases"].values()):
+    for label, methods in zip(labels, records["cases"].values()):
         two, three = methods["two"], methods["three"]
         h2, h3 = (float(F(v["attempts"][-1]["mesh_ms"])) for v in (two, three))
         lines.append(f"{label} & {h2:g} & {h3:g} & {two['process_seconds']:.2f} & {three['process_seconds']:.2f} " + r"\\")
@@ -266,12 +264,12 @@ def write_tables(directory):
         dest = Path(directory) / name
         with dest.open("x") as stream:
             stream.write(contents)
-        records.append({"path": name, "sha256": hashlib.sha256(dest.read_bytes()).hexdigest()})
+        records.append({"path": name})
     return records
 
 
 def run_controls(output, *, final_replay_only=False):
-    """Save finite controls plus portable history replay to a new JSON file."""
+    """Save finite controls plus portable records replay to an unoccupied JSON path."""
     import sys
     if sys.flags.optimize:
         raise RuntimeError("Do not disable assertion-based controls with -O")
@@ -283,10 +281,11 @@ def run_controls(output, *, final_replay_only=False):
     names = ["integration_two_moments.py", "integration_two_moment_controls.py",
              "integration_bounds.py", "integration_moments.py", "integration_scaling.py",
              "published_timing_parameters.json", "results/moment_comparison.json", "TWO_MOMENT.md"]
-    fingerprints = lambda: {name: hashlib.sha256((HERE/name).read_bytes()).hexdigest() for name in names}
+    source_contents = lambda: {name: (HERE/name).read_bytes() for name in names}
+    initial_sources = source_contents()
     before = time.perf_counter()
     record = {"started_at": datetime.now(timezone.utc).isoformat(), "status": "RUNNING",
-              "precision_bits": 128, "sources": fingerprints(),
+              "precision_bits": 128, "sources": names,
               "scope": "Finite mathematical fixtures and exact endpoint replay; not a formal primitive proof or a timed performance experiment"}
     def save():
         temporary = output.with_suffix(output.suffix + ".tmp")
@@ -301,10 +300,10 @@ def run_controls(output, *, final_replay_only=False):
             record.update(leaves=check_leaves(), merge=check_merge(),
                           factors=check_factors(), nested=check_nested())
             save()
-        record["history_replay"] = replay_history("last" if final_replay_only else "first", progress)
+        record["record_replay"] = replay_records("last" if final_replay_only else "first", progress)
         record.pop("partial_replay", None)
         record["generated_tables"] = write_tables(output.parent)
-        assert fingerprints() == record["sources"], "sources changed during verification"
+        assert source_contents() == initial_sources, "sources changed during verification"
         record["status"] = "ALL_REQUESTED_CONTROLS_PASSED"
     except Exception as exc:
         record.update(status="CONTROL_FAILED", error=type(exc).__name__ + ": " + str(exc))

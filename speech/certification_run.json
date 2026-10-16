@@ -1,0 +1,5030 @@
+{
+  "started_at": "2026-10-16T13:50:20.449259+00:00",
+  "workers": 4,
+  "python": "3.12.14",
+  "python_flint": "0.8.0",
+  "machine": "arm64",
+  "platform": "Darwin",
+  "requests": 836,
+  "cases": [
+    {
+      "id": "slt/arctic_a0001/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.449661249993369,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0001/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4507252499461174,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0001/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.45790233300067484,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0006/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.47115183307323605,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0009/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.21265920903533697,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0009/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.47281545808073133,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0009/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4904432080220431,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0008/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5102986249839887,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0009/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5039136669365689,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0017/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2581829580012709,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0017/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5644722080323845,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0017/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5707724170060828,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0017/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5219467499991879,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0019/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5396777919959277,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0019/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5345417499775067,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0019/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5194878750480711,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0019/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5309060839936137,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0019/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5294772500637919,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0037/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5265861669322476,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0037/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5557220840128139,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0037/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5233546249801293,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0053/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5643103750189766,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0053/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5189185420749709,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0053/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.515573582961224,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0056/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5109465420246124,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0056/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5285715829813853,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0061/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5142723330063745,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0069/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.25022249994799495,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0061/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5484656250337139,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0061/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5356263749999925,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0069/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5330408749869093,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0069/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5437377080088481,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0078/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5449929169844836,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0078/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5336628330405802,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0092/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2283097499748692,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0079/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5879984169732779,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0092/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5537224999861792,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0092/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5428273329744115,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0102/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5838679589796811,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0110/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.27164091693703085,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0110/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5467385419178754,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0111/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5650534169981256,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0111/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5336972089717165,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0111/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5539494999684393,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0115/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.04338258400093764,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_a0113/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5370160000165924,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0113/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.540113625000231,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0115/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2660295410314575,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0113/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.569705875008367,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0115/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5615580000448972,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0121/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11598616698756814,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0120/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5397167920600623,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0121/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5503016670700163,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0121/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5859969169832766,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0138/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5802799169905484,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0138/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5786490000318736,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0138/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5472693330375478,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0143/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.048222041921690106,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_a0140/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5638570829760283,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0140/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5476929170545191,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0152/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11509899992961437,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0140/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5803598749917,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0152/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5535455830395222,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0152/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6091765839373693,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0152/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.590198791003786,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0161/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5922167500248179,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0161/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5853568749735132,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0167/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5738099999725819,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0172/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.10568304196931422,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0172/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5479400840122253,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0172/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5880902500357479,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0172/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5554467500187457,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0175/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.557892750017345,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0176/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5748715000227094,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0214/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.09853741701226681,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0194/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.60730541695375,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0213/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6070219590328634,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0213/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5394645420601591,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0217/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5585089160595089,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0223/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5508082919986919,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0223/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5837457499001175,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0233/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5324942079605535,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0233/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5900962080340832,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0233/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.60632625001017,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0239/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5703255839180201,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0239/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5836267499253154,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0239/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5536155420122668,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0239/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5585364159196615,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0251/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5721652910578996,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0251/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.571487917099148,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0262/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5684550830628723,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0262/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.604790291050449,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0262/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5805487500037998,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0276/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5874354999978095,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0276/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5781403329456225,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0276/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5853490000590682,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0276/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5653924579964951,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0283/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5736241660779342,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0285/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.27466699993237853,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0283/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6112784590804949,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0288/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.602394208079204,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0297/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5780624590115622,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0305/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11837475001811981,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0297/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5888207909883931,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0305/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.613983332994394,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0305/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6721839999081567,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0309/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.33034133398905396,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0308/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7160166669636965,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0308/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7176461250055581,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0311/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2975299999816343,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0311/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2875707079656422,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0318/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.041871166904456913,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_a0314/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5716938329860568,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0318/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5941337089752778,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0325/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.517668875050731,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0309/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.2796150000067428,
+      "attempt_count": 5
+    },
+    {
+      "id": "slt/arctic_a0325/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5307681250851601,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0340/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5460857499856502,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0345/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5435640000505373,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0345/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2530190839897841,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0345/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5461952920304611,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0354/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1059700419427827,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0350/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.544465666054748,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0350/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5176645000465214,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0355/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1087435829686001,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0350/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5432832920923829,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0358/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2374335420317948,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0355/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5430303330067545,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0364/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5531803340418264,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0365/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5276307499734685,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0365/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5139368330128491,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0383/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2531891670078039,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0374/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5479831659467891,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0393/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.23949700000230223,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0377/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5647328749764711,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0383/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5299953750800341,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0384/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5403817909536883,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0422/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.24319354095496237,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0415/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5673016670625657,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0422/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5533034580294043,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0422/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5285150000127032,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0422/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.53790629201103,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0414/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1818562090629712,
+      "attempt_count": 5
+    },
+    {
+      "id": "slt/arctic_a0422/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5237057090271264,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0431/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5555482920026407,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0443/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5761845000088215,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0445/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5731420830124989,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0447/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5551079999422655,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0455/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.038793290965259075,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_a0447/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5480536660179496,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0448/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5347927499096841,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0448/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5514984589535743,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0455/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1054386249743402,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0455/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.553844999987632,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0457/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.10640249995049089,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0455/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5631236250046641,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0458/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5521607080008835,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0467/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5471827909350395,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0467/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5585923750186339,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0483/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.25150441692676395,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0483/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2620498340111226,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0482/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5583625830477104,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0482/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.564463832997717,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0496/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1357785000000149,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0483/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5549564999528229,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0483/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5867220830405131,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0483/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.581779042026028,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0516/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5508507920894772,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0518/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5376847499283031,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0523/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.566044291947037,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0516/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.2051842079963535,
+      "attempt_count": 5
+    },
+    {
+      "id": "slt/arctic_a0533/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5964266249211505,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0533/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5755049589788541,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0533/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5753855420043692,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0536/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.26043137500528246,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0542/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5472271669423208,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0542/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5671910420060158,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0548/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5532119160052389,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0551/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.037871957989409566,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_a0548/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5670430409954861,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0548/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5574025420937687,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0548/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5554819169919938,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0554/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5227594170719385,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0555/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5573263330152258,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0555/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.25223466707393527,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_a0573/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.114210500032641,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_a0555/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5537175420904532,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0561/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5488232920179144,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0573/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5548152920091525,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0575/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5381720419973135,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0575/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5284219159511849,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0583/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5412449999712408,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0583/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.569906625081785,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0589/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5525051250588149,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_a0592/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5554219579789788,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0008/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.553374957991764,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0008/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5484341669362038,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0017/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5454420000314713,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0023/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.25387275009416044,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0017/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5461711250245571,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0017/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5609319590730593,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0034/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2458270830102265,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0032/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5780707501107827,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0034/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.567360374960117,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0035/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5432285419665277,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0042/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.03960458398796618,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_b0035/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.547008333960548,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0047/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.25521604099776596,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0035/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5596062500262633,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0042/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5503295420203358,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0047/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5616606670664623,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0050/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2706492909928784,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0050/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5427097909851,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0050/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5434358749771491,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0054/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5628341669216752,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0058/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5746945000719279,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0058/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5573606250109151,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0063/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5569350420264527,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0063/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5390754579566419,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0066/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5643052090890706,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0069/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11668816593009979,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0066/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5348431250313297,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0068/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.26821733405813575,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0068/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.566670292057097,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0070/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5297027919441462,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0070/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5570505830692127,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0070/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5487876249244437,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0080/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11549129197373986,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0078/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5704834170173854,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0080/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.570791665930301,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0081/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.578773875022307,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0081/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5964367910055444,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0082/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.560321957920678,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0096/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6049076250055805,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0096/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6040301250759512,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0096/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.600109999999404,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0098/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6151867910521105,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0098/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6260772909736261,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0098/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6171606249408796,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0098/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5988529999740422,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0119/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11544183397199959,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0111/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6183173330500722,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0113/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5889134580502287,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0122/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6147220419952646,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0126/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5772108330857009,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0122/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6010874999919906,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0126/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6117932499619201,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0126/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6034437919734046,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0139/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5792561669368297,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0133/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5941548330010846,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0148/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5823398339562118,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0157/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.595803290954791,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0157/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6030489590484649,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0148/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6282740000169724,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0166/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11456308397464454,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0157/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6065450829919428,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0170/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5754482499323785,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0175/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6091841659508646,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0183/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6249104160815477,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0188/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6116973749594763,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0189/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.576884416048415,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0199/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6041805839631706,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0199/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6243539579445496,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0199/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5905126250581816,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0199/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6091195000335574,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0206/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6293090000981465,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0206/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6182988750515506,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0209/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6011047080392018,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0209/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6096021250123158,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0222/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6104758330620825,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0222/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6097527500241995,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0223/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6005316659575328,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0223/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5940062910085544,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0223/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6195720839314163,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0230/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.11245362495537847,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0224/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6213856249814853,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0224/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5808294579619542,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0227/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.600834249984473,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0236/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5991212500957772,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0230/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6223314999369904,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0236/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.62980062502902,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0236/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6019507920136675,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0241/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6067219580290839,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0236/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6265548330266029,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0241/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6126771669369191,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0241/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6425480839097872,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0241/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6089672920061275,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0242/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6013251669937745,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0246/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.602394208079204,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0251/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2818037079414353,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0251/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6330771669745445,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0257/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.28345358301885426,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0257/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.612267000018619,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0257/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6095633750082925,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0263/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6201515001012012,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0263/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6284130410058424,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0263/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6056815829360858,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0275/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6460187500342727,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0279/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.636379792005755,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0281/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6328010000288486,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0281/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6614217909518629,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0283/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6307448339648545,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0292/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2984338329406455,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0292/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.29834241699427366,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0292/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6275977079058066,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0292/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.614171624998562,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0298/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6280309169087559,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0305/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6603472080314532,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0305/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6316933339694515,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0311/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6400968750240281,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0311/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6468389589572325,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0311/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6314422920113429,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0312/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6569758750265464,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0316/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.2898830840131268,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0317/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3023068329785019,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0312/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6512586669996381,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0317/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6528706669341773,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0317/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6699257079744712,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0327/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6492477499414235,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0331/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6506182081066072,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0331/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6660712079610676,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0333/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.660654499894008,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0340/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6683084160322323,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0340/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6603009160608053,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0341/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6519307079724967,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0347/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.13195654097944498,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0342/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6598262910265476,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0343/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6597297909902409,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0347/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6555159171111882,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0349/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6497702089836821,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0347/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6771437909919769,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0350/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6503135421080515,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0350/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.68654974992387,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0358/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3097267500124872,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0358/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6747849580133334,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0358/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6726674169767648,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0358/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6938480419339612,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0360/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6886724999640137,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0360/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6796512079890817,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0367/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6835627079708502,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0367/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7125029159942642,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0372/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3076342500280589,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0367/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6898003749083728,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0369/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6799732079962268,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0372/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7098820829996839,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0379/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6816748339915648,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0379/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.702549000037834,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0372/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.5172008749796078,
+      "attempt_count": 5
+    },
+    {
+      "id": "slt/arctic_b0379/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6808973340084776,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0379/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7018402080284432,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0379/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6922825829824433,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0380/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7333499999949709,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0380/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7061890419572592,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0384/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6953535829670727,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0384/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6971584160346538,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0387/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7084682079730555,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0387/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.704166957992129,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0397/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7191662080585957,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0397/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7063950420124456,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0397/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7122034169733524,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0399/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.14216858299914747,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0397/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7046740420628339,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0399/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7196959160501137,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0399/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6973778750980273,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0402/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3404802919831127,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0402/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.15263887506444007,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0404/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.14379587501753122,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0402/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.728091457975097,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0413/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7517097499221563,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0413/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7539235830772668,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0413/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7215457500424236,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0419/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1577095000538975,
+      "attempt_count": 2
+    },
+    {
+      "id": "slt/arctic_b0419/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7590954160550609,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0419/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7237948749680072,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0420/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7301499580498785,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0420/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7355723340297118,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0420/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7431540410034359,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0427/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.34755120903719217,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0423/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7482213750481606,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0423/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7589382920414209,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0439/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.04849166702479124,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_b0427/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7659819580148906,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0439/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3567158750956878,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0436/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.757261292077601,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0436/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.773466750048101,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0439/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7750831249868497,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0454/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3840891669970006,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0439/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7915894580073655,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0458/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.36503408406861126,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0449/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8314338750205934,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0454/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.966982499929145,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0458/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9380628330400214,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0458/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9217304170597345,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0458/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9440786249469966,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0465/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7986797080375254,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0479/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7863610000349581,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0487/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7824212500127032,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0487/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7705694580217823,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0494/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.799679416930303,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0495/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3660217080032453,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0494/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7903802499640733,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0495/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.37579316599294543,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0495/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8145773329306394,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0495/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7840409999480471,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0497/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8226479169679806,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0497/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8192767080618069,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0497/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8540730840759352,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0504/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8657515839440748,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0507/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8524289589840919,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0513/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.41610587504692376,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0513/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4401649159844965,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0497/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.8911344999214634,
+      "attempt_count": 5
+    },
+    {
+      "id": "slt/arctic_b0524/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.05854537500999868,
+      "attempt_count": 1
+    },
+    {
+      "id": "slt/arctic_b0513/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8863501250743866,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0513/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.41389995790086687,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0524/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.401283459039405,
+      "attempt_count": 3
+    },
+    {
+      "id": "slt/arctic_b0527/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8602381249656901,
+      "attempt_count": 4
+    },
+    {
+      "id": "slt/arctic_b0536/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8203590420307592,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0001/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8656606250442564,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0001/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8475910000270233,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0001/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8429883749922737,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0006/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8451105420244858,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0008/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8533151670126244,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0009/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8307021249784157,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0009/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3799142910866067,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0009/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.847997208009474,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0009/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8284577080048621,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0017/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8341758750611916,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0017/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3931083329953253,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0017/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8429515829775482,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0019/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.39355625002644956,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0017/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.857002625009045,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0019/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8818944999948144,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0019/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.877403166028671,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0019/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8704907089704648,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0037/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8625785839976743,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0037/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8528922089608386,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0019/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.8335424580145627,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0037/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.8633341250242665,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0053/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0843820000300184,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0053/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.2560750839766115,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0056/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.2667956249788404,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0053/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.2856660831021145,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0061/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0511318750213832,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0061/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0870712919859216,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0061/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.053137500071898,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0069/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5490063749020919,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0056/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.374485083972104,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0069/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1634486250113696,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0069/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1361096660839394,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0078/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0851444579893723,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0078/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0488496670732275,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0092/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.46229804202448577,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0079/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.086634625098668,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0092/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0780650000087917,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0092/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1116470840061083,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0110/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5055016250116751,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0102/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.128913791035302,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0111/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5827910830266774,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0110/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.185725957970135,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0111/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1957047500181943,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0111/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1391908749938011,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0115/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.08020933298394084,
+      "attempt_count": 1
+    },
+    {
+      "id": "bdl/arctic_a0113/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1576541250105947,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0115/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.23513670801185071,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_a0113/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1504885000176728,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0113/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1733551670331508,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0115/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1568110830849037,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0121/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.52884391695261,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0120/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1351460419828072,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0121/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1152166250394657,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0121/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0877437500748783,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0140/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.44111920800060034,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0138/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9798707080772147,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0138/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9428772079991177,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0143/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.06096550007350743,
+      "attempt_count": 1
+    },
+    {
+      "id": "bdl/arctic_a0138/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9326552079292014,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0140/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9607882921118289,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0152/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9499468749854714,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0152/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9529205830767751,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0152/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.44863783405162394,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0140/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.0070113750407472,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0152/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9410715840058401,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0161/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9408008749596775,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0161/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9382261669961736,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0172/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9423404999542981,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0172/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9522064580814913,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0172/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9581181249814108,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0172/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4527195830596611,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0175/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9493327919626608,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0167/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.0722906249575317,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0176/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9472487079910934,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0194/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9671291670529172,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0213/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4579817499034107,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0214/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4655013750307262,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0217/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9977221250301227,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0223/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9958982500247657,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0213/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.1098245829343796,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0233/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9959147500339895,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0223/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.1397450420772657,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0233/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9973477920284495,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0233/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0149227500660345,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0239/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9873398339841515,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0239/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0362278330139816,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0239/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0482208330649883,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0239/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1338385419221595,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0251/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1715157920261845,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0262/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.128828875022009,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0251/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1411430420121178,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0262/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0473995419451967,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0262/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.024842291022651,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0276/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0151353339897469,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0276/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.022020332980901,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0276/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9975295830518007,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0276/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0109050839673728,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0283/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0494009159738198,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0283/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0455469170119613,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0285/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0929329580394551,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0288/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1125093339942396,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0297/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1436774580506608,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0297/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1453636250225827,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0305/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5621543329907581,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0305/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.2204517499776557,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0305/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.26596333400812,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0308/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.499162874999456,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0308/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.4512889160541818,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0309/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.4168964170385152,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0309/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.4131109999725595,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0311/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.161920415936038,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0318/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.07933204097207636,
+      "attempt_count": 1
+    },
+    {
+      "id": "bdl/arctic_a0311/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1706669999985024,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0314/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1537401670357212,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0318/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.163135415990837,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0325/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1491529579507187,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0325/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1191944590536878,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0340/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1568603749619797,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0345/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.23533695901278406,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_a0345/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1575159159256145,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0345/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.147977374959737,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0354/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.23047833296004683,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_a0350/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1524876249022782,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0350/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1381586249917746,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0355/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.21718062506988645,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_a0350/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1404982910025865,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0358/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5427690410288051,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0355/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.3176116249524057,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0365/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.6356912499759346,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0364/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.6726624170551077,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0365/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.7277919580228627,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0383/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.65605324995704,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0374/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.6670579160563648,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0377/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.250957665964961,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0383/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1568972080713138,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0384/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.079404458985664,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0393/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0842052079970017,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0422/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4676936250180006,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0415/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9954162919893861,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0422/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0005378329660743,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0422/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9976135839242488,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0414/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.1831820419756696,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0422/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9848336670547724,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0422/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.961508083040826,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0431/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9998118339572102,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0443/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9907730419654399,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0445/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9806364999385551,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0447/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0113604159560055,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0455/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.466253999969922,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0447/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9763931250199676,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0448/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.961761208018288,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0448/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.984043666976504,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0455/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4686299579916522,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0457/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4642282910645008,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0455/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9839802080532536,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0455/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9966592920245603,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0458/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9678571670083329,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0467/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9515700408956036,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0467/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9257024999242276,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0482/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9424263749970123,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0483/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4489367090864107,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0483/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.44854491599835455,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0482/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9556953329592943,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0496/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.44886595802381635,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0483/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9963593339780346,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0483/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.039478417020291,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0483/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0316743749426678,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0516/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1179952080128714,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0516/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1383537920191884,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0518/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1460525409784168,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0523/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.164631791994907,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0536/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5356413340196013,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0533/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1771443330217153,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0533/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.177129124989733,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0533/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1233090420719236,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0542/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0865088329883292,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0542/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0737152500078082,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0548/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0638152919709682,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0548/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0378538330551237,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0551/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1984792920993641,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_a0548/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9884154159808531,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0548/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9553520829649642,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0554/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9224377500358969,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0555/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9272330419626087,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0555/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4641569999512285,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_a0573/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.22546337498351932,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_a0555/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0347072079312056,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0561/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0206049580592662,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0573/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0600142501061782,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0575/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0457918329630047,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0583/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0771236669970676,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0583/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0533203340601176,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0575/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.2655147090554237,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_a0592/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1025681250030175,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0008/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0913254579063505,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0008/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.1077569999033585,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_a0589/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.2238007080741227,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_b0017/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0879389160545543,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0017/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.10955183301121,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0023/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.5090360000031069,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0017/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0516756669385359,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0032/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.023420791956596,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0034/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0312120839953423,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0034/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0043415420223027,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0035/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0125207920791581,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0035/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.054056250024587,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0042/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.49654437496792525,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0035/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.041028333012946,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0042/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0085754999890924,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0047/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0584959590341896,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0047/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0552535000024363,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0050/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0612510830396786,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0050/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.065614791936241,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0050/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9470943750347942,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0054/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9537136669969186,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0058/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9557105840649456,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0058/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9400749580236152,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0063/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0961710000410676,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0066/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0670563329476863,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0066/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0712738749571145,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0063/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0902040000073612,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0068/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.20960404200013727,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_b0069/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4825084999902174,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0068/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9457276659086347,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0070/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9848222919972613,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0070/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9576500420225784,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0070/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9941542920423672,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0080/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.46689712500665337,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0078/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.993572499952279,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0080/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0299569580238312,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0081/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0029717090073973,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0082/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0031065420480445,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0096/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9987721249926835,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0096/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9987349170260131,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0081/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 2.146645625005476,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_b0096/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0023895830381662,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0098/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0089861250016838,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0098/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9684169590473175,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0098/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9190342089859769,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0098/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8963324170326814,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0111/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9028709590202197,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0119/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.4091432080604136,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0113/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8664716669591144,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0122/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8570864999201149,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0122/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8502810829086229,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0126/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8563864580355585,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0126/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8535794590134174,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0126/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8493797079427168,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0133/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8545574160525575,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0139/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8693757919827476,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0148/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8930374589981511,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0148/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9082791249966249,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0157/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9192027091048658,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0157/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8956841250183061,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0166/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.42342604196164757,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0157/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8985888749593869,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0170/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8525034170597792,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0175/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8406989589566365,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0183/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8465176250319928,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0188/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8404883750481531,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0189/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8317185000050813,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0199/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8340587089769542,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0199/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8358902910258621,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0199/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8321176250465214,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0199/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8281774169299752,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0206/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8096655419794843,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0206/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8198709590360522,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0209/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8289472080068663,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0209/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8470207919599488,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0222/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8377555409679189,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0222/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8384450409794226,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0223/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8423045410308987,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0223/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.849099125014618,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0223/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8396067500580102,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0224/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8436161249410361,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0224/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8467735419981182,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0230/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3738420410081744,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0227/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8266885420307517,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0230/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8303200410446152,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0236/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8049587920540944,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0236/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8287227919790894,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0236/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8204155000858009,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0236/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8133940410334617,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0241/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8188385419780388,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0241/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8125072080874816,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0241/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8284782079281285,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0241/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8201399999670684,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0242/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.819313041982241,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0246/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8000382500467822,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0251/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8357185840141028,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0251/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8238483750028536,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0257/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8341530000325292,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0257/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3896231669932604,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0257/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8251206669956446,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0263/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.801378709031269,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0263/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8420049169799313,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0263/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8166680419817567,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0275/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8018212920287624,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0279/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8164848750457168,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0281/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8092242499114946,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0281/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.810911540989764,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0283/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7951408749213442,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0292/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.37082029203884304,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0292/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8079478340223432,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0292/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.821227291948162,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0292/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.783668708987534,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0298/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7819934580475092,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0305/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7809788750018924,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0305/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7968253749422729,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0311/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8076658329227939,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0311/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7874677090439945,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0311/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7881028329720721,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0316/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3654495000373572,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0312/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7976539579685777,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0312/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7869803330395371,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0317/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7854408340062946,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0317/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7688082500826567,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0327/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7570418749237433,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0317/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8159896250581369,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0331/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7860042500542477,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0331/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7764621670357883,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0333/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.793317792005837,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0340/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.782387167098932,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0340/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7894996670074761,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0341/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8085721669485793,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0342/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.791689999983646,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0343/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7955145840533078,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0347/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3557000420987606,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0347/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7812291249865666,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0347/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7792554579209536,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0349/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7797194169834256,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0350/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7825163750676438,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0350/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7692175830015913,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0358/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7977802080567926,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0358/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.807542791008018,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0358/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8027747499290854,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0358/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7985377500299364,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0360/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.796616334002465,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0360/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7802856250200421,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0367/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7625838330714032,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0367/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7715630839811638,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0367/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.767086417065002,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0369/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7991180840181187,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0372/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7832838330650702,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0372/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7809677090262994,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0379/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7854056250071153,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0372/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.6581287920707837,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_b0379/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.761843082960695,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0379/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7777388750109822,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0379/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7684248749865219,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0379/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7851236669812351,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0380/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7717942500021309,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0380/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7670358329778537,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0384/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.808203374966979,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0384/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.9972443750593811,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0387/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0302380420034751,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0387/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.0516860419884324,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0397/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.047878917073831,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0397/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.835653540911153,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0397/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8051059580175206,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0397/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8134242499945685,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0399/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.8010914159240201,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0399/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.35794174997135997,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0399/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7753205839544535,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0402/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.35770345805212855,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0404/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3634407500503585,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0402/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7809592499397695,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0413/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.34492520801723003,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0402/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7776319589465857,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0419/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3560530829709023,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0413/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.766658041975461,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0413/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7583643340039998,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0419/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7833469579927623,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0419/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7833141250303015,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0420/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.743245083023794,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0420/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7688558750087395,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0420/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7899390410166234,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0423/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7625603750348091,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0423/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7767071250127628,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0427/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7571918750181794,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0439/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.05269737495109439,
+      "attempt_count": 1
+    },
+    {
+      "id": "bdl/arctic_b0427/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7472684589447454,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0439/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3501925830496475,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0436/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7632543749641627,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0436/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7726825419813395,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0439/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7573470419738442,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0454/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.33765770902391523,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0439/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.742208749987185,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0449/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7603688749950379,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0454/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7754443329758942,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0458/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7793539999984205,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0458/7",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7508187500061467,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0458/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7656107080401853,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0458/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7469532089307904,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0465/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7617730409838259,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0479/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7459057079395279,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0487/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7603435419732705,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0487/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7525405840715393,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0494/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7717022909782827,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0494/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7426291659940034,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0495/3",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7703007909003645,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0495/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7458702500443906,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0495/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7823580000549555,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0497/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7668057919945568,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0497/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7516212500631809,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0495/10",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.6383307910291478,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_b0497/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7490504580782726,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0504/4",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7416030409513041,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0497/8",
+      "status": "TOLERANCE_MET",
+      "seconds": 1.6341111660003662,
+      "attempt_count": 5
+    },
+    {
+      "id": "bdl/arctic_b0507/2",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7442079589236528,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0513/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7698899999959394,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0513/6",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.7610322081018239,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0513/11",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3506615419173613,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0513/12",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.3587930001085624,
+      "attempt_count": 3
+    },
+    {
+      "id": "bdl/arctic_b0524/9",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.1533314159605652,
+      "attempt_count": 2
+    },
+    {
+      "id": "bdl/arctic_b0524/5",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.732038666959852,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0527/1",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6694207499967888,
+      "attempt_count": 4
+    },
+    {
+      "id": "bdl/arctic_b0536/0",
+      "status": "TOLERANCE_MET",
+      "seconds": 0.6545786249917,
+      "attempt_count": 4
+    }
+  ],
+  "wall_seconds": 152.95036545791663,
+  "completed_at": "2026-10-16T13:52:53.400675+00:00",
+  "status": "ALL_REQUESTS_HANDLED"
+}

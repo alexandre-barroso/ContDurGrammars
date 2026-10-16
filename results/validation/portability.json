@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Execution from a standalone repository copy with installed Python dependencies",
+  "reproduced_exactly": [
+    "prepared_words.json",
+    "data_audit.json",
+    "fitted_models.json",
+    "test_requests.json"
+  ],
+  "prediction_certificate_ids": [
+    "slt/arctic_a0001/3",
+    "slt/arctic_a0120/8",
+    "bdl/arctic_b0340/2"
+  ],
+  "deadline_certificate_ids": [
+    "slt/arctic_a0120/8",
+    "bdl/arctic_b0340/2"
+  ],
+  "fresh_certificate_endpoint_checks": "Exact match",
+  "evaluation_commands": [
+    "speech/validate.py",
+    "speech/evaluate.py",
+    "speech/deadlines/evaluate.py",
+    "speech/deadlines/independent_checks.py"
+  ],
+  "scope_limits": "The sample endpoint checks do not rerun the full timed certificate batches."
+}

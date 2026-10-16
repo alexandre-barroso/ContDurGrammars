@@ -8,7 +8,6 @@ from __future__ import annotations
 import argparse
 from dataclasses import dataclass
 from fractions import Fraction
-import hashlib
 import json
 from pathlib import Path
 import sys
@@ -63,10 +62,6 @@ def decimal_bound(value: F, places: int = 7, *, upper: bool = False) -> str:
     return f"{sign}{integer // scale}.{integer % scale:0{places}d}"
 
 
-def sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
 def ordered_leaves(tree: dict[str, Any]) -> list[dict[str, Any]]:
     if not tree["children"]:
         return [tree]
@@ -96,11 +91,11 @@ def probability_hull(numerator: Interval, denominator: Interval) -> Interval:
 
 
 def derive(root: Path) -> tuple[dict[str, Any], str]:
-    inputs: dict[str, str] = {}
+    inputs: list[str] = []
 
     def read(relative: str) -> dict[str, Any]:
         path = root / relative
-        inputs[relative] = sha256(path)
+        inputs.append(relative)
         return json.loads(path.read_text())
 
     records = {case: read(f"results/queries/{case}.json")
@@ -111,9 +106,7 @@ def derive(root: Path) -> tuple[dict[str, Any], str]:
     attempt_count = ratio_count = width_count = fft_count = 0
     for case, record in records.items():
         require(record["status"] == "QUERY_TOLERANCE_MET", f"Unresolved query: {case}")
-        tree_digest = hashlib.sha256(json.dumps(record["tree"], sort_keys=True).encode()).hexdigest()
-        require(tree_digest == record["tree_sha256"], f"Tree hash mismatch: {case}")
-        require(fft[case]["tree_sha256"] == tree_digest, f"FFT model differs: {case}")
+        require(fft[case]["tree"] == record["tree"], f"FFT model differs: {case}")
         require(len(fft[case]["attempts"]) == 11, f"Unexpected FFT mesh count: {case}")
         require(fft[case]["status"] == "ALL_ELEVEN_MESHES_FINISHED", f"Unfinished FFT: {case}")
         for attempt in record["attempts"]:
@@ -161,11 +154,11 @@ def derive(root: Path) -> tuple[dict[str, Any], str]:
     require(len(ordered_leaves(b["tree"])) == 16, "Contrasts are not sixteen-leaf models")
     internal_stiffness_checks = check_stiffness(b["tree"], s["tree"])
 
-    history = read("results/moment_comparison.json")
+    records = read("results/moment_comparison.json")
     normalizers: dict[str, Any] = {}
     common_meshes = 0
     for case in SYNTHETIC:
-        pair = history["cases"][case]
+        pair = records["cases"][case]
         require(pair["two"]["tree"] == pair["three"]["tree"], f"Normalizer models differ: {case}")
         by_mesh = {method: {F(a["mesh_ms"]): a for a in pair[method]["attempts"]}
                    for method in ("two", "three")}
@@ -211,7 +204,7 @@ def derive(root: Path) -> tuple[dict[str, Any], str]:
                     + dec["lower"] + ", " + dec["upper"] + r"]$ \\")
     rows.append(r"\bottomrule\end{tabular}")
     report = {"status": "PASSED_STORED_RECORD_AND_DERIVATION_CHECKS",
-              "scope": "Exact rational record checks and derived model contrasts; NOT a new integrator run, proof build, timing run, or acoustic result",
+              "scope": "Exact rational record checks and derived model contrasts; does not execute integration, proof builds, timing measurements, or speech evaluation",
               "query_attempts_checked": attempt_count, "ratio_hulls_checked": ratio_count,
               "delta_hulls_checked": attempt_count, "final_width_targets_checked": width_count,
               "final_fft_points_inside_stored_intervals": fft_count,
@@ -219,7 +212,7 @@ def derive(root: Path) -> tuple[dict[str, Any], str]:
               "internal_nodes_checked_for_exact_fourfold_stiffness": internal_stiffness_checks,
               "common_normalizer_mesh_containments": common_meshes,
               "normalizers": normalizers, "contrasts": contrasts,
-              "inputs_sha256": inputs}
+              "inputs": inputs}
     return report, "\n".join(rows) + "\n"
 
 

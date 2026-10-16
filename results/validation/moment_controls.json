@@ -1,0 +1,25 @@
+{
+  "leaf": {
+    "cases": 6,
+    "moment_checks": 18,
+    "quadrature_digits": 80,
+    "reference_tolerance": "1e-65*max(1,abs(reference)); not an integration proof"
+  },
+  "derivatives": {
+    "derivative_checks": 1604,
+    "interior_curvature_counterexample": "checked",
+    "scope": "finite samples and knot one-sided limits"
+  },
+  "nested": {
+    "cartesian_leaf_boxes": 256,
+    "checked_aggregate_moments": 39,
+    "quadrature_orders": [
+      12,
+      20
+    ],
+    "maximum_reference_difference": 5.101371934657095e-06,
+    "coarse_log_width": 1.0647216481351844,
+    "fine_log_width": 1.0498371782017777,
+    "scope": "independent numerical quadrature checks; not certified oracle values"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "data_rows": 3817,
+  "test_requests": 836,
+  "unique_test_prompts": 203,
+  "split_isolation": true,
+  "internal_duration_not_used_as_feature": true,
+  "all_exact_probability_widths_at_most_0_002": true,
+  "all_quadratic_controls_inside_enclosures": true,
+  "certificate_models_match_requests": true,
+  "reference_midpoint_ties_scored_zero": 14
+}

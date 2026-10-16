@@ -1,0 +1,51 @@
+{
+  "status": "ALL_PLANNED_CASES_HANDLED",
+  "started_at": "2026-09-26T17:36:46.880884+00:00",
+  "cases": [
+    {
+      "case": "HH0H",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 0.38939100003335625,
+      "result": "HH0H.json"
+    },
+    {
+      "case": "HHLH",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 0.28887262498028576,
+      "result": "HHLH.json"
+    },
+    {
+      "case": "HLLH",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 0.5493110829847865,
+      "result": "HLLH.json"
+    },
+    {
+      "case": "balanced_8",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 10.971775292011444,
+      "result": "balanced_8.json"
+    },
+    {
+      "case": "balanced_16",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 27.59009683399927,
+      "result": "balanced_16.json"
+    },
+    {
+      "case": "left_branching_16",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 49.73279345798073,
+      "result": "left_branching_16.json"
+    },
+    {
+      "case": "stiff_balanced_16",
+      "status": "QUERY_TOLERANCE_MET",
+      "seconds": 53.680469708982855,
+      "result": "stiff_balanced_16.json"
+    }
+  ],
+  "process_budget_seconds_per_case": 180,
+  "interpretation": "Conditional predictions of the specified fixed models; not empirical observations",
+  "completed_at": "2026-09-26T17:39:10.089710+00:00"
+}

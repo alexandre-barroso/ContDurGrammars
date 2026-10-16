@@ -10,7 +10,6 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from fractions import Fraction as F
 from functools import cached_property
-import hashlib
 import itertools
 import json
 from pathlib import Path
@@ -253,12 +252,8 @@ def hayes_models():
 def benchmark(output, max_power):
     ctx.prec = 128
     start = datetime.now(timezone.utc).isoformat()
-    result = {"started_at":start,"method":"leaf-exact integrals and sum-cell factor enclosures",
-              "status":"NUMERICAL_FEASIBILITY_NOT_NOVELTY_OR_FORMAL_PROOF",
-              "arithmetic":{"python_flint":flint.__version__,"precision_bits":ctx.prec,
-                            "python":platform.python_version(),"machine":platform.machine()},
-              "source_code_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-              "models":{},"acoustic_data_or_counts_used":False}
+    result = {"started_at":start, "method":"leaf-exact integrals and sum-cell factor enclosures", "status":"NUMERICAL_FEASIBILITY_NOT_NOVELTY_OR_FORMAL_PROOF", "arithmetic":{"python_flint":flint.__version__,"precision_bits":ctx.prec,
+                            "python":platform.python_version(),"machine":platform.machine()}, "models":{}, "acoustic_data_or_counts_used":False}
     output.parent.mkdir(parents=True,exist_ok=True)
     def save():
         output.write_text(json.dumps(result,indent=2)+"\n")

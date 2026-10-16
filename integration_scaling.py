@@ -5,7 +5,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction as F
-import hashlib
 import json
 from pathlib import Path
 import platform
@@ -67,13 +66,7 @@ def worker(case,path,method):
     node=build_case(case)
     description=describe(node)
     started=time.perf_counter()
-    r={'case':case,'status':'RUNNING','method':method,'dimension':len(node.leaves),
-       'tree':description,'tree_sha256':hashlib.sha256(json.dumps(description,sort_keys=True).encode()).hexdigest(),
-       'attempts':[],'started_at':datetime.now(timezone.utc).isoformat(),
-       'python_flint':flint.__version__,'arithmetic_precision_bits':ctx.prec,
-       'source_sha256':hashlib.sha256(Path(__file__).with_name('integration_bounds.py').read_bytes()).hexdigest()}
-    if method=='grid_recurrence':
-        r['grid_recurrence_sha256']=hashlib.sha256(Path(__file__).with_name('integration_grid_factors.py').read_bytes()).hexdigest()
+    r={'case':case, 'status':'RUNNING', 'method':method, 'dimension':len(node.leaves), 'tree':description, 'attempts':[], 'started_at':datetime.now(timezone.utc).isoformat(), 'python_flint':flint.__version__, 'arithmetic_precision_bits':ctx.prec}
     path.parent.mkdir(parents=True,exist_ok=True)
     save(path,r)
     for j in range(15):
@@ -105,12 +98,7 @@ def worker(case,path,method):
 
 def main(output,method):
     output.mkdir(parents=True,exist_ok=False)
-    results={'started_at':datetime.now(timezone.utc).isoformat(),
-             'method':method,
-             'driver_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-             'machine':platform.machine(),'platform':platform.platform(),
-             'seconds_budget_per_case':60,'status':'RUNNING','cases':[],
-             'interpretation':'Measured normalizer accuracy and elapsed time for synthetic models'}
+    results={'started_at':datetime.now(timezone.utc).isoformat(), 'method':method, 'machine':platform.machine(), 'platform':platform.platform(), 'seconds_budget_per_case':60, 'status':'RUNNING', 'cases':[], 'interpretation':'Measured normalizer accuracy and elapsed time for synthetic models'}
     for case,*_ in CASES:
         path=(output/(case+'.json')).resolve()
         before=time.perf_counter()

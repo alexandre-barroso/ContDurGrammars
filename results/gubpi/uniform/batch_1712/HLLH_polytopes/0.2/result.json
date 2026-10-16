@@ -1,0 +1,12 @@
+{
+  "seconds": 0.5605399589985609,
+  "exit_code": 0,
+  "timeout": false,
+  "process_id": 25004,
+  "termination_confirmed": true,
+  "setting": "0.2",
+  "cumulative_process_seconds": 0.5605399589985609,
+  "encoding_checks": 42,
+  "input_program": "results/gubpi/uniform/batch_1712/HLLH_polytopes/0.2/model.spcf",
+  "status": "NO_FINITE_NORMALIZER_OUTPUT"
+}

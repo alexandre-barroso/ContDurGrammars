@@ -1,0 +1,147 @@
+{
+  "started_at": "2026-09-26T17:16:48.651886+00:00",
+  "mode": "boxes",
+  "case": "HH0H",
+  "proposal": "gaussian",
+  "status": "PLANNED_ATTEMPTS_FINISHED_OR_STOPPED",
+  "runtime": "dotnet7.0.20 osx-x64 on macOS arm64 translation",
+  "budget_seconds": 60,
+  "attempts": [
+    {
+      "seconds": 0.6706822499982081,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 28033,
+      "termination_confirmed": true,
+      "setting": 100,
+      "cumulative_process_seconds": 0.6706822499982081,
+      "encoding_checks": 30,
+      "input_program": "results/gubpi/gaussian_boxes/batch_1716/HH0H_boxes/100/model.spcf",
+      "status": "REPORTED_BOUNDS_PARSED",
+      "printed_endpoints": [
+        "3.266642541711409E-05",
+        "20.995754686303272"
+      ],
+      "cube_lower_from_printed_rational": "10912919534412908531283092664903771503/5316911983139663491615228241121378304",
+      "cube_upper_from_printed_rational": "214052790676824384136157174565448731967/162259276829213363391578010288128",
+      "tail_upper_exact_rational": "391603872533183741526971/696898287454081973172991196020261297061888",
+      "full_domain_reported_log_width": 13.373483012671167,
+      "reported_target_met": false,
+      "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+    },
+    {
+      "seconds": 1.025241333001759,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 28038,
+      "termination_confirmed": true,
+      "setting": 1000,
+      "cumulative_process_seconds": 1.695923582999967,
+      "encoding_checks": 30,
+      "input_program": "results/gubpi/gaussian_boxes/batch_1716/HH0H_boxes/1000/model.spcf",
+      "status": "REPORTED_BOUNDS_PARSED",
+      "printed_endpoints": [
+        "0.0004921523587152251",
+        "6.550186600132152"
+      ],
+      "cube_lower_from_printed_rational": "164414043494240803007264550320275297687/5316911983139663491615228241121378304",
+      "cube_upper_from_printed_rational": "133558973436366920012722054514298234815/324518553658426726783156020576256",
+      "tail_upper_exact_rational": "391603872533183741526971/696898287454081973172991196020261297061888",
+      "full_domain_reported_log_width": 9.496215755036248,
+      "reported_target_met": false,
+      "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+    },
+    {
+      "seconds": 4.022423999966122,
+      "exit_code": 0,
+      "timeout": false,
+      "process_id": 28049,
+      "termination_confirmed": true,
+      "setting": 10000,
+      "cumulative_process_seconds": 5.718347582966089,
+      "encoding_checks": 30,
+      "input_program": "results/gubpi/gaussian_boxes/batch_1716/HH0H_boxes/10000/model.spcf",
+      "status": "REPORTED_BOUNDS_PARSED",
+      "printed_endpoints": [
+        "0.023801054709755885",
+        "0.1769756125252693"
+      ],
+      "cube_lower_from_printed_rational": "62119159706111176001686971353857108625/41538374868278621028243970633760768",
+      "cube_upper_from_printed_rational": "230947251552635337680934626600845506239/20769187434139310514121985316880384",
+      "tail_upper_exact_rational": "391603872533183741526971/696898287454081973172991196020261297061888",
+      "full_domain_reported_log_width": 2.006282045506373,
+      "reported_target_met": false,
+      "certificate_status": "PUBLISHED_FLOATING_IMPLEMENTATION_NOT_INDEPENDENTLY_CERTIFIED"
+    }
+  ],
+  "proposal_parameters": [
+    {
+      "mean": "321/1024",
+      "sd": "1/8"
+    },
+    {
+      "mean": "321/1024",
+      "sd": "1/8"
+    }
+  ],
+  "proposal_constant_interval": [
+    "133628573008120843482460046645233847909/1361129467683753853853498429727072845824",
+    "66814286504060421741230023322616923957/680564733841876926926749214863536422912"
+  ],
+  "model": {
+    "name": "HH0H",
+    "terms": [
+      [
+        "5089419422649549/8796093022208",
+        "0",
+        "6953244446027183/90071992547409920000"
+      ]
+    ],
+    "children": [
+      {
+        "name": "HH0H_0",
+        "terms": [
+          [
+            "1985655902161945/8796093022208",
+            "3794291940217471/45035996273704960000",
+            "6972535863746853/22517998136852480000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/17592186044416",
+            "2023491183832207/45035996273704960000",
+            "185599498727367/1801439850948198400"
+          ]
+        ],
+        "children": []
+      },
+      {
+        "name": "HH0H_1",
+        "terms": [
+          [
+            "1985655902161945/8796093022208",
+            "3794291940217471/45035996273704960000",
+            "6972535863746853/22517998136852480000"
+          ],
+          [
+            "5956967706485835/35184372088832",
+            "1058825052271639/45035996273704960000",
+            "2650616057425063/11258999068426240000"
+          ],
+          [
+            "5089419422649549/17592186044416",
+            "2023491183832207/45035996273704960000",
+            "185599498727367/1801439850948198400"
+          ]
+        ],
+        "children": []
+      }
+    ]
+  },
+  "cumulative_process_seconds": 5.718347582966089,
+  "completed_at": "2026-09-26T17:16:54.395721+00:00"
+}

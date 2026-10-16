@@ -8,7 +8,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction as F
-import hashlib
 import json
 from pathlib import Path
 import resource
@@ -114,14 +113,9 @@ def worker(case,path):
     ctx.prec=128
     started=time.perf_counter();node=query_model(case);events=event_definitions(node)
     tree=describe(node);tail=tail_envelope(node,F(800))
-    result={'case':case,'status':'RUNNING','precision_bits':ctx.prec,'attempts':[],
-            'started_at':datetime.now(timezone.utc).isoformat(),
-            'tree':tree,'tree_sha256':hashlib.sha256(json.dumps(tree,sort_keys=True).encode()).hexdigest(),
-            'events':{label:{k:[str(v[0]),None if v[1] is None else str(v[1])]
+    result={'case':case, 'status':'RUNNING', 'precision_bits':ctx.prec, 'attempts':[], 'started_at':datetime.now(timezone.utc).isoformat(), 'tree':tree, 'events':{label:{k:[str(v[0]),None if v[1] is None else str(v[1])]
                              for k,v in restriction.items()}
-                      for label,restriction in events.items()},
-            'tail_upper_exact_rational':fraction_string(tail),
-            'rounding_and_scope':'Arb endpoints under audited mathematical assumptions; not full implementation verification'}
+                      for label,restriction in events.items()}, 'tail_upper_exact_rational':fraction_string(tail), 'rounding_and_scope':'Arb endpoints under audited mathematical assumptions; not full implementation verification'}
     path.parent.mkdir(parents=True,exist_ok=True);save(path,result)
     for j in range(15):
         h=F(20,2**j);result['in_progress_mesh_ms']=str(h);save(path,result)
@@ -154,10 +148,7 @@ def worker(case,path):
 def main(output):
     output.mkdir(parents=True,exist_ok=False)
     sources=['integration_queries.py','integration_moments.py','integration_bounds.py','integration_scaling.py']
-    result={'status':'RUNNING','started_at':datetime.now(timezone.utc).isoformat(),'cases':[],
-            'process_budget_seconds_per_case':180,
-            'sources':{name:hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest() for name in sources},
-            'interpretation':'Conditional predictions of fixed models; not empirical observations'}
+    result={'status':'RUNNING', 'started_at':datetime.now(timezone.utc).isoformat(), 'cases':[], 'process_budget_seconds_per_case':180, 'interpretation':'Conditional predictions of fixed models; not empirical observations'}
     for case in QUERY_CASES:
         path=(output/(case+'.json')).resolve();before=time.perf_counter();timeout=False
         try:

@@ -1,0 +1,12 @@
+{
+  "seconds": 58.42963058297755,
+  "exit_code": -9,
+  "timeout": true,
+  "process_id": 23695,
+  "termination_confirmed": true,
+  "setting": 1000,
+  "cumulative_process_seconds": 60.01171037502354,
+  "encoding_checks": 42,
+  "input_program": "results/gubpi/uniform/batch_1712/HHLH_boxes/1000/model.spcf",
+  "status": "TIME_BUDGET_EXCEEDED"
+}

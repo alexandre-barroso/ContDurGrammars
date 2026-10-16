@@ -7,7 +7,6 @@ from __future__ import annotations
 
 import argparse
 from fractions import Fraction as F
-import hashlib
 import json
 import os
 from pathlib import Path
@@ -20,10 +19,6 @@ HERE = Path(__file__).resolve().parent
 CASES = ['balanced_8', 'balanced_16', 'left_branching_16', 'stiff_balanced_16']
 SHORT = dict(zip(CASES, ['B8', 'B16', 'L16', 'S16']))
 QUERIES = ['HH0H', 'HHLH', 'HLLH', *CASES]
-
-
-def digest(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def build_tables(root: Path) -> tuple[dict[str, str], dict[str, Any], dict[str, Any]]:
@@ -136,7 +131,6 @@ def main() -> int:
                   'scope': 'Exact-rational record analysis and descriptive output; no numerical integration or retiming'}
         if args.plots:
             report['plots'] = plot_refinement(data, output)
-        report['output_sha256'] = {p.name: digest(p) for p in sorted(output.iterdir()) if p.is_file()}
         (output / 'artifact_checks.json').write_text(json.dumps(report, indent=2) + '\n')
         print(json.dumps({k: report[k] for k in ['status', 'table_count', 'completed_mesh_points']}))
         return 0

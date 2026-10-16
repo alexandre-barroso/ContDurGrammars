@@ -1,0 +1,24 @@
+{
+  "dataset": "CMU ARCTIC 0.95",
+  "paper_url": "https://www.cs.cmu.edu/~awb/papers/ssw5/arctic.pdf",
+  "release_website": "http://festvox.org/cmu_arctic/",
+  "retrieved_on": "2026-10-16",
+  "archives": [
+    {
+      "speaker": "slt",
+      "filename": "cmu_us_slt_arctic-0.95-release.tar.bz2",
+      "url": "http://festvox.org/cmu_arctic/cmu_arctic/packed/cmu_us_slt_arctic-0.95-release.tar.bz2"
+    },
+    {
+      "speaker": "bdl",
+      "filename": "cmu_us_bdl_arctic-0.95-release.tar.bz2",
+      "url": "http://festvox.org/cmu_arctic/cmu_arctic/packed/cmu_us_bdl_arctic-0.95-release.tar.bz2"
+    }
+  ],
+  "all_extracted_files_byte_identical_to_archives": true,
+  "extracted_file_counts": {
+    "slt": 2267,
+    "bdl": 2266
+  },
+  "reference_status": "Automatic recorded-speech phone boundaries and lexical syllable structure from the released annotations."
+}

@@ -10,19 +10,9 @@ python3 reproduce_integration.py --mode audit --output runs/audit_check
 python3 integrity_checks.py --output runs/inventory_tests
 ```
 
-`manifest.json` inventories the project files by relative path, byte count,
-and SHA-256. `SHA256SUMS` also hashes the manifest. The audit rejects missing,
-changed, duplicated, unsafe, symlinked, or unlisted files. Working directories
-`.git`, `.venv`, `.lake`, `.deps`, `__pycache__`, and `runs` are excluded in the
-normal working-directory audit. `--clean-tree` additionally rejects those runtime
-directories and therefore requires its output destination not to be in the
-checked tree.
+manifest.json lists the project files by relative path and byte count. The audit checks completeness, file sizes and safe paths. Runtime directories such as .git, .venv, .lake, __pycache__ and runs are excluded in a working checkout; --clean-tree requires a clean distribution. The inventory check does not prove numerical correctness or detect every possible content change.
 
-The integrity test command runs fifteen generated filesystem fixtures. It does
-not require the numerical packages. The full `integrity_controls.py` suite adds
-eight simulated process-budget tests and requires the numerical dependencies.
-Checksums detect changed bytes; they do not authenticate against a party able
-to replace both content and metadata.
+The integrity command runs fourteen filesystem fixtures. The full integrity_controls.py suite also exercises process-budget handling. The speech application's validation compares split assignments, explicit model inputs and exact probability endpoints; its deadline evaluation checks every feasibility and minimality inequality.
 
 ## Stored-record analysis and export
 
@@ -53,8 +43,8 @@ recorded timing and memory observations.
 ## Formal execution
 
 `reproduce_integration.py --mode proofs --mathlib .lake/packages/mathlib` builds
-the four local modules and checks eighteen declaration targets. Supply a new
-`--output` destination. [FORMAL_MAP.md](FORMAL_MAP.md) gives the assumptions and
+the four local modules and checks eighteen declaration targets. The
+`--output` destination must not already exist. [FORMAL_MAP.md](FORMAL_MAP.md) gives the assumptions and
 axiom policy. The mathematical contracts do not formalize Python or Arb.
 
 ## Reports

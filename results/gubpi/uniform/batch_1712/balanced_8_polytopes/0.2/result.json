@@ -1,0 +1,12 @@
+{
+  "seconds": 4.064412541978527,
+  "exit_code": 0,
+  "timeout": false,
+  "process_id": 25688,
+  "termination_confirmed": true,
+  "setting": "0.2",
+  "cumulative_process_seconds": 4.064412541978527,
+  "encoding_checks": 138,
+  "input_program": "results/gubpi/uniform/batch_1712/balanced_8_polytopes/0.2/model.spcf",
+  "status": "NO_FINITE_NORMALIZER_OUTPUT"
+}

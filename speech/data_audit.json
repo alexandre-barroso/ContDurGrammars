@@ -1,0 +1,36 @@
+{
+  "slt": {
+    "utterance_files": 1132,
+    "retained_words": 1910,
+    "by_split": {
+      "test": 418,
+      "train": 1090,
+      "validation": 402
+    },
+    "utterances_by_split": {
+      "train": 540,
+      "validation": 186,
+      "test": 203
+    },
+    "exclusions": {
+      "not_two_syllables": 9816
+    }
+  },
+  "bdl": {
+    "utterance_files": 1131,
+    "retained_words": 1907,
+    "by_split": {
+      "test": 418,
+      "train": 1087,
+      "validation": 402
+    },
+    "utterances_by_split": {
+      "train": 539,
+      "validation": 186,
+      "test": 203
+    },
+    "exclusions": {
+      "not_two_syllables": 9805
+    }
+  }
+}

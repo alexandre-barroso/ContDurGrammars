@@ -1,0 +1,12 @@
+{
+  "seconds": 38.81892350001726,
+  "exit_code": -9,
+  "timeout": true,
+  "process_id": 33597,
+  "termination_confirmed": true,
+  "setting": 10000,
+  "cumulative_process_seconds": 60.01418370800093,
+  "encoding_checks": 138,
+  "input_program": "results/gubpi/gaussian_boxes/batch_1723/balanced_8_boxes/10000/model.spcf",
+  "status": "TIME_BUDGET_EXCEEDED"
+}

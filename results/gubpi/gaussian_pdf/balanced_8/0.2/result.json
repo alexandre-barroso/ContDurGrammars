@@ -1,0 +1,17 @@
+{
+  "seconds": 65.00722333299927,
+  "exit_code": null,
+  "timeout": true,
+  "process_id": 64830,
+  "termination_confirmed": false,
+  "setting": "0.2",
+  "input_program": "results/gubpi/gaussian_pdf/balanced_8/0.2/model.spcf",
+  "encoding_checks": {
+    "points": 230,
+    "max_sampled_relative_factor_discrepancy": "1.587788989165837072567357e-14",
+    "max_guard_absolute_rounding": "1.776356839400250464677811e-17",
+    "scope": "finite high-precision checks of emitted float parameters; not a uniform model-equivalence certificate"
+  },
+  "cumulative_process_seconds": 65.00722333299927,
+  "status": "TIME_BUDGET_EXCEEDED"
+}

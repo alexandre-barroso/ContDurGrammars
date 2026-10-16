@@ -4,7 +4,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction as F
-import hashlib
 import itertools
 import json
 from pathlib import Path
@@ -144,9 +143,7 @@ def run_nested_controls():
 
 def main(output):
     before=time.perf_counter();ctx.prec=128;mp.mp.dps=80
-    result={'started_at':datetime.now(timezone.utc).isoformat(),
-            'status':'RUNNING','arithmetic_precision_bits':ctx.prec,
-            'source_sha256':hashlib.sha256(Path(__file__).with_name('integration_moments.py').read_bytes()).hexdigest()}
+    result={'started_at':datetime.now(timezone.utc).isoformat(), 'status':'RUNNING', 'arithmetic_precision_bits':ctx.prec}
     result['leaf_controls']=run_leaf_controls()
     result['derivative_controls']=run_derivative_controls()
     result['nested_controls']=run_nested_controls()

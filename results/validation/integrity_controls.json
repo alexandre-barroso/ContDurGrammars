@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-16T15:12:40.282291+00:00",
+  "tests_run": 22,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scope": "Generated integrity fixtures and simulated process/clock; no external inference or scientific experiment"
+}

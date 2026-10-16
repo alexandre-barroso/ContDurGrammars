@@ -1,0 +1,16 @@
+{
+  "seconds": 0.8715063749696128,
+  "exit_code": 0,
+  "timeout": false,
+  "process_id": 33273,
+  "termination_confirmed": true,
+  "setting": 100,
+  "cumulative_process_seconds": 0.8715063749696128,
+  "encoding_checks": 42,
+  "input_program": "results/gubpi/gaussian_boxes/batch_1723/HLLH_boxes/100/model.spcf",
+  "status": "INVALID_OR_NONFINITE_NORMALIZER",
+  "printed_endpoints": [
+    "0",
+    "NaN"
+  ]
+}

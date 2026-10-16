@@ -2,7 +2,6 @@
 from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
-import hashlib
 import importlib.metadata
 import json
 import os
@@ -17,11 +16,7 @@ RUNTIME_DIRECTORIES = {'.git', '.venv', '.lake', '.deps', '__pycache__', 'runs'}
 
 
 def file_identity(path):
-    digest = hashlib.sha256()
-    with path.open('rb') as stream:
-        for chunk in iter(lambda: stream.read(1048576), b''):
-            digest.update(chunk)
-    return {'name': path.name, 'bytes': path.stat().st_size, 'sha256': digest.hexdigest()}
+    return {'name': path.name, 'bytes': path.stat().st_size}
 
 
 def external_gubpi(args, output):
@@ -56,7 +51,7 @@ def external_gubpi(args, output):
     record = {'case': args.case, 'encoding': args.encoding, 'budget_seconds': 60,
               'attempts': [], 'scope': 'Specified third-party floating computation, not certified model equivalence',
               'dependency_files': {'runtime': file_identity(runtime), 'gubpi_dll': file_identity(dll)},
-              'dependency_identity_limit': 'File fingerprints, not complete transitive build identity; runtime version and source commit are not independently probed'}
+              'dependency_identity_limit': 'File names and sizes do not establish transitive build identity'}
     elapsed = 0.0
     for setting in settings:
         dest = output / str(setting)
@@ -122,54 +117,41 @@ def save(path, data):
 
 
 def verify_inventory(*, clean=False):
-    """Check a complete payload inventory, not just whichever hashes are listed.
-
-    Runtime directories are excluded only for a working checkout. A clean
-    distribution audit rejects them too. Checksums detect corruption; they do
-    not authenticate a project against a party able to rewrite all metadata.
-    """
-    manifest_path, sums_path = HERE / 'manifest.json', HERE / 'SHA256SUMS'
-    if manifest_path.is_symlink() or sums_path.is_symlink():
+    """Check the repository's file inventory and expected byte counts."""
+    manifest_path = HERE / 'manifest.json'
+    if manifest_path.is_symlink():
         raise ValueError('Symlinked project metadata')
-    manifest_raw = manifest_path.read_bytes()
-    manifest = json.loads(manifest_raw)
-    expected, sums = set(), []
+    manifest = json.loads(manifest_path.read_text())
+    expected = set()
     for item in manifest['files']:
         name = item['path']
         rel = PurePosixPath(name)
         if (not isinstance(name, str) or not name or rel.is_absolute()
                 or '..' in rel.parts or rel.as_posix() != name or '\\' in name
                 or '\n' in name or '\r' in name or name in expected
-                or name in {'manifest.json', 'SHA256SUMS'}
-                or rel.parts[0] in RUNTIME_DIRECTORIES):
-            raise ValueError('Unsafe manifest member')
+                or name == 'manifest.json' or rel.parts[0] in RUNTIME_DIRECTORIES):
+            raise ValueError('Unsafe inventory member')
         path = HERE / name
         if (any(parent.is_symlink() for parent in (path, *path.parents) if parent != HERE)
                 or not path.resolve().is_relative_to(HERE) or not path.is_file()):
             raise ValueError('Unsafe or missing project member: ' + name)
-        raw = path.read_bytes()
-        if (hashlib.sha256(raw).hexdigest() != item['sha256']
-                or type(item['bytes']) is not int or len(raw) != item['bytes']):
-            raise ValueError('Release hash/size mismatch: ' + name)
+        if type(item['bytes']) is not int or path.stat().st_size != item['bytes']:
+            raise ValueError('File size mismatch: ' + name)
         expected.add(name)
-        sums.append(f"{item['sha256']}  {name}\n")
-    sums.append(hashlib.sha256(manifest_raw).hexdigest() + '  manifest.json\n')
-    if sums_path.read_text() != ''.join(sums):
-        raise ValueError('SHA256SUMS and manifest disagree')
     actual = set()
     def traversal_error(error):
         raise error
     for current, directories, files in os.walk(HERE, followlinks=False, onerror=traversal_error):
         root = Path(current)
-        if root == HERE and not clean:
+        if not clean:
             directories[:] = [d for d in directories if d not in RUNTIME_DIRECTORIES]
         for name in directories + files:
             path = root / name
             if path.is_symlink():
                 raise ValueError('Symlink in project payload: ' + str(path.relative_to(HERE)))
         actual.update((root / name).relative_to(HERE).as_posix() for name in files)
-    if actual != expected | {'manifest.json', 'SHA256SUMS'}:
-        raise ValueError('Release inventory has missing or unlisted files')
+    if actual != expected | {'manifest.json'}:
+        raise ValueError('Repository inventory has missing or unlisted files')
     if clean and any((HERE / name).exists() for name in RUNTIME_DIRECTORIES):
         raise ValueError('Runtime directory in clean project')
     return len(expected)

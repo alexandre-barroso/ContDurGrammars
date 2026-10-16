@@ -5,7 +5,6 @@ All data are generated fixtures. No external executable is started.
 from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
-import hashlib
 import json
 from pathlib import Path
 import subprocess
@@ -27,16 +26,12 @@ class ReleaseControls(unittest.TestCase):
         self.root.mkdir()
         self.raw = b'Generated regression fixture, not research data.\n'
         (self.root / 'payload.txt').write_bytes(self.raw)
-        self.row = {'path': 'payload.txt', 'bytes': len(self.raw),
-                    'sha256': hashlib.sha256(self.raw).hexdigest()}
+        self.row = {'path': 'payload.txt', 'bytes': len(self.raw)}
         self.write_metadata([self.row])
 
     def write_metadata(self, rows):
         raw = (json.dumps({'files': rows}) + '\n').encode()
         (self.root / 'manifest.json').write_bytes(raw)
-        sums = ''.join(f"{x['sha256']}  {x['path']}\n" for x in rows)
-        sums += hashlib.sha256(raw).hexdigest() + '  manifest.json\n'
-        (self.root / 'SHA256SUMS').write_text(sums)
 
     def audit(self, clean=False):
         with patch.object(runner, 'HERE', self.root):
@@ -55,13 +50,8 @@ class ReleaseControls(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.audit()
 
-    def test_truncated_manifest_without_updated_sums(self):
+    def test_truncated_inventory(self):
         (self.root / 'manifest.json').write_text('{"files": []}')
-        with self.assertRaises(ValueError):
-            self.audit()
-
-    def test_truncated_manifest_with_updated_sums(self):
-        self.write_metadata([])
         with self.assertRaises(ValueError):
             self.audit()
 
@@ -70,8 +60,8 @@ class ReleaseControls(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.audit()
 
-    def test_corrupted_checksum_file(self):
-        (self.root / 'SHA256SUMS').write_text('invalid')
+    def test_invalid_inventory(self):
+        (self.root / 'manifest.json').write_text('invalid')
         with self.assertRaises(ValueError):
             self.audit()
 

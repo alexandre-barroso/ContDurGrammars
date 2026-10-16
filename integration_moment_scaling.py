@@ -4,7 +4,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction as F
-import hashlib
 import json
 from pathlib import Path
 import platform
@@ -23,12 +22,7 @@ from integration_scaling import CASES,build_case,describe,save
 def worker(case,path):
     ctx.prec=128
     node=build_case(case);tree=describe(node);started=time.perf_counter()
-    result={'case':case,'status':'RUNNING','dimension':len(node.leaves),
-            'tree':tree,'tree_sha256':hashlib.sha256(json.dumps(tree,sort_keys=True).encode()).hexdigest(),
-            'attempts':[],'started_at':datetime.now(timezone.utc).isoformat(),
-            'method':'centered_moment_balls','precision_bits':ctx.prec,'python_flint':flint.__version__,
-            'source_sha256':hashlib.sha256(Path(__file__).with_name('integration_moments.py').read_bytes()).hexdigest(),
-            'memory_note':'macOS ru_maxrss bytes after completed meshes; timeout record is only a lower bound on actual process peak'}
+    result={'case':case, 'status':'RUNNING', 'dimension':len(node.leaves), 'tree':tree, 'attempts':[], 'started_at':datetime.now(timezone.utc).isoformat(), 'method':'centered_moment_balls', 'precision_bits':ctx.prec, 'python_flint':flint.__version__, 'memory_note':'macOS ru_maxrss bytes after completed meshes; timeout record is only a lower bound on actual process peak'}
     path.parent.mkdir(parents=True,exist_ok=True);save(path,result)
     for j in range(15):
         h=F(20,2**j);result['in_progress_mesh_ms']=str(h);save(path,result)
@@ -54,11 +48,7 @@ def worker(case,path):
 
 def main(output):
     output.mkdir(parents=True,exist_ok=False)
-    result={'started_at':datetime.now(timezone.utc).isoformat(),
-            'status':'RUNNING','cases':[],'process_budget_seconds_per_case':60,
-            'driver_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-            'platform':platform.platform(),'machine':platform.machine(),
-            'interpretation':'Measured normalizer accuracy and elapsed time for the specified model and implementation'}
+    result={'started_at':datetime.now(timezone.utc).isoformat(), 'status':'RUNNING', 'cases':[], 'process_budget_seconds_per_case':60, 'platform':platform.platform(), 'machine':platform.machine(), 'interpretation':'Measured normalizer accuracy and elapsed time for the specified model and implementation'}
     for case,*_ in CASES:
         path=(output/(case+'.json')).resolve();before=time.perf_counter();timeout=False
         try:

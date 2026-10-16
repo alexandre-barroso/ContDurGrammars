@@ -49,12 +49,12 @@ The concrete aggregate-set geometry is described in [METHOD.md](METHOD.md).
 
 ## Build and scope
 
-`verify_integration.py --mode proofs` checks Lean 4.34.0 and mathlib commit
-`5ed2965256430c3649e86755f9576b54eca72435`, builds each local module with
+`verify_integration.py --mode proofs` requires Lean 4.34.0 and a mathlib
+installation using the same toolchain, builds each local module with
 `--trust=0`, and checks the `#print axioms` output. Only `propext`,
 `Classical.choice`, and `Quot.sound` are accepted. Missing targets, unsupported
 proof shortcuts, failed builds, or unexpected axioms cause a nonzero exit.
-Logs and source fingerprints are stored in the selected output directory.
+Logs and declaration checks are stored in the selected output directory.
 
 A successful build establishes the displayed local statements under their
 hypotheses. It is not a single theorem about the whole-tree executable, the

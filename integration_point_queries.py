@@ -4,7 +4,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime,timezone
 from fractions import Fraction as F
-import hashlib
 import json
 import math
 from pathlib import Path
@@ -73,10 +72,7 @@ def point_log_integral(node,h,hi,restrictions,diagnostics):
 
 def worker(case,path):
     node=query_model(case);events=event_definitions(node);tree=describe(node)
-    result={'case':case,'status':'RUNNING','attempts':[],
-            'tree_sha256':hashlib.sha256(json.dumps(tree,sort_keys=True).encode()).hexdigest(),
-            'method':'ordinary midpoint convolution with FFT; partial-event cell fractions',
-            'guarantee':'NONE; cube-only estimates; clipping of negative roundoff coefficients recorded'}
+    result={'case':case, 'tree':tree, 'status':'RUNNING', 'attempts':[], 'method':'ordinary midpoint convolution with FFT; partial-event cell fractions', 'guarantee':'NONE; cube-only estimates; clipping of negative roundoff coefficients recorded'}
     started=time.perf_counter();path.parent.mkdir(parents=True,exist_ok=True);save(path,result)
     previous=None
     for j in range(11):
@@ -95,10 +91,7 @@ def worker(case,path):
 
 def main(output):
     output.mkdir(parents=True,exist_ok=False)
-    result={'status':'RUNNING','started_at':datetime.now(timezone.utc).isoformat(),'cases':[],
-            'process_budget_seconds_per_case':180,
-            'driver_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-            'guarantee':'NONE; ordinary estimates are not a validated-quadrature competitor'}
+    result={'status':'RUNNING', 'started_at':datetime.now(timezone.utc).isoformat(), 'cases':[], 'process_budget_seconds_per_case':180, 'guarantee':'NONE; ordinary estimates are not a validated-quadrature competitor'}
     for case in QUERY_CASES:
         path=(output/(case+'.json')).resolve();before=time.perf_counter();timeout=False
         try:

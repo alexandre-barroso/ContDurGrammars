@@ -32,9 +32,7 @@ claim nor a model-equivalence theorem follows from these comparisons.
 
 ## Optional execution
 
-The recorded GuBPI source identity is commit
-`47e9a21508c96fa55129409384af8571f707ea4d`. GuBPI and .NET are optional
-installed dependencies, not required to inspect the records or run duration
+GuBPI and .NET are optional installed dependencies, not required to inspect the records or run duration
 queries. Put the runtime and compiled application in `.deps/dotnet` and
 `.deps/gubpi`, respectively, to use the example below.
 
@@ -46,5 +44,5 @@ queries. Put the runtime and compiled application in `.deps/dotnet` and
 
 Input generation writes explicit programs and finite encoding checks. Inference
 adds process execution with a cumulative 60-second budget and bounded teardown.
-Failed targets return nonzero and retain output. Executable fingerprints alone
+Failed targets return nonzero and retain output. Executable names and sizes alone
 do not certify a complete transitive build identity.

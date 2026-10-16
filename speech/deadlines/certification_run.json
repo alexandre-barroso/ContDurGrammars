@@ -1,0 +1,5028 @@
+{
+  "started_at": "2026-10-16T14:25:55.490620+00:00",
+  "workers": 4,
+  "python": "3.12.14",
+  "machine": "arm64",
+  "requests": 836,
+  "cases": [
+    {
+      "id": "slt/arctic_a0001/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.09499833302106708
+    },
+    {
+      "id": "slt/arctic_a0001/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.2743202910060063
+    },
+    {
+      "id": "slt/arctic_a0006/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.28193383396137506
+    },
+    {
+      "id": "slt/arctic_a0008/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.24489724996965379
+    },
+    {
+      "id": "slt/arctic_a0009/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.25901800009887666
+    },
+    {
+      "id": "slt/arctic_a0009/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.26350133400410414
+    },
+    {
+      "id": "slt/arctic_a0001/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5809213339816779
+    },
+    {
+      "id": "slt/arctic_a0009/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.24644358304794878
+    },
+    {
+      "id": "slt/arctic_a0017/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.25096374994609505
+    },
+    {
+      "id": "slt/arctic_a0009/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.27585466601885855
+    },
+    {
+      "id": "slt/arctic_a0017/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.2775281249778345
+    },
+    {
+      "id": "slt/arctic_a0017/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.25872762501239777
+    },
+    {
+      "id": "slt/arctic_a0019/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.25483891693875194
+    },
+    {
+      "id": "slt/arctic_a0017/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.26964158401824534
+    },
+    {
+      "id": "slt/arctic_a0019/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.259220749954693
+    },
+    {
+      "id": "slt/arctic_a0019/9",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10150062502361834
+    },
+    {
+      "id": "slt/arctic_a0019/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5604904999490827
+    },
+    {
+      "id": "slt/arctic_a0037/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.28492566698696464
+    },
+    {
+      "id": "slt/arctic_a0037/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.27168133307714015
+    },
+    {
+      "id": "slt/arctic_a0019/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 480,
+      "seconds": 0.6047396670328453
+    },
+    {
+      "id": "slt/arctic_a0037/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5717934579588473
+    },
+    {
+      "id": "slt/arctic_a0053/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.0323803749633953
+    },
+    {
+      "id": "slt/arctic_a0056/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.09097395790740848
+    },
+    {
+      "id": "slt/arctic_a0053/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.2717875420348719
+    },
+    {
+      "id": "slt/arctic_a0053/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5707096660044044
+    },
+    {
+      "id": "slt/arctic_a0061/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.26492970797698945
+    },
+    {
+      "id": "slt/arctic_a0061/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.29666075005661696
+    },
+    {
+      "id": "slt/arctic_a0061/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.25592974992468953
+    },
+    {
+      "id": "slt/arctic_a0056/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 440,
+      "seconds": 0.5916723340051249
+    },
+    {
+      "id": "slt/arctic_a0078/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2655793329467997
+    },
+    {
+      "id": "slt/arctic_a0069/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.6002898330334574
+    },
+    {
+      "id": "slt/arctic_a0069/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.591591791016981
+    },
+    {
+      "id": "slt/arctic_a0078/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.27033920807298273
+    },
+    {
+      "id": "slt/arctic_a0069/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.5926043749786913
+    },
+    {
+      "id": "slt/arctic_a0079/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.250022083055228
+    },
+    {
+      "id": "slt/arctic_a0092/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.28152387507725507
+    },
+    {
+      "id": "slt/arctic_a0110/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.2718935420271009
+    },
+    {
+      "id": "slt/arctic_a0092/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.6172417079797015
+    },
+    {
+      "id": "slt/arctic_a0102/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5720768329920247
+    },
+    {
+      "id": "slt/arctic_a0092/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.6015304169850424
+    },
+    {
+      "id": "slt/arctic_a0110/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.2830728329718113
+    },
+    {
+      "id": "slt/arctic_a0111/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.26709737500641495
+    },
+    {
+      "id": "slt/arctic_a0111/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.28083537495695055
+    },
+    {
+      "id": "slt/arctic_a0111/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.29013824998401105
+    },
+    {
+      "id": "slt/arctic_a0113/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.29504341597203165
+    },
+    {
+      "id": "slt/arctic_a0113/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.27538462495431304
+    },
+    {
+      "id": "slt/arctic_a0113/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.289885584032163
+    },
+    {
+      "id": "slt/arctic_a0115/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.2783320000162348
+    },
+    {
+      "id": "slt/arctic_a0115/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.28814558300655335
+    },
+    {
+      "id": "slt/arctic_a0115/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.262285582954064
+    },
+    {
+      "id": "slt/arctic_a0121/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2832503329264
+    },
+    {
+      "id": "slt/arctic_a0121/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.28967041696887463
+    },
+    {
+      "id": "slt/arctic_a0121/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.5152079589897767
+    },
+    {
+      "id": "slt/arctic_a0138/8",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10728170804213732
+    },
+    {
+      "id": "slt/arctic_a0138/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.27871300000697374
+    },
+    {
+      "id": "slt/arctic_a0138/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.26920795801561326
+    },
+    {
+      "id": "slt/arctic_a0140/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.2670264160260558
+    },
+    {
+      "id": "slt/arctic_a0140/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.2961576250381768
+    },
+    {
+      "id": "slt/arctic_a0152/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.29950950003694743
+    },
+    {
+      "id": "slt/arctic_a0140/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.6450825420906767
+    },
+    {
+      "id": "slt/arctic_a0143/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.6193020830396563
+    },
+    {
+      "id": "slt/arctic_a0152/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.28916670905891806
+    },
+    {
+      "id": "slt/arctic_a0152/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2937169159995392
+    },
+    {
+      "id": "slt/arctic_a0152/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.619636916089803
+    },
+    {
+      "id": "slt/arctic_a0161/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.323401500005275
+    },
+    {
+      "id": "slt/arctic_a0161/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.3029048329917714
+    },
+    {
+      "id": "slt/arctic_a0167/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.2826975000789389
+    },
+    {
+      "id": "slt/arctic_a0172/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.30002850003074855
+    },
+    {
+      "id": "slt/arctic_a0172/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.28991462499834597
+    },
+    {
+      "id": "slt/arctic_a0172/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.2981082919286564
+    },
+    {
+      "id": "slt/arctic_a0172/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.289383125025779
+    },
+    {
+      "id": "slt/arctic_a0175/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.30012537504080683
+    },
+    {
+      "id": "slt/arctic_a0120/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 2.748071209061891
+    },
+    {
+      "id": "slt/arctic_a0194/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.2982059579808265
+    },
+    {
+      "id": "slt/arctic_a0213/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.30213233293034136
+    },
+    {
+      "id": "slt/arctic_a0176/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6119733749656007
+    },
+    {
+      "id": "slt/arctic_a0214/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.2839923750143498
+    },
+    {
+      "id": "slt/arctic_a0217/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.2919743329985067
+    },
+    {
+      "id": "slt/arctic_a0223/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.28004950005561113
+    },
+    {
+      "id": "slt/arctic_a0223/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.28950345900375396
+    },
+    {
+      "id": "slt/arctic_a0233/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.29660479188896716
+    },
+    {
+      "id": "slt/arctic_a0233/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.2741617080755532
+    },
+    {
+      "id": "slt/arctic_a0239/9",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.09654329193290323
+    },
+    {
+      "id": "slt/arctic_a0239/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3044844170799479
+    },
+    {
+      "id": "slt/arctic_a0213/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 470,
+      "seconds": 1.32141445891466
+    },
+    {
+      "id": "slt/arctic_a0233/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.6281367499614134
+    },
+    {
+      "id": "slt/arctic_a0239/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.27729720796924084
+    },
+    {
+      "id": "slt/arctic_a0239/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.2895860420539975
+    },
+    {
+      "id": "slt/arctic_a0251/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.2838207089807838
+    },
+    {
+      "id": "slt/arctic_a0251/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.2926695420173928
+    },
+    {
+      "id": "slt/arctic_a0262/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.3023232079576701
+    },
+    {
+      "id": "slt/arctic_a0262/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.28272391692735255
+    },
+    {
+      "id": "slt/arctic_a0262/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.29398291592951864
+    },
+    {
+      "id": "slt/arctic_a0276/6",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.03082062501925975
+    },
+    {
+      "id": "slt/arctic_a0276/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.28133925003930926
+    },
+    {
+      "id": "slt/arctic_a0276/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.29109245899599046
+    },
+    {
+      "id": "slt/arctic_a0276/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.28244795906357467
+    },
+    {
+      "id": "slt/arctic_a0283/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.28378429100848734
+    },
+    {
+      "id": "slt/arctic_a0288/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.30162570800166577
+    },
+    {
+      "id": "slt/arctic_a0297/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.29111079103313386
+    },
+    {
+      "id": "slt/arctic_a0283/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.6461453749798238
+    },
+    {
+      "id": "slt/arctic_a0297/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.28474558296147734
+    },
+    {
+      "id": "slt/arctic_a0305/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.2970808750251308
+    },
+    {
+      "id": "slt/arctic_a0305/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.3006562499795109
+    },
+    {
+      "id": "slt/arctic_a0308/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.1041100419824943
+    },
+    {
+      "id": "slt/arctic_a0308/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.3029000830138102
+    },
+    {
+      "id": "slt/arctic_a0309/4",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10220149997621775
+    },
+    {
+      "id": "slt/arctic_a0305/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6494547500042245
+    },
+    {
+      "id": "slt/arctic_a0309/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.2983795830514282
+    },
+    {
+      "id": "slt/arctic_a0285/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 1.3589035830227658
+    },
+    {
+      "id": "slt/arctic_a0311/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.3028509159339592
+    },
+    {
+      "id": "slt/arctic_a0314/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.28935054200701416
+    },
+    {
+      "id": "slt/arctic_a0318/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.2896685421001166
+    },
+    {
+      "id": "slt/arctic_a0325/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3007068330189213
+    },
+    {
+      "id": "slt/arctic_a0325/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.30652874999213964
+    },
+    {
+      "id": "slt/arctic_a0340/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.2960111249703914
+    },
+    {
+      "id": "slt/arctic_a0318/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.6402221670141444
+    },
+    {
+      "id": "slt/arctic_a0345/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2883800839772448
+    },
+    {
+      "id": "slt/arctic_a0345/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.3044175839750096
+    },
+    {
+      "id": "slt/arctic_a0345/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.3123187080491334
+    },
+    {
+      "id": "slt/arctic_a0350/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.2833262080093846
+    },
+    {
+      "id": "slt/arctic_a0311/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 1.3460220419801772
+    },
+    {
+      "id": "slt/arctic_a0350/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.28957454196643084
+    },
+    {
+      "id": "slt/arctic_a0354/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.2906258750008419
+    },
+    {
+      "id": "slt/arctic_a0355/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.28986841707956046
+    },
+    {
+      "id": "slt/arctic_a0364/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.03195433400105685
+    },
+    {
+      "id": "slt/arctic_a0350/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.6514811250381172
+    },
+    {
+      "id": "slt/arctic_a0358/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.2830624169437215
+    },
+    {
+      "id": "slt/arctic_a0365/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.291882999939844
+    },
+    {
+      "id": "slt/arctic_a0365/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.2759263339685276
+    },
+    {
+      "id": "slt/arctic_a0374/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.30029641708824784
+    },
+    {
+      "id": "slt/arctic_a0355/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.6724311660509557
+    },
+    {
+      "id": "slt/arctic_a0377/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.2868440420133993
+    },
+    {
+      "id": "slt/arctic_a0383/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10347483295481652
+    },
+    {
+      "id": "slt/arctic_a0414/1",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.0313825000775978
+    },
+    {
+      "id": "slt/arctic_a0383/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.2808379589114338
+    },
+    {
+      "id": "slt/arctic_a0384/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2920487499795854
+    },
+    {
+      "id": "slt/arctic_a0415/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.29842920799274
+    },
+    {
+      "id": "slt/arctic_a0422/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.02793612494133413
+    },
+    {
+      "id": "slt/arctic_a0422/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.2866647921036929
+    },
+    {
+      "id": "slt/arctic_a0393/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.6415351670002565
+    },
+    {
+      "id": "slt/arctic_a0422/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.29518237500451505
+    },
+    {
+      "id": "slt/arctic_a0422/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.625737207941711
+    },
+    {
+      "id": "slt/arctic_a0431/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2839623329928145
+    },
+    {
+      "id": "slt/arctic_a0422/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.629128500004299
+    },
+    {
+      "id": "slt/arctic_a0445/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2974229999817908
+    },
+    {
+      "id": "slt/arctic_a0447/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.2862986249383539
+    },
+    {
+      "id": "slt/arctic_a0443/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.6567377080209553
+    },
+    {
+      "id": "slt/arctic_a0448/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3074812500271946
+    },
+    {
+      "id": "slt/arctic_a0448/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.3008509170031175
+    },
+    {
+      "id": "slt/arctic_a0447/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.6389707089401782
+    },
+    {
+      "id": "slt/arctic_a0455/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3029717500321567
+    },
+    {
+      "id": "slt/arctic_a0455/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.6465075829764828
+    },
+    {
+      "id": "slt/arctic_a0455/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.2938260829541832
+    },
+    {
+      "id": "slt/arctic_a0458/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3131516670109704
+    },
+    {
+      "id": "slt/arctic_a0457/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.6425641250098124
+    },
+    {
+      "id": "slt/arctic_a0467/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.2987875828985125
+    },
+    {
+      "id": "slt/arctic_a0467/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.6284275840735063
+    },
+    {
+      "id": "slt/arctic_a0482/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2945445419754833
+    },
+    {
+      "id": "slt/arctic_a0482/9",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.2535342500777915
+    },
+    {
+      "id": "slt/arctic_a0455/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 1.3320034999633208
+    },
+    {
+      "id": "slt/arctic_a0483/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.2946433329489082
+    },
+    {
+      "id": "slt/arctic_a0483/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.09845029097050428
+    },
+    {
+      "id": "slt/arctic_a0483/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3105769999092445
+    },
+    {
+      "id": "slt/arctic_a0483/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.2930403749924153
+    },
+    {
+      "id": "slt/arctic_a0496/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.2893561670789495
+    },
+    {
+      "id": "slt/arctic_a0516/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.30534616694785655
+    },
+    {
+      "id": "slt/arctic_a0483/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6409865419846028
+    },
+    {
+      "id": "slt/arctic_a0516/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 450,
+      "seconds": 0.6388852909440175
+    },
+    {
+      "id": "slt/arctic_a0523/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.32074175006709993
+    },
+    {
+      "id": "slt/arctic_a0518/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.6317428339971229
+    },
+    {
+      "id": "slt/arctic_a0533/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2904315000632778
+    },
+    {
+      "id": "slt/arctic_a0533/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.28351808397565037
+    },
+    {
+      "id": "slt/arctic_a0533/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.32251370802987367
+    },
+    {
+      "id": "slt/arctic_a0536/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2932237080531195
+    },
+    {
+      "id": "slt/arctic_a0542/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.3044017079519108
+    },
+    {
+      "id": "slt/arctic_a0542/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.2877837080741301
+    },
+    {
+      "id": "slt/arctic_a0548/7",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10401270794682205
+    },
+    {
+      "id": "slt/arctic_a0548/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.31581345899030566
+    },
+    {
+      "id": "slt/arctic_a0548/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.2970460000215098
+    },
+    {
+      "id": "slt/arctic_a0551/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.29554762493353337
+    },
+    {
+      "id": "slt/arctic_a0548/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.6623875410296023
+    },
+    {
+      "id": "slt/arctic_a0555/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2875984580023214
+    },
+    {
+      "id": "slt/arctic_a0555/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.29268166702240705
+    },
+    {
+      "id": "slt/arctic_a0555/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.2853206660365686
+    },
+    {
+      "id": "slt/arctic_a0554/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.6728875840781257
+    },
+    {
+      "id": "slt/arctic_a0573/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.2874485830543563
+    },
+    {
+      "id": "slt/arctic_a0575/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.09768954198807478
+    },
+    {
+      "id": "slt/arctic_a0561/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.6759627920109779
+    },
+    {
+      "id": "slt/arctic_a0583/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.28950224991422147
+    },
+    {
+      "id": "slt/arctic_a0575/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.6399075828958303
+    },
+    {
+      "id": "slt/arctic_a0583/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.6688272920437157
+    },
+    {
+      "id": "slt/arctic_a0589/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.3325897919712588
+    },
+    {
+      "id": "slt/arctic_a0592/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.2854059999808669
+    },
+    {
+      "id": "slt/arctic_a0573/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 1.3835678329924121
+    },
+    {
+      "id": "slt/arctic_b0017/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3124401669483632
+    },
+    {
+      "id": "slt/arctic_b0008/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.6287891659885645
+    },
+    {
+      "id": "slt/arctic_b0017/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10722095798701048
+    },
+    {
+      "id": "slt/arctic_b0008/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.6471020419849083
+    },
+    {
+      "id": "slt/arctic_b0017/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.31170037493575364
+    },
+    {
+      "id": "slt/arctic_b0023/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.2936992089962587
+    },
+    {
+      "id": "slt/arctic_b0032/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.316874917014502
+    },
+    {
+      "id": "slt/arctic_b0034/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2884428339311853
+    },
+    {
+      "id": "slt/arctic_b0034/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.33240729093085974
+    },
+    {
+      "id": "slt/arctic_b0035/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.29323508392553777
+    },
+    {
+      "id": "slt/arctic_b0035/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.2906058341031894
+    },
+    {
+      "id": "slt/arctic_b0035/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.293442958034575
+    },
+    {
+      "id": "slt/arctic_b0042/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.3013949579326436
+    },
+    {
+      "id": "slt/arctic_b0047/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2964553749188781
+    },
+    {
+      "id": "slt/arctic_b0042/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.6527292500250041
+    },
+    {
+      "id": "slt/arctic_b0050/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.3067675409838557
+    },
+    {
+      "id": "slt/arctic_b0050/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.298863000003621
+    },
+    {
+      "id": "slt/arctic_b0047/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.6537295420421287
+    },
+    {
+      "id": "slt/arctic_b0050/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.3068132089683786
+    },
+    {
+      "id": "slt/arctic_b0054/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.2969569170381874
+    },
+    {
+      "id": "slt/arctic_b0058/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10618091700598598
+    },
+    {
+      "id": "slt/arctic_b0058/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.30077366705518216
+    },
+    {
+      "id": "slt/arctic_b0066/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.27686341700609773
+    },
+    {
+      "id": "slt/arctic_b0063/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.3093765419907868
+    },
+    {
+      "id": "slt/arctic_b0066/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.2958270830567926
+    },
+    {
+      "id": "slt/arctic_b0068/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 190,
+      "seconds": 0.28880212490912527
+    },
+    {
+      "id": "slt/arctic_b0063/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.6318841660395265
+    },
+    {
+      "id": "slt/arctic_b0070/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.2821140419691801
+    },
+    {
+      "id": "slt/arctic_b0070/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.30866074992809445
+    },
+    {
+      "id": "slt/arctic_b0068/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.6389518330106512
+    },
+    {
+      "id": "slt/arctic_b0069/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.6578450830420479
+    },
+    {
+      "id": "slt/arctic_b0080/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.30068020801991224
+    },
+    {
+      "id": "slt/arctic_b0078/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.6467292089946568
+    },
+    {
+      "id": "slt/arctic_b0070/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.6552457499783486
+    },
+    {
+      "id": "slt/arctic_b0080/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.630520417005755
+    },
+    {
+      "id": "slt/arctic_b0081/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.29280841699801385
+    },
+    {
+      "id": "slt/arctic_b0081/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10872562509030104
+    },
+    {
+      "id": "slt/arctic_b0096/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.28537208295892924
+    },
+    {
+      "id": "slt/arctic_b0096/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.2931862500263378
+    },
+    {
+      "id": "slt/arctic_b0082/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.30314095795620233
+    },
+    {
+      "id": "slt/arctic_b0098/10",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.09905316599179059
+    },
+    {
+      "id": "slt/arctic_b0098/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.30497104092501104
+    },
+    {
+      "id": "slt/arctic_b0098/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.29250829108059406
+    },
+    {
+      "id": "slt/arctic_b0096/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.6898279170272872
+    },
+    {
+      "id": "slt/arctic_b0111/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.2946117090759799
+    },
+    {
+      "id": "slt/arctic_b0098/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6507602909114212
+    },
+    {
+      "id": "slt/arctic_b0113/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.303840541979298
+    },
+    {
+      "id": "slt/arctic_b0119/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.28975487500429153
+    },
+    {
+      "id": "slt/arctic_b0122/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.2870195839786902
+    },
+    {
+      "id": "slt/arctic_b0122/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.2972401670413092
+    },
+    {
+      "id": "slt/arctic_b0126/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.30138408299535513
+    },
+    {
+      "id": "slt/arctic_b0126/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.3121707090176642
+    },
+    {
+      "id": "slt/arctic_b0126/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.3012099580373615
+    },
+    {
+      "id": "slt/arctic_b0133/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3131762919947505
+    },
+    {
+      "id": "slt/arctic_b0139/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.29032779100816697
+    },
+    {
+      "id": "slt/arctic_b0148/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3143267499981448
+    },
+    {
+      "id": "slt/arctic_b0148/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.30656358308624476
+    },
+    {
+      "id": "slt/arctic_b0157/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.33019849995616823
+    },
+    {
+      "id": "slt/arctic_b0157/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.3185152079677209
+    },
+    {
+      "id": "slt/arctic_b0170/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.29083604202605784
+    },
+    {
+      "id": "slt/arctic_b0166/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.6738341249292716
+    },
+    {
+      "id": "slt/arctic_b0183/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.2921204590238631
+    },
+    {
+      "id": "slt/arctic_b0175/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.6469180419808254
+    },
+    {
+      "id": "slt/arctic_b0188/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.3013564998982474
+    },
+    {
+      "id": "slt/arctic_b0189/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3073325000004843
+    },
+    {
+      "id": "slt/arctic_b0199/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.30502008297480643
+    },
+    {
+      "id": "slt/arctic_b0199/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.30886233306955546
+    },
+    {
+      "id": "slt/arctic_b0199/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.30300358298700303
+    },
+    {
+      "id": "slt/arctic_b0206/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.2995628750650212
+    },
+    {
+      "id": "slt/arctic_b0199/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.6660448330221698
+    },
+    {
+      "id": "slt/arctic_b0209/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.30349541595205665
+    },
+    {
+      "id": "slt/arctic_b0206/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.657554707955569
+    },
+    {
+      "id": "slt/arctic_b0209/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 190,
+      "seconds": 0.3253158750012517
+    },
+    {
+      "id": "slt/arctic_b0222/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3046184169361368
+    },
+    {
+      "id": "slt/arctic_b0223/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.28346754098311067
+    },
+    {
+      "id": "slt/arctic_b0222/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.6606884580105543
+    },
+    {
+      "id": "slt/arctic_b0157/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 2.8887224580394104
+    },
+    {
+      "id": "slt/arctic_b0223/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.301194958970882
+    },
+    {
+      "id": "slt/arctic_b0223/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.6708139590919018
+    },
+    {
+      "id": "slt/arctic_b0224/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3095245830481872
+    },
+    {
+      "id": "slt/arctic_b0230/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.29136254102922976
+    },
+    {
+      "id": "slt/arctic_b0227/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.3169864169321954
+    },
+    {
+      "id": "slt/arctic_b0224/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.6688848750200123
+    },
+    {
+      "id": "slt/arctic_b0230/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.3011256669415161
+    },
+    {
+      "id": "slt/arctic_b0236/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.30819979100488126
+    },
+    {
+      "id": "slt/arctic_b0236/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.30995745898690075
+    },
+    {
+      "id": "slt/arctic_b0236/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.2947290000738576
+    },
+    {
+      "id": "slt/arctic_b0236/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.31896470801439136
+    },
+    {
+      "id": "slt/arctic_b0241/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3076276669744402
+    },
+    {
+      "id": "slt/arctic_b0241/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3019516250351444
+    },
+    {
+      "id": "slt/arctic_b0241/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.28470112499780953
+    },
+    {
+      "id": "slt/arctic_b0241/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.3030936249997467
+    },
+    {
+      "id": "slt/arctic_b0246/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.30453054199460894
+    },
+    {
+      "id": "slt/arctic_b0242/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.30990354192908853
+    },
+    {
+      "id": "slt/arctic_b0251/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.28556379093788564
+    },
+    {
+      "id": "slt/arctic_b0251/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.2990778749808669
+    },
+    {
+      "id": "slt/arctic_b0257/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.2959746669512242
+    },
+    {
+      "id": "slt/arctic_b0257/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3106093748938292
+    },
+    {
+      "id": "slt/arctic_b0257/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.3088170839473605
+    },
+    {
+      "id": "slt/arctic_b0275/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.29866941599175334
+    },
+    {
+      "id": "slt/arctic_b0263/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.6968452910659835
+    },
+    {
+      "id": "slt/arctic_b0279/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.29460979101713747
+    },
+    {
+      "id": "slt/arctic_b0263/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.677536292001605
+    },
+    {
+      "id": "slt/arctic_b0263/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 530,
+      "seconds": 0.7042930830502883
+    },
+    {
+      "id": "slt/arctic_b0281/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3091014999663457
+    },
+    {
+      "id": "slt/arctic_b0283/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.29373412509448826
+    },
+    {
+      "id": "slt/arctic_b0292/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.31421783310361207
+    },
+    {
+      "id": "slt/arctic_b0292/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 440,
+      "seconds": 0.3002674999879673
+    },
+    {
+      "id": "slt/arctic_b0298/6",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.11552279093302786
+    },
+    {
+      "id": "slt/arctic_b0292/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.6386145839933306
+    },
+    {
+      "id": "slt/arctic_b0305/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.26646754110697657
+    },
+    {
+      "id": "slt/arctic_b0305/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.32252004102338105
+    },
+    {
+      "id": "slt/arctic_b0311/1",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10783358407206833
+    },
+    {
+      "id": "slt/arctic_b0311/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.02956420893315226
+    },
+    {
+      "id": "slt/arctic_b0281/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 1.4631852499442175
+    },
+    {
+      "id": "slt/arctic_b0311/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.3056122080888599
+    },
+    {
+      "id": "slt/arctic_b0312/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.2966720840195194
+    },
+    {
+      "id": "slt/arctic_b0292/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 1.4215241249185055
+    },
+    {
+      "id": "slt/arctic_b0316/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.310201833024621
+    },
+    {
+      "id": "slt/arctic_b0317/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.3066407910082489
+    },
+    {
+      "id": "slt/arctic_b0312/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.6826860830187798
+    },
+    {
+      "id": "slt/arctic_b0317/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6472481250530109
+    },
+    {
+      "id": "slt/arctic_b0331/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.3055403749458492
+    },
+    {
+      "id": "slt/arctic_b0327/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.6670811660587788
+    },
+    {
+      "id": "slt/arctic_b0331/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.3110334579832852
+    },
+    {
+      "id": "slt/arctic_b0333/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.31761599995661527
+    },
+    {
+      "id": "slt/arctic_b0340/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.3053274169797078
+    },
+    {
+      "id": "slt/arctic_b0341/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.2843647910049185
+    },
+    {
+      "id": "slt/arctic_b0342/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.3155616670846939
+    },
+    {
+      "id": "slt/arctic_b0317/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 1.417498999973759
+    },
+    {
+      "id": "slt/arctic_b0343/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.2976395000005141
+    },
+    {
+      "id": "slt/arctic_b0347/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.30929079197812825
+    },
+    {
+      "id": "slt/arctic_b0340/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.7014169580070302
+    },
+    {
+      "id": "slt/arctic_b0347/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.3170030420878902
+    },
+    {
+      "id": "slt/arctic_b0350/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.30073487502522767
+    },
+    {
+      "id": "slt/arctic_b0349/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.3244748330907896
+    },
+    {
+      "id": "slt/arctic_b0347/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.6663748330902308
+    },
+    {
+      "id": "slt/arctic_b0350/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.295854291995056
+    },
+    {
+      "id": "slt/arctic_b0358/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.293416167027317
+    },
+    {
+      "id": "slt/arctic_b0358/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3302623750641942
+    },
+    {
+      "id": "slt/arctic_b0360/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.31814158300403506
+    },
+    {
+      "id": "slt/arctic_b0358/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.6661358330165967
+    },
+    {
+      "id": "slt/arctic_b0358/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.666975750005804
+    },
+    {
+      "id": "slt/arctic_b0367/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.29426141700241715
+    },
+    {
+      "id": "slt/arctic_b0360/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6421463750302792
+    },
+    {
+      "id": "slt/arctic_b0372/0",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.10726245807018131
+    },
+    {
+      "id": "slt/arctic_b0367/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3261793339625001
+    },
+    {
+      "id": "slt/arctic_b0367/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.29677595803514123
+    },
+    {
+      "id": "slt/arctic_b0369/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.32797516707796603
+    },
+    {
+      "id": "slt/arctic_b0379/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.11171220801770687
+    },
+    {
+      "id": "slt/arctic_b0372/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.30550795793533325
+    },
+    {
+      "id": "slt/arctic_b0372/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.31616641592700034
+    },
+    {
+      "id": "slt/arctic_b0379/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.3112640830222517
+    },
+    {
+      "id": "slt/arctic_b0379/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.31034625007305294
+    },
+    {
+      "id": "slt/arctic_b0379/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.34443449997343123
+    },
+    {
+      "id": "slt/arctic_b0379/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.42366445797961205
+    },
+    {
+      "id": "slt/arctic_b0380/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.42804641695693135
+    },
+    {
+      "id": "slt/arctic_b0384/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.4373656250536442
+    },
+    {
+      "id": "slt/arctic_b0387/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.30902275000698864
+    },
+    {
+      "id": "slt/arctic_b0387/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.29911058396101
+    },
+    {
+      "id": "slt/arctic_b0380/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.7694060000358149
+    },
+    {
+      "id": "slt/arctic_b0397/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.30488133302424103
+    },
+    {
+      "id": "slt/arctic_b0384/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.6641967919422314
+    },
+    {
+      "id": "slt/arctic_b0397/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3033607079414651
+    },
+    {
+      "id": "slt/arctic_b0397/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.31195316603407264
+    },
+    {
+      "id": "slt/arctic_b0397/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.6816544169560075
+    },
+    {
+      "id": "slt/arctic_b0399/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.2983614590484649
+    },
+    {
+      "id": "slt/arctic_b0399/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.6551600830862299
+    },
+    {
+      "id": "slt/arctic_b0399/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.6913398340111598
+    },
+    {
+      "id": "slt/arctic_b0402/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.3020594579866156
+    },
+    {
+      "id": "slt/arctic_b0402/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.3187665001023561
+    },
+    {
+      "id": "slt/arctic_b0402/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3132932080188766
+    },
+    {
+      "id": "slt/arctic_b0404/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.29015595803502947
+    },
+    {
+      "id": "slt/arctic_b0413/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.3035067500313744
+    },
+    {
+      "id": "slt/arctic_b0413/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.31957058294210583
+    },
+    {
+      "id": "slt/arctic_b0413/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.3026351250009611
+    },
+    {
+      "id": "slt/arctic_b0419/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3004100000252947
+    },
+    {
+      "id": "slt/arctic_b0419/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.3047884999541566
+    },
+    {
+      "id": "slt/arctic_b0419/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.31283358309883624
+    },
+    {
+      "id": "slt/arctic_b0420/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.2995142920408398
+    },
+    {
+      "id": "slt/arctic_b0420/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3209661250002682
+    },
+    {
+      "id": "slt/arctic_b0423/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.32186304102651775
+    },
+    {
+      "id": "slt/arctic_b0423/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3070244590053335
+    },
+    {
+      "id": "slt/arctic_b0427/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.31001258408650756
+    },
+    {
+      "id": "slt/arctic_b0436/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.2986400839872658
+    },
+    {
+      "id": "slt/arctic_b0427/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.32659929094370455
+    },
+    {
+      "id": "slt/arctic_b0436/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.29900141700636595
+    },
+    {
+      "id": "slt/arctic_b0439/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.30453191604465246
+    },
+    {
+      "id": "slt/arctic_b0439/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 440,
+      "seconds": 0.31681041698902845
+    },
+    {
+      "id": "slt/arctic_b0439/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6646569169824943
+    },
+    {
+      "id": "slt/arctic_b0449/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.31270833406597376
+    },
+    {
+      "id": "slt/arctic_b0454/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.3020018329843879
+    },
+    {
+      "id": "slt/arctic_b0454/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3082978749880567
+    },
+    {
+      "id": "slt/arctic_b0458/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.32810620800592005
+    },
+    {
+      "id": "slt/arctic_b0458/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.3139344590017572
+    },
+    {
+      "id": "slt/arctic_b0458/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.6470742499222979
+    },
+    {
+      "id": "slt/arctic_b0465/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3134203749941662
+    },
+    {
+      "id": "slt/arctic_b0420/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 2.9842187910107896
+    },
+    {
+      "id": "slt/arctic_b0479/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3257053750567138
+    },
+    {
+      "id": "slt/arctic_b0487/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.32418404100462794
+    },
+    {
+      "id": "slt/arctic_b0494/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.3263413339154795
+    },
+    {
+      "id": "slt/arctic_b0458/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 450,
+      "seconds": 1.4912065420066938
+    },
+    {
+      "id": "slt/arctic_b0494/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.3391202080529183
+    },
+    {
+      "id": "slt/arctic_b0439/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 3.0755170410266146
+    },
+    {
+      "id": "slt/arctic_b0495/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.33173650002572685
+    },
+    {
+      "id": "slt/arctic_b0495/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.31816145800985396
+    },
+    {
+      "id": "slt/arctic_b0495/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.7050560000352561
+    },
+    {
+      "id": "slt/arctic_b0497/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.32808420807123184
+    },
+    {
+      "id": "slt/arctic_b0497/8",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.03239641699474305
+    },
+    {
+      "id": "slt/arctic_b0497/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.35271962499246
+    },
+    {
+      "id": "slt/arctic_b0495/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 1.5651176670799032
+    },
+    {
+      "id": "slt/arctic_b0497/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.725909834029153
+    },
+    {
+      "id": "slt/arctic_b0507/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.38816687499638647
+    },
+    {
+      "id": "slt/arctic_b0513/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.3792182090692222
+    },
+    {
+      "id": "slt/arctic_b0513/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 0.3297805410111323
+    },
+    {
+      "id": "slt/arctic_b0513/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.34264295909088105
+    },
+    {
+      "id": "slt/arctic_b0513/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.33186737494543195
+    },
+    {
+      "id": "slt/arctic_b0524/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.33801137504633516
+    },
+    {
+      "id": "slt/arctic_b0504/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 1.5989707499975339
+    },
+    {
+      "id": "slt/arctic_b0524/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.7310857089469209
+    },
+    {
+      "id": "slt/arctic_b0536/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.7149874999886379
+    },
+    {
+      "id": "bdl/arctic_a0001/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.33460937498603016
+    },
+    {
+      "id": "bdl/arctic_a0001/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.36581529199611396
+    },
+    {
+      "id": "bdl/arctic_a0001/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.3435883750207722
+    },
+    {
+      "id": "bdl/arctic_a0006/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3376623329240829
+    },
+    {
+      "id": "slt/arctic_b0527/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.6228966250782833
+    },
+    {
+      "id": "bdl/arctic_a0008/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.35031704197172076
+    },
+    {
+      "id": "bdl/arctic_a0009/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 470,
+      "seconds": 0.3547653340501711
+    },
+    {
+      "id": "bdl/arctic_a0009/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.3537386249518022
+    },
+    {
+      "id": "bdl/arctic_a0017/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.34503616706933826
+    },
+    {
+      "id": "bdl/arctic_a0009/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.7306877919472754
+    },
+    {
+      "id": "bdl/arctic_a0009/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.7600197499850765
+    },
+    {
+      "id": "bdl/arctic_a0017/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.35266604204662144
+    },
+    {
+      "id": "bdl/arctic_a0017/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3412339580245316
+    },
+    {
+      "id": "bdl/arctic_a0017/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3409676670562476
+    },
+    {
+      "id": "bdl/arctic_a0019/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3599111249204725
+    },
+    {
+      "id": "bdl/arctic_a0019/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3452248750254512
+    },
+    {
+      "id": "bdl/arctic_a0019/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 440,
+      "seconds": 0.35971620900090784
+    },
+    {
+      "id": "bdl/arctic_a0037/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.33466729102656245
+    },
+    {
+      "id": "bdl/arctic_a0019/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.7433587500127032
+    },
+    {
+      "id": "bdl/arctic_a0037/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.3292375839082524
+    },
+    {
+      "id": "bdl/arctic_a0037/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3526505830232054
+    },
+    {
+      "id": "bdl/arctic_a0053/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.34549262491054833
+    },
+    {
+      "id": "bdl/arctic_a0053/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.3542389170033857
+    },
+    {
+      "id": "bdl/arctic_a0053/5",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.11887633404694498
+    },
+    {
+      "id": "bdl/arctic_a0019/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 500,
+      "seconds": 1.658266167039983
+    },
+    {
+      "id": "bdl/arctic_a0056/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.36751749995164573
+    },
+    {
+      "id": "bdl/arctic_a0061/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.36175649997312576
+    },
+    {
+      "id": "bdl/arctic_a0056/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.7456349160056561
+    },
+    {
+      "id": "bdl/arctic_a0069/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.359218709054403
+    },
+    {
+      "id": "bdl/arctic_a0061/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.7759159170091152
+    },
+    {
+      "id": "bdl/arctic_a0069/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.3486917089903727
+    },
+    {
+      "id": "bdl/arctic_a0069/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.6368214169051498
+    },
+    {
+      "id": "bdl/arctic_a0078/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.37170166603755206
+    },
+    {
+      "id": "bdl/arctic_a0078/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 1.675802291953005
+    },
+    {
+      "id": "bdl/arctic_a0079/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3886589170433581
+    },
+    {
+      "id": "bdl/arctic_a0092/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 440,
+      "seconds": 0.8159699589014053
+    },
+    {
+      "id": "bdl/arctic_a0092/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.8252246669726446
+    },
+    {
+      "id": "bdl/arctic_a0061/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 3.6726331670070067
+    },
+    {
+      "id": "bdl/arctic_a0092/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.37075887504033744
+    },
+    {
+      "id": "bdl/arctic_a0102/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.3747182920342311
+    },
+    {
+      "id": "bdl/arctic_a0110/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.3786582079483196
+    },
+    {
+      "id": "bdl/arctic_a0111/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.38508341694250703
+    },
+    {
+      "id": "bdl/arctic_a0110/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.8055641669780016
+    },
+    {
+      "id": "bdl/arctic_a0111/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.39300120796542615
+    },
+    {
+      "id": "bdl/arctic_a0113/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.36795662494841963
+    },
+    {
+      "id": "bdl/arctic_a0113/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.40534687496256083
+    },
+    {
+      "id": "bdl/arctic_a0113/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.37211770797148347
+    },
+    {
+      "id": "bdl/arctic_a0115/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.3954791249707341
+    },
+    {
+      "id": "bdl/arctic_a0115/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.3979320829967037
+    },
+    {
+      "id": "bdl/arctic_a0111/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 1.7652227910002694
+    },
+    {
+      "id": "bdl/arctic_a0115/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.38355620799120516
+    },
+    {
+      "id": "bdl/arctic_a0120/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.3928783329902217
+    },
+    {
+      "id": "slt/arctic_b0487/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 14.699484207900241
+    },
+    {
+      "id": "bdl/arctic_a0121/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.3885136670432985
+    },
+    {
+      "id": "bdl/arctic_a0121/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.39865370793268085
+    },
+    {
+      "id": "bdl/arctic_a0121/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.38668520899955183
+    },
+    {
+      "id": "bdl/arctic_a0138/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.3885126659879461
+    },
+    {
+      "id": "bdl/arctic_a0138/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.404288083082065
+    },
+    {
+      "id": "bdl/arctic_a0140/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.3813874579500407
+    },
+    {
+      "id": "bdl/arctic_a0140/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.4019936249824241
+    },
+    {
+      "id": "bdl/arctic_a0138/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.852306125103496
+    },
+    {
+      "id": "bdl/arctic_a0143/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.38655470905359834
+    },
+    {
+      "id": "bdl/arctic_a0152/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3854553330456838
+    },
+    {
+      "id": "bdl/arctic_a0152/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.4000717910239473
+    },
+    {
+      "id": "bdl/arctic_a0152/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.38698141707573086
+    },
+    {
+      "id": "bdl/arctic_a0152/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.392528917058371
+    },
+    {
+      "id": "bdl/arctic_a0140/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 450,
+      "seconds": 0.9035184589447454
+    },
+    {
+      "id": "bdl/arctic_a0161/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.3798037499655038
+    },
+    {
+      "id": "bdl/arctic_a0161/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.4017198330257088
+    },
+    {
+      "id": "bdl/arctic_a0167/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.3915635000448674
+    },
+    {
+      "id": "bdl/arctic_a0172/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.3992305831052363
+    },
+    {
+      "id": "bdl/arctic_a0172/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.3817636660533026
+    },
+    {
+      "id": "bdl/arctic_a0172/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 440,
+      "seconds": 0.4000957499956712
+    },
+    {
+      "id": "bdl/arctic_a0172/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.3866012500366196
+    },
+    {
+      "id": "bdl/arctic_a0175/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.4122337920125574
+    },
+    {
+      "id": "bdl/arctic_a0176/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.3898134169867262
+    },
+    {
+      "id": "bdl/arctic_a0194/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.38444966706447303
+    },
+    {
+      "id": "bdl/arctic_a0213/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.38954941707197577
+    },
+    {
+      "id": "bdl/arctic_a0217/10",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.13358683290425688
+    },
+    {
+      "id": "bdl/arctic_a0214/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.3945775420870632
+    },
+    {
+      "id": "bdl/arctic_a0223/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.3340474159922451
+    },
+    {
+      "id": "bdl/arctic_a0223/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.40901166608091444
+    },
+    {
+      "id": "bdl/arctic_a0233/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.3920781249180436
+    },
+    {
+      "id": "bdl/arctic_a0233/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.4036513330647722
+    },
+    {
+      "id": "bdl/arctic_a0239/9",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.14482070796657354
+    },
+    {
+      "id": "bdl/arctic_a0233/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.873564749956131
+    },
+    {
+      "id": "bdl/arctic_a0239/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.410028540994972
+    },
+    {
+      "id": "bdl/arctic_a0239/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.4156804580707103
+    },
+    {
+      "id": "bdl/arctic_a0251/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.4244377500144765
+    },
+    {
+      "id": "bdl/arctic_a0213/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 490,
+      "seconds": 1.9406240000389516
+    },
+    {
+      "id": "bdl/arctic_a0239/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.8768187499372289
+    },
+    {
+      "id": "bdl/arctic_a0262/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.40410133299883455
+    },
+    {
+      "id": "bdl/arctic_a0251/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.9012539589311928
+    },
+    {
+      "id": "bdl/arctic_a0276/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.403289542067796
+    },
+    {
+      "id": "bdl/arctic_a0262/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.9000297079328448
+    },
+    {
+      "id": "bdl/arctic_a0276/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.9134146249853075
+    },
+    {
+      "id": "bdl/arctic_a0276/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.41517979197669774
+    },
+    {
+      "id": "bdl/arctic_a0283/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.42110375000629574
+    },
+    {
+      "id": "bdl/arctic_a0262/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 1.9513292500050738
+    },
+    {
+      "id": "bdl/arctic_a0283/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.40559800004120916
+    },
+    {
+      "id": "bdl/arctic_a0288/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.4106374579714611
+    },
+    {
+      "id": "bdl/arctic_a0297/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.40924429101869464
+    },
+    {
+      "id": "bdl/arctic_a0285/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.9308002500329167
+    },
+    {
+      "id": "bdl/arctic_a0305/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.44248554192017764
+    },
+    {
+      "id": "bdl/arctic_a0276/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 1.9088895419845358
+    },
+    {
+      "id": "bdl/arctic_a0297/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.9313591669779271
+    },
+    {
+      "id": "bdl/arctic_a0305/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.9160230420529842
+    },
+    {
+      "id": "bdl/arctic_a0305/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.9418443749891594
+    },
+    {
+      "id": "bdl/arctic_a0308/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.9150782088981941
+    },
+    {
+      "id": "bdl/arctic_a0308/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.9276967080077156
+    },
+    {
+      "id": "bdl/arctic_a0309/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.9610483750002459
+    },
+    {
+      "id": "bdl/arctic_a0311/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.42771774996072054
+    },
+    {
+      "id": "bdl/arctic_a0309/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.943404334015213
+    },
+    {
+      "id": "bdl/arctic_a0314/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.4521566249895841
+    },
+    {
+      "id": "bdl/arctic_a0318/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.4459594580112025
+    },
+    {
+      "id": "bdl/arctic_a0318/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.45000895799603313
+    },
+    {
+      "id": "bdl/arctic_a0325/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.44080245797522366
+    },
+    {
+      "id": "bdl/arctic_a0345/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.45854745898395777
+    },
+    {
+      "id": "bdl/arctic_a0311/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 2.03182870906312
+    },
+    {
+      "id": "bdl/arctic_a0340/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.959513375069946
+    },
+    {
+      "id": "bdl/arctic_a0345/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.4407720830058679
+    },
+    {
+      "id": "bdl/arctic_a0345/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.42616766691207886
+    },
+    {
+      "id": "bdl/arctic_a0350/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.4552328329300508
+    },
+    {
+      "id": "bdl/arctic_a0350/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.4514789170352742
+    },
+    {
+      "id": "bdl/arctic_a0350/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.45088812499307096
+    },
+    {
+      "id": "bdl/arctic_a0325/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 2.1312165410490707
+    },
+    {
+      "id": "bdl/arctic_a0355/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.4627555829938501
+    },
+    {
+      "id": "bdl/arctic_a0354/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.9803620830643922
+    },
+    {
+      "id": "bdl/arctic_a0358/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.44936091697309166
+    },
+    {
+      "id": "bdl/arctic_a0364/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.4790876670740545
+    },
+    {
+      "id": "bdl/arctic_a0355/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 1.0007305420003831
+    },
+    {
+      "id": "bdl/arctic_a0365/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.4726883328985423
+    },
+    {
+      "id": "bdl/arctic_a0365/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.46160012495238334
+    },
+    {
+      "id": "bdl/arctic_a0374/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.4602587920380756
+    },
+    {
+      "id": "bdl/arctic_a0383/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.4748540000291541
+    },
+    {
+      "id": "bdl/arctic_a0384/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.4574363750871271
+    },
+    {
+      "id": "bdl/arctic_a0414/1",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.05229920893907547
+    },
+    {
+      "id": "bdl/arctic_a0393/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.4597500000381842
+    },
+    {
+      "id": "bdl/arctic_a0383/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 1.008617667015642
+    },
+    {
+      "id": "bdl/arctic_a0415/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.4640393339795992
+    },
+    {
+      "id": "bdl/arctic_a0422/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.46307595807593316
+    },
+    {
+      "id": "bdl/arctic_a0422/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 1.0022247079759836
+    },
+    {
+      "id": "bdl/arctic_a0422/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 1.018025292083621
+    },
+    {
+      "id": "bdl/arctic_a0422/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.9980041660601273
+    },
+    {
+      "id": "bdl/arctic_a0431/0",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.391034708940424
+    },
+    {
+      "id": "bdl/arctic_a0443/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.4629927499918267
+    },
+    {
+      "id": "bdl/arctic_a0445/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.4810125830117613
+    },
+    {
+      "id": "bdl/arctic_a0447/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.4731679590186104
+    },
+    {
+      "id": "bdl/arctic_a0448/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.4684107080101967
+    },
+    {
+      "id": "bdl/arctic_a0422/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 2.2147171249380335
+    },
+    {
+      "id": "bdl/arctic_a0448/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.5192546249600127
+    },
+    {
+      "id": "bdl/arctic_a0455/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.4998787910444662
+    },
+    {
+      "id": "bdl/arctic_a0455/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.49024704098701477
+    },
+    {
+      "id": "bdl/arctic_a0447/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 2.2949544999282807
+    },
+    {
+      "id": "bdl/arctic_a0455/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 1.018821916077286
+    },
+    {
+      "id": "bdl/arctic_a0455/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.4858134579844773
+    },
+    {
+      "id": "bdl/arctic_a0458/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.4891794170252979
+    },
+    {
+      "id": "bdl/arctic_a0467/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.48266562505159527
+    },
+    {
+      "id": "bdl/arctic_a0467/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.4923506670165807
+    },
+    {
+      "id": "bdl/arctic_a0457/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.069208167027682
+    },
+    {
+      "id": "bdl/arctic_a0482/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5007781250169501
+    },
+    {
+      "id": "bdl/arctic_a0482/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.4840927500044927
+    },
+    {
+      "id": "bdl/arctic_a0483/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.49771258304826915
+    },
+    {
+      "id": "bdl/arctic_a0483/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5039000409888104
+    },
+    {
+      "id": "bdl/arctic_a0483/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.4963880419963971
+    },
+    {
+      "id": "bdl/arctic_a0483/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.49601316708140075
+    },
+    {
+      "id": "bdl/arctic_a0483/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.4894869999261573
+    },
+    {
+      "id": "bdl/arctic_a0496/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.49322725005913526
+    },
+    {
+      "id": "bdl/arctic_a0516/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.5007453329162672
+    },
+    {
+      "id": "bdl/arctic_a0516/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.5086972080171108
+    },
+    {
+      "id": "bdl/arctic_a0523/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5110218750778586
+    },
+    {
+      "id": "bdl/arctic_a0533/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.48569995898287743
+    },
+    {
+      "id": "bdl/arctic_a0533/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.498882667045109
+    },
+    {
+      "id": "bdl/arctic_a0533/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.5161274170968682
+    },
+    {
+      "id": "bdl/arctic_a0377/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 9.522540917037986
+    },
+    {
+      "id": "bdl/arctic_a0536/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5046218340285122
+    },
+    {
+      "id": "bdl/arctic_a0542/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.49345062498468906
+    },
+    {
+      "id": "bdl/arctic_a0542/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.49937400000635535
+    },
+    {
+      "id": "bdl/arctic_a0548/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.523387209046632
+    },
+    {
+      "id": "bdl/arctic_a0548/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.530862707993947
+    },
+    {
+      "id": "bdl/arctic_a0518/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 450,
+      "seconds": 2.388785625109449
+    },
+    {
+      "id": "bdl/arctic_a0548/7",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.4437300830613822
+    },
+    {
+      "id": "bdl/arctic_a0548/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.5292221669806167
+    },
+    {
+      "id": "bdl/arctic_a0554/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.5271610409254208
+    },
+    {
+      "id": "bdl/arctic_a0555/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5176137499511242
+    },
+    {
+      "id": "bdl/arctic_a0555/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5133553750347346
+    },
+    {
+      "id": "bdl/arctic_a0551/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 1.1190685000037774
+    },
+    {
+      "id": "bdl/arctic_a0561/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.520760582992807
+    },
+    {
+      "id": "bdl/arctic_a0573/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5107529590604827
+    },
+    {
+      "id": "bdl/arctic_a0575/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.05336912500206381
+    },
+    {
+      "id": "bdl/arctic_a0555/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 1.1010985410539433
+    },
+    {
+      "id": "bdl/arctic_a0573/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.5196070830570534
+    },
+    {
+      "id": "bdl/arctic_a0575/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5157932499423623
+    },
+    {
+      "id": "bdl/arctic_a0583/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5177380420500413
+    },
+    {
+      "id": "bdl/arctic_a0583/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5200802499894053
+    },
+    {
+      "id": "bdl/arctic_a0592/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.49559112498536706
+    },
+    {
+      "id": "bdl/arctic_b0008/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5060687080258504
+    },
+    {
+      "id": "bdl/arctic_a0589/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 470,
+      "seconds": 1.1447136249626055
+    },
+    {
+      "id": "bdl/arctic_b0017/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.5271434159949422
+    },
+    {
+      "id": "bdl/arctic_b0017/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.5060987079050392
+    },
+    {
+      "id": "bdl/arctic_b0023/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.5074815830448642
+    },
+    {
+      "id": "bdl/arctic_b0032/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5280320829479024
+    },
+    {
+      "id": "bdl/arctic_b0008/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 2.398809332982637
+    },
+    {
+      "id": "bdl/arctic_b0034/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5466489170212299
+    },
+    {
+      "id": "bdl/arctic_b0034/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.562272208975628
+    },
+    {
+      "id": "bdl/arctic_b0035/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5430000409251079
+    },
+    {
+      "id": "bdl/arctic_b0035/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5006309580057859
+    },
+    {
+      "id": "bdl/arctic_b0035/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 1.1292251669801772
+    },
+    {
+      "id": "bdl/arctic_b0042/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.524813124909997
+    },
+    {
+      "id": "bdl/arctic_b0042/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 1.1336584999226034
+    },
+    {
+      "id": "bdl/arctic_b0047/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5207712920382619
+    },
+    {
+      "id": "bdl/arctic_b0047/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5302441250532866
+    },
+    {
+      "id": "bdl/arctic_b0050/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.5287584160687402
+    },
+    {
+      "id": "bdl/arctic_b0050/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5165358750382438
+    },
+    {
+      "id": "bdl/arctic_b0050/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5409921670798212
+    },
+    {
+      "id": "bdl/arctic_b0058/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.18574141594581306
+    },
+    {
+      "id": "bdl/arctic_b0058/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.5234440000494942
+    },
+    {
+      "id": "bdl/arctic_b0017/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 5.063071166048758
+    },
+    {
+      "id": "bdl/arctic_b0063/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5311608749907464
+    },
+    {
+      "id": "bdl/arctic_b0066/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.5076789590530097
+    },
+    {
+      "id": "bdl/arctic_b0063/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.1583421670366079
+    },
+    {
+      "id": "bdl/arctic_b0066/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5319694170029834
+    },
+    {
+      "id": "bdl/arctic_b0068/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5133603329304606
+    },
+    {
+      "id": "bdl/arctic_b0068/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.5324003329733387
+    },
+    {
+      "id": "bdl/arctic_b0054/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 2.4562366250902414
+    },
+    {
+      "id": "bdl/arctic_b0070/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.5333241670159623
+    },
+    {
+      "id": "bdl/arctic_b0070/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5143512919312343
+    },
+    {
+      "id": "bdl/arctic_b0070/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.5193514580605552
+    },
+    {
+      "id": "bdl/arctic_b0078/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5299969160696492
+    },
+    {
+      "id": "bdl/arctic_b0081/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.5176392910070717
+    },
+    {
+      "id": "bdl/arctic_b0080/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 200,
+      "seconds": 1.119842208107002
+    },
+    {
+      "id": "bdl/arctic_b0080/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 1.1293184160022065
+    },
+    {
+      "id": "bdl/arctic_b0082/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.534747708006762
+    },
+    {
+      "id": "bdl/arctic_b0096/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5266873749205843
+    },
+    {
+      "id": "bdl/arctic_b0081/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 1.1083430829457939
+    },
+    {
+      "id": "bdl/arctic_b0098/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5330208749510348
+    },
+    {
+      "id": "bdl/arctic_b0098/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5332669160561636
+    },
+    {
+      "id": "bdl/arctic_b0096/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 1.1853492090012878
+    },
+    {
+      "id": "bdl/arctic_b0098/10",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.19295145897194743
+    },
+    {
+      "id": "bdl/arctic_b0096/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 2.4956600420409814
+    },
+    {
+      "id": "bdl/arctic_b0098/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 1.1819257501047105
+    },
+    {
+      "id": "bdl/arctic_b0111/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 1.1690414169570431
+    },
+    {
+      "id": "bdl/arctic_b0113/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5417207500431687
+    },
+    {
+      "id": "bdl/arctic_b0119/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 0.5249487090623006
+    },
+    {
+      "id": "bdl/arctic_b0122/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.5233446250203997
+    },
+    {
+      "id": "bdl/arctic_b0122/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.530504500027746
+    },
+    {
+      "id": "bdl/arctic_b0126/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.5345806669211015
+    },
+    {
+      "id": "bdl/arctic_b0126/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.5628021250013262
+    },
+    {
+      "id": "bdl/arctic_b0126/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5695382920093834
+    },
+    {
+      "id": "bdl/arctic_b0139/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5580397080630064
+    },
+    {
+      "id": "bdl/arctic_b0148/6",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.057261083042249084
+    },
+    {
+      "id": "bdl/arctic_b0148/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5448703750735149
+    },
+    {
+      "id": "bdl/arctic_b0133/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 1.2082949159666896
+    },
+    {
+      "id": "bdl/arctic_b0157/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5437147080665454
+    },
+    {
+      "id": "bdl/arctic_b0157/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5476214999798685
+    },
+    {
+      "id": "bdl/arctic_b0166/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.5361026669852436
+    },
+    {
+      "id": "bdl/arctic_b0157/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 1.1729105829726905
+    },
+    {
+      "id": "bdl/arctic_b0170/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5522731250384822
+    },
+    {
+      "id": "bdl/arctic_b0175/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.5507498749066144
+    },
+    {
+      "id": "bdl/arctic_b0183/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.5388568750349805
+    },
+    {
+      "id": "bdl/arctic_b0188/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5577758749714121
+    },
+    {
+      "id": "bdl/arctic_b0189/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.544361290987581
+    },
+    {
+      "id": "bdl/arctic_b0199/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5381959159858525
+    },
+    {
+      "id": "bdl/arctic_b0199/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 1.1709309170255437
+    },
+    {
+      "id": "bdl/arctic_b0206/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.55422983400058
+    },
+    {
+      "id": "bdl/arctic_b0199/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 1.1795274170581251
+    },
+    {
+      "id": "bdl/arctic_b0199/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 2.5341781669994816
+    },
+    {
+      "id": "bdl/arctic_b0206/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5398723749676719
+    },
+    {
+      "id": "bdl/arctic_b0209/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5372701670276001
+    },
+    {
+      "id": "bdl/arctic_b0222/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5520163329783827
+    },
+    {
+      "id": "bdl/arctic_b0209/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 190,
+      "seconds": 1.1150900420034304
+    },
+    {
+      "id": "bdl/arctic_b0223/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.553495500003919
+    },
+    {
+      "id": "bdl/arctic_b0222/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.1421710830181837
+    },
+    {
+      "id": "bdl/arctic_b0223/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.5357583749573678
+    },
+    {
+      "id": "bdl/arctic_b0224/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.555222750059329
+    },
+    {
+      "id": "bdl/arctic_b0224/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.5480016249930486
+    },
+    {
+      "id": "bdl/arctic_b0223/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 1.1832982079358771
+    },
+    {
+      "id": "bdl/arctic_b0227/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.5449028329458088
+    },
+    {
+      "id": "bdl/arctic_b0230/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 1.2362736250506714
+    },
+    {
+      "id": "bdl/arctic_b0236/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 1.2147302920930088
+    },
+    {
+      "id": "bdl/arctic_b0236/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.5380992499412969
+    },
+    {
+      "id": "bdl/arctic_b0236/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.5359597919741645
+    },
+    {
+      "id": "bdl/arctic_b0236/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 1.176709125051275
+    },
+    {
+      "id": "bdl/arctic_b0230/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 2.5422014170326293
+    },
+    {
+      "id": "bdl/arctic_b0241/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5462615829892457
+    },
+    {
+      "id": "bdl/arctic_b0241/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.5361499580321833
+    },
+    {
+      "id": "bdl/arctic_b0242/6",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.18763087503612041
+    },
+    {
+      "id": "bdl/arctic_b0241/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5613066660007462
+    },
+    {
+      "id": "bdl/arctic_b0241/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 1.183239790960215
+    },
+    {
+      "id": "bdl/arctic_b0246/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.5561467499937862
+    },
+    {
+      "id": "bdl/arctic_b0251/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.5203832079423591
+    },
+    {
+      "id": "bdl/arctic_b0257/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.2271008329698816
+    },
+    {
+      "id": "bdl/arctic_b0257/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5412032500607893
+    },
+    {
+      "id": "bdl/arctic_b0251/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 1.1659492501057684
+    },
+    {
+      "id": "bdl/arctic_b0263/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5277579999528825
+    },
+    {
+      "id": "bdl/arctic_b0257/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 1.1758426250889897
+    },
+    {
+      "id": "bdl/arctic_b0263/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5513676669215783
+    },
+    {
+      "id": "bdl/arctic_b0263/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 510,
+      "seconds": 0.5534727920312434
+    },
+    {
+      "id": "bdl/arctic_b0279/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.5216105410363525
+    },
+    {
+      "id": "bdl/arctic_b0281/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5426243749679998
+    },
+    {
+      "id": "bdl/arctic_b0275/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.1627779999980703
+    },
+    {
+      "id": "bdl/arctic_b0283/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.5381964170373976
+    },
+    {
+      "id": "bdl/arctic_b0292/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.540563250076957
+    },
+    {
+      "id": "bdl/arctic_b0292/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 190,
+      "seconds": 0.5133386250818148
+    },
+    {
+      "id": "bdl/arctic_b0292/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.5241408329457045
+    },
+    {
+      "id": "bdl/arctic_b0298/6",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.19260154198855162
+    },
+    {
+      "id": "bdl/arctic_b0305/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.1818035829346627
+    },
+    {
+      "id": "bdl/arctic_b0281/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 2.4499410840217024
+    },
+    {
+      "id": "bdl/arctic_b0305/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.531640833010897
+    },
+    {
+      "id": "bdl/arctic_b0311/1",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.18528204190079123
+    },
+    {
+      "id": "bdl/arctic_b0292/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 1.1547142079798505
+    },
+    {
+      "id": "bdl/arctic_b0311/3",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.18740970897488296
+    },
+    {
+      "id": "bdl/arctic_b0311/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.5406102919951081
+    },
+    {
+      "id": "bdl/arctic_b0312/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5283777500735596
+    },
+    {
+      "id": "bdl/arctic_b0316/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.5258709579939023
+    },
+    {
+      "id": "bdl/arctic_b0312/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 1.1476279590278864
+    },
+    {
+      "id": "bdl/arctic_b0317/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5305325839435682
+    },
+    {
+      "id": "bdl/arctic_b0317/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5238208329537883
+    },
+    {
+      "id": "bdl/arctic_b0317/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 1.122790125082247
+    },
+    {
+      "id": "bdl/arctic_b0331/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 0.5251772910123691
+    },
+    {
+      "id": "bdl/arctic_b0331/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5199943749466911
+    },
+    {
+      "id": "bdl/arctic_b0327/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 1.1216444579185918
+    },
+    {
+      "id": "bdl/arctic_b0333/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5200927089899778
+    },
+    {
+      "id": "bdl/arctic_b0341/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.5048049170291051
+    },
+    {
+      "id": "bdl/arctic_b0340/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 1.1258960409322754
+    },
+    {
+      "id": "bdl/arctic_b0342/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 1.1347539590205997
+    },
+    {
+      "id": "bdl/arctic_b0347/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5099144580308348
+    },
+    {
+      "id": "bdl/arctic_b0343/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 1.1111169160576537
+    },
+    {
+      "id": "bdl/arctic_b0347/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.508828290970996
+    },
+    {
+      "id": "bdl/arctic_b0349/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.5297918330179527
+    },
+    {
+      "id": "bdl/arctic_b0350/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5399629999883473
+    },
+    {
+      "id": "bdl/arctic_b0340/2",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 4.324342833016999
+    },
+    {
+      "id": "bdl/arctic_b0350/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5188674170058221
+    },
+    {
+      "id": "bdl/arctic_b0358/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5215388750657439
+    },
+    {
+      "id": "bdl/arctic_b0347/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 2.3842411669902503
+    },
+    {
+      "id": "bdl/arctic_b0358/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5080190839944407
+    },
+    {
+      "id": "bdl/arctic_b0358/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 1.116302957991138
+    },
+    {
+      "id": "bdl/arctic_b0358/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 1.135670082992874
+    },
+    {
+      "id": "bdl/arctic_b0367/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.5061584999784827
+    },
+    {
+      "id": "bdl/arctic_b0360/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 1.0955193330300972
+    },
+    {
+      "id": "bdl/arctic_b0367/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5134931249776855
+    },
+    {
+      "id": "bdl/arctic_b0367/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5099992080358788
+    },
+    {
+      "id": "bdl/arctic_b0372/0",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.17314470803830773
+    },
+    {
+      "id": "bdl/arctic_b0369/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5083702920237556
+    },
+    {
+      "id": "bdl/arctic_b0372/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.49644024996086955
+    },
+    {
+      "id": "bdl/arctic_b0372/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 210,
+      "seconds": 0.48694566602353007
+    },
+    {
+      "id": "bdl/arctic_b0379/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5326745419297367
+    },
+    {
+      "id": "bdl/arctic_b0379/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5546133330790326
+    },
+    {
+      "id": "bdl/arctic_b0379/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.6026523750042543
+    },
+    {
+      "id": "bdl/arctic_b0379/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.6101812499109656
+    },
+    {
+      "id": "bdl/arctic_b0380/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 1.4312755829887465
+    },
+    {
+      "id": "bdl/arctic_b0380/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.6541008750209585
+    },
+    {
+      "id": "bdl/arctic_b0360/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 5.501547416904941
+    },
+    {
+      "id": "bdl/arctic_b0384/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.6622310419334099
+    },
+    {
+      "id": "bdl/arctic_b0379/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 2.94243016699329
+    },
+    {
+      "id": "bdl/arctic_b0384/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.6839406250510365
+    },
+    {
+      "id": "bdl/arctic_b0387/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.653525417088531
+    },
+    {
+      "id": "bdl/arctic_b0387/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.6725792499491945
+    },
+    {
+      "id": "bdl/arctic_b0397/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.6502834999701008
+    },
+    {
+      "id": "bdl/arctic_b0397/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.6365157089894637
+    },
+    {
+      "id": "bdl/arctic_b0397/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.6416730829514563
+    },
+    {
+      "id": "bdl/arctic_b0399/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.6451137090334669
+    },
+    {
+      "id": "bdl/arctic_b0399/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.6812016658950597
+    },
+    {
+      "id": "bdl/arctic_b0402/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.6443595419405028
+    },
+    {
+      "id": "bdl/arctic_b0402/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 370,
+      "seconds": 0.5724751249654219
+    },
+    {
+      "id": "bdl/arctic_b0399/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 1.3074176660738885
+    },
+    {
+      "id": "bdl/arctic_b0397/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 2.8278406660538167
+    },
+    {
+      "id": "bdl/arctic_b0413/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.5311770830303431
+    },
+    {
+      "id": "bdl/arctic_b0402/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 1.1567580410046503
+    },
+    {
+      "id": "bdl/arctic_b0413/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.5683647909900174
+    },
+    {
+      "id": "bdl/arctic_b0413/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.5773404579376802
+    },
+    {
+      "id": "bdl/arctic_b0419/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5738188750110567
+    },
+    {
+      "id": "bdl/arctic_b0419/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 1.2219134999904782
+    },
+    {
+      "id": "bdl/arctic_b0419/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5509190830634907
+    },
+    {
+      "id": "bdl/arctic_b0420/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 0.5690409999806434
+    },
+    {
+      "id": "bdl/arctic_b0420/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 330,
+      "seconds": 1.2072159590898082
+    },
+    {
+      "id": "bdl/arctic_b0423/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.5805234999861568
+    },
+    {
+      "id": "bdl/arctic_b0404/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 5.338965583010577
+    },
+    {
+      "id": "bdl/arctic_b0423/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.2929780000122264
+    },
+    {
+      "id": "bdl/arctic_b0427/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.6005375829990953
+    },
+    {
+      "id": "bdl/arctic_b0427/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.6171294170198962
+    },
+    {
+      "id": "bdl/arctic_b0436/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.6033426660578698
+    },
+    {
+      "id": "bdl/arctic_b0439/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5873932499671355
+    },
+    {
+      "id": "bdl/arctic_b0436/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 1.274173374986276
+    },
+    {
+      "id": "bdl/arctic_b0439/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 1.2845636670244858
+    },
+    {
+      "id": "bdl/arctic_b0439/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 460,
+      "seconds": 0.6054277090588585
+    },
+    {
+      "id": "bdl/arctic_b0069/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 48.503610917017795
+    },
+    {
+      "id": "bdl/arctic_b0420/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 5.904026000062004
+    },
+    {
+      "id": "bdl/arctic_b0439/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 400,
+      "seconds": 0.8352784171001986
+    },
+    {
+      "id": "bdl/arctic_b0449/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.8569972920231521
+    },
+    {
+      "id": "bdl/arctic_b0454/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.7025385840097442
+    },
+    {
+      "id": "bdl/arctic_b0454/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 0.6133129999507219
+    },
+    {
+      "id": "bdl/arctic_b0458/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5659582079388201
+    },
+    {
+      "id": "bdl/arctic_b0458/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 270,
+      "seconds": 0.5788527920376509
+    },
+    {
+      "id": "bdl/arctic_b0458/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.5868825000943616
+    },
+    {
+      "id": "bdl/arctic_b0465/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 310,
+      "seconds": 0.5589602499967441
+    },
+    {
+      "id": "bdl/arctic_b0458/7",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 1.2263399590738118
+    },
+    {
+      "id": "bdl/arctic_b0479/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 300,
+      "seconds": 0.5373682919889688
+    },
+    {
+      "id": "bdl/arctic_b0487/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 290,
+      "seconds": 0.534128375002183
+    },
+    {
+      "id": "bdl/arctic_b0494/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 280,
+      "seconds": 0.532358874916099
+    },
+    {
+      "id": "bdl/arctic_b0494/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 410,
+      "seconds": 0.5634467089548707
+    },
+    {
+      "id": "bdl/arctic_b0495/3",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5514847500016913
+    },
+    {
+      "id": "bdl/arctic_b0487/10",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 430,
+      "seconds": 1.2339312920812517
+    },
+    {
+      "id": "bdl/arctic_b0495/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5767968749860302
+    },
+    {
+      "id": "bdl/arctic_b0495/8",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 250,
+      "seconds": 0.5296015000203624
+    },
+    {
+      "id": "bdl/arctic_b0497/8",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.056911041028797626
+    },
+    {
+      "id": "bdl/arctic_b0495/10",
+      "status": "CERTIFIED_INFEASIBLE",
+      "deadline_ms": null,
+      "seconds": 0.44824120798148215
+    },
+    {
+      "id": "bdl/arctic_b0497/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5384236669633538
+    },
+    {
+      "id": "bdl/arctic_b0497/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 360,
+      "seconds": 0.5458548750029877
+    },
+    {
+      "id": "bdl/arctic_b0497/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 350,
+      "seconds": 0.5348899159580469
+    },
+    {
+      "id": "bdl/arctic_b0504/4",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 340,
+      "seconds": 0.5552261670818552
+    },
+    {
+      "id": "bdl/arctic_b0513/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 380,
+      "seconds": 0.5259543750435114
+    },
+    {
+      "id": "bdl/arctic_b0507/2",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5350713330553845
+    },
+    {
+      "id": "bdl/arctic_b0513/12",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 240,
+      "seconds": 0.516186875058338
+    },
+    {
+      "id": "bdl/arctic_b0524/5",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 390,
+      "seconds": 0.5338362919865176
+    },
+    {
+      "id": "bdl/arctic_b0513/6",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 260,
+      "seconds": 1.1288847080431879
+    },
+    {
+      "id": "bdl/arctic_b0524/9",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 230,
+      "seconds": 0.5105123330140486
+    },
+    {
+      "id": "bdl/arctic_b0527/1",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 320,
+      "seconds": 0.5291121669579297
+    },
+    {
+      "id": "bdl/arctic_b0536/0",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 420,
+      "seconds": 0.4788305830443278
+    },
+    {
+      "id": "bdl/arctic_b0513/11",
+      "status": "CERTIFIED_DEADLINE",
+      "deadline_ms": 220,
+      "seconds": 2.069561457959935
+    }
+  ],
+  "wall_seconds": 139.91933454095852,
+  "status": "ALL_REQUESTS_HANDLED",
+  "completed_at": "2026-10-16T14:28:15.411460+00:00"
+}

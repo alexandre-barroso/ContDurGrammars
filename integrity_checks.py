@@ -1,4 +1,4 @@
-"""Run the fifteen file-inventory fixtures using the Python standard library.
+"""Run the fourteen file-inventory fixtures using the Python standard library.
 """
 from __future__ import annotations
 import argparse
@@ -10,9 +10,9 @@ import integrity_controls
 
 TESTS = (
     "test_valid_payload", "test_changed_payload", "test_missing_payload",
-    "test_truncated_manifest_without_updated_sums",
-    "test_truncated_manifest_with_updated_sums", "test_unlisted_file",
-    "test_corrupted_checksum_file", "test_wrong_byte_count", "test_duplicate_entries",
+    "test_truncated_inventory",
+    "test_unlisted_file",
+    "test_invalid_inventory", "test_wrong_byte_count", "test_duplicate_entries",
     "test_path_traversal", "test_symlinked_payload", "test_symlinked_parent",
     "test_runtime_cache_requires_working_audit",
     "test_empty_runtime_directory_rejected_when_clean", "test_unreadable_subtree_rejected",
